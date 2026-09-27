@@ -1,4 +1,4 @@
-**Hints: I02 - CAESAR'S SECRET**
+Hints: I02 - CAESAR'S SECRET
 
 1. Notice that `IODJ` follows the format of `FLAG`.
 2. 'I' is 3 letters ahead of 'F' in the alphabet.

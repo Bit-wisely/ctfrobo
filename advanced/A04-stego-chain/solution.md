@@ -1,9 +1,9 @@
-**Solution: A04 - STEGO CHAIN**
+Solution: A04 - STEGO CHAIN
 
-**Concept**  
+Concept  
 Layered steganography: LSB extraction followed by Base64 payload decoding.
 
-**Walkthrough**  
+Walkthrough  
 1. Extract LSB data from `challenge/evidence.png`:
    `ZmxhZ3tzdGVnb19jaGFpbl9kZWNvZGVkfQ==`
 2. Base64-decode the extracted string:
@@ -12,5 +12,5 @@ Layered steganography: LSB extraction followed by Base64 payload decoding.
    ```
 3. Flag recovered: `flag{stego_chain_decoded}`.
 
-**Flag**  
+Flag  
 `flag{stego_chain_decoded}`

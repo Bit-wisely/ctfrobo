@@ -1,9 +1,9 @@
-**Solution: I01 - BASE64 ISN'T ENCRYPTION**
+Solution: I01 - BASE64 ISN'T ENCRYPTION
 
-**Concept**  
+Concept  
 Base64 encoding vs cryptographic encryption.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/message.txt`:
    `ZmxhZ3tiYXNlNjR9`
 2. Decode the Base64 string:
@@ -12,5 +12,5 @@ Base64 encoding vs cryptographic encryption.
    ```
 3. Flag is retrieved: `flag{base64}`.
 
-**Flag**  
+Flag  
 `flag{base64}`

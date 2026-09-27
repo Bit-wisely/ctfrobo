@@ -1,9 +1,9 @@
-**Solution: A01 - THE BINARY SECRET**
+Solution: A01 - THE BINARY SECRET
 
-**Concept**  
+Concept  
 Reverse engineering byte comparison routines and reversing XOR transformations.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect the comparison logic in `challenge/mystery.c`:
    `((unsigned char)(input[i] ^ 0x37) == expected[i])`
 2. Decrypt the `expected` array with key `0x37`:
@@ -14,5 +14,5 @@ Reverse engineering byte comparison routines and reversing XOR transformations.
    ```
 3. Flag recovered: `flag{read_the_binary}`.
 
-**Flag**  
+Flag  
 `flag{read_the_binary}`

@@ -1,9 +1,9 @@
-**Solution: I04 - STRINGS DON'T LIE**
+Solution: I04 - STRINGS DON'T LIE
 
-**Concept**  
+Concept  
 Static binary analysis via string extraction.
 
-**Walkthrough**  
+Walkthrough  
 1. Run `strings` on `challenge/mystery.bin`:
    ```bash
    strings challenge/mystery.bin
@@ -11,5 +11,5 @@ Static binary analysis via string extraction.
 2. Locate the hardcoded flag:
    `flag{strings_revealed}`
 
-**Flag**  
+Flag  
 `flag{strings_revealed}`

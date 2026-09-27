@@ -1,4 +1,4 @@
-**Hints: A13 - BROKEN AUTHENTICATION**
+Hints: A13 - BROKEN AUTHENTICATION
 
 1. The reset token is calculated using `MD5(username + "_secret_recovery_salt_2026")`.
 2. Compute the MD5 hash for the string `admin_secret_recovery_salt_2026`.

@@ -1,9 +1,9 @@
-**Solution: I14 - SQL QUESTION**
+Solution: I14 - SQL QUESTION
 
-**Concept**  
+Concept  
 Relational SQL JOIN operations across foreign keys.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/database.sql`.
 2. Execute the relational join query:
    ```sql
@@ -15,5 +15,5 @@ Relational SQL JOIN operations across foreign keys.
    ```
 3. Retrieve the flag: `flag{relational_database_joined}`.
 
-**Flag**  
+Flag  
 `flag{relational_database_joined}`

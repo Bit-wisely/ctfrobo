@@ -1,9 +1,9 @@
-**Solution: I08 - COOKIE TROUBLE**
+Solution: I08 - COOKIE TROUBLE
 
-**Concept**  
+Concept  
 Client-side cookie tampering and authorization bypass.
 
-**Walkthrough**  
+Walkthrough  
 1. Review `challenge/app/app.py`.
 2. Notice the application grants access when `cookies.get('role') == 'admin'`.
 3. Send an HTTP GET request with the modified cookie:
@@ -12,5 +12,5 @@ Client-side cookie tampering and authorization bypass.
    ```
 4. The server returns `flag{cookie_admin_access}`.
 
-**Flag**  
+Flag  
 `flag{cookie_admin_access}`

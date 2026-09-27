@@ -1,9 +1,9 @@
-**Solution: A14 - WEB CHAIN**
+Solution: A14 - WEB CHAIN
 
-**Concept**  
+Concept  
 Multi-stage web vulnerability chaining across endpoints, response headers, and authenticated APIs.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect the HTML source at `/` to discover the gateway endpoint comment:
    `<!-- Internal Developer Note: Gateway routes forwarded to /secret_api_gateway_v1/ for maintenance -->`
 2. Send a GET request to `/secret_api_gateway_v1/`:
@@ -17,6 +17,6 @@ Multi-stage web vulnerability chaining across endpoints, response headers, and a
    ```
 4. The server responds with the flag: `flag{full_web_exploit_chain}`.
 
-**Flag**  
+Flag  
 `flag{full_web_exploit_chain}`
 

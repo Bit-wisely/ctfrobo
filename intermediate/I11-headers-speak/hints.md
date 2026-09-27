@@ -1,4 +1,4 @@
-**Hints: I11 - HEADERS SPEAK**
+Hints: I11 - HEADERS SPEAK
 
 1. HTTP response headers carry metadata sent before the response body.
 2. Custom headers commonly begin with the prefix `X-`.

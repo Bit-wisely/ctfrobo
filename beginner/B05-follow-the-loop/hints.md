@@ -1,4 +1,4 @@
-**Hints: B05 - FOLLOW THE LOOP**
+Hints: B05 - FOLLOW THE LOOP
 
 1. Trace each step of the loop starting from `x = 1337`.
 2. Notice the order of evaluation in the `if ... elif ... else` block.

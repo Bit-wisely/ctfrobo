@@ -1,9 +1,9 @@
-**Solution: A02 - THE PROGRAM HAS A BACKDOOR**
+Solution: A02 - THE PROGRAM HAS A BACKDOOR
 
-**Concept**  
+Concept  
 Static control flow analysis and discovery of hidden command branches.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/program.c`.
 2. Locate the hidden conditional branch:
    ```c
@@ -14,5 +14,5 @@ Static control flow analysis and discovery of hidden command branches.
 3. Type `backdoor` into the application prompt.
 4. Output: `flag{backdoor_found}`.
 
-**Flag**  
+Flag  
 `flag{backdoor_found}`

@@ -1,9 +1,9 @@
-**Solution: B14 - THE MISSING CHARACTER**
+Solution: B14 - THE MISSING CHARACTER
 
-**Concept**  
+Concept  
 ASCII table character mappings and sequence reconstruction.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/message.txt`.
 2. Compute the missing integer: `97 + 10 = 107` ('k').
 3. Restore the full array:
@@ -11,5 +11,5 @@ ASCII table character mappings and sequence reconstruction.
 4. Decode to ASCII:
    `flag{ascii_key_completed}`
 
-**Flag**  
+Flag  
 `flag{ascii_key_completed}`

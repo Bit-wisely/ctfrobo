@@ -1,9 +1,9 @@
-**Solution: B13 - TWO SWITCHES**
+Solution: B13 - TWO SWITCHES
 
-**Concept**  
+Concept  
 Bitwise XOR cipher and symmetric reversibility.
 
-**Walkthrough**  
+Walkthrough  
 1. Review the XOR truth table in `challenge/switches.txt`.
 2. Compute `c ^ 66` for each ciphertext integer in the array:
 
@@ -14,5 +14,5 @@ flag = "".join(chr(c ^ key) for c in cipher)
 print(flag)
 ```
 
-**Flag**  
+Flag  
 `flag{xor_is_reversible}`

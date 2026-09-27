@@ -1,9 +1,9 @@
-**Solution: B07 - THE SEARCHER**
+Solution: B07 - THE SEARCHER
 
-**Concept**  
+Concept  
 Binary search step execution and complexity.
 
-**Walkthrough**  
+Walkthrough  
 1. Search array for target value `1131`:
    - Step 1: index 49 (val 645) -> search [50, 99]
    - Step 2: index 74 (val 1014) -> search [75, 99]
@@ -14,5 +14,5 @@ Binary search step execution and complexity.
    - Step 7: index 82 (val 1131) -> Match found.
 2. Total comparisons made: 7.
 
-**Flag**  
+Flag  
 `flag{binary_search_7_steps}`

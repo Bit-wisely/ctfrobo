@@ -1,4 +1,4 @@
-**Hints: A01 - THE BINARY SECRET**
+Hints: A01 - THE BINARY SECRET
 
 1. The validation logic transforms input bytes using `input[i] ^ 0x37`.
 2. Decoy strings in `strings` output are distractors; analyze the array comparisons.

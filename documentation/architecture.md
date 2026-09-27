@@ -1,10 +1,10 @@
-**Architecture and Design**
+Architecture and Design
 
 The question bank is organized into three tiers of difficulty:
 
 ---
 
-**Beginner Tier (B01 - B15)**
+Beginner Tier (B01 - B15)
 
 Focuses on fundamental computer science and security concepts:
 - Binary and hexadecimal encoding
@@ -18,7 +18,7 @@ Focuses on fundamental computer science and security concepts:
 
 ---
 
-**Intermediate Tier (I01 - I15)**
+Intermediate Tier (I01 - I15)
 
 Focuses on security tooling, web security basics, and forensics:
 - Base64 encoding and Caesar cipher
@@ -33,7 +33,7 @@ Focuses on security tooling, web security basics, and forensics:
 
 ---
 
-**Advanced Tier (A01 - A14)**
+Advanced Tier (A01 - A14)
 
 Focuses on reverse engineering, web vulnerabilities, and exploitation:
 - Binary reverse engineering and disassembled logic
@@ -45,3 +45,4 @@ Focuses on reverse engineering, web vulnerabilities, and exploitation:
 - Command injection and path traversal
 - Broken authentication logic
 - Multi-stage web exploitation chains
+

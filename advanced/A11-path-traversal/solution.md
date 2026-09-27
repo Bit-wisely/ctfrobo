@@ -1,9 +1,9 @@
-**Solution: A11 - PATH TRAVERSAL**
+Solution: A11 - PATH TRAVERSAL
 
-**Concept**  
+Concept  
 Arbitrary file read via directory path traversal (`../`).
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/app/app.py`.
 2. Notice `os.path.join("public", filename)` lacks base folder confinement checks.
 3. Send a request with traversal sequences:
@@ -12,5 +12,5 @@ Arbitrary file read via directory path traversal (`../`).
    ```
 4. Output: `flag{path_traversal_exposed}`.
 
-**Flag**  
+Flag  
 `flag{path_traversal_exposed}`

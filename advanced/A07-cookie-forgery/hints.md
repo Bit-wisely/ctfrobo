@@ -1,4 +1,4 @@
-**Hints: A07 - COOKIE FORGERY**
+Hints: A07 - COOKIE FORGERY
 
 1. Base64-decode the session cookie string to inspect the JSON dictionary.
 2. Update the JSON payload: `{"user": "admin", "role": "admin"}`.

@@ -1,10 +1,10 @@
-**Cybersecurity CTF - Complete Question Bank**
+Cybersecurity CTF - Complete Question Bank
 
 A structured collection of Capture The Flag (CTF) challenges categorized into Beginner, Intermediate, and Advanced tiers.
 
 ---
 
-**Repository Structure**
+Repository Structure
 
 ```text
 cybersecurity-ctf/
@@ -64,21 +64,22 @@ cybersecurity-ctf/
 
 ---
 
-**Standard Challenge Format**
+Standard Challenge Format
 
 Every challenge directory contains:
-- `README.md`: Problem statement, challenge overview, clear clue description, and metadata.
-- `challenge/`: Distribution files and artifacts given to participants.
-- `hints.md`: Progressive guidance.
-- `solution.md`: Complete technical walkthrough and concept breakdown.
-- `answer.txt`: Exact flag value.
+- README.md: Problem statement, challenge overview, clear clue description, and metadata.
+- challenge/: Distribution files and artifacts given to participants.
+- hints.md: Progressive guidance.
+- solution.md: Complete technical walkthrough and concept breakdown.
+- answer.txt: Exact flag value.
 
 ---
 
-**Scoring Summary**
+Scoring Summary
 
 | Tier | Challenge Range | Points per Challenge |
 | :--- | :--- | :--- |
-| Beginner | B01 - B15 | 100 - 250 |
-| Intermediate | I01 - I15 | 250 - 350 |
-| Advanced | A01 - A14 | 400 - 500 |
+| Beginner | B01 - B15 | 5 |
+| Intermediate | I01 - I15 | 10 |
+| Advanced | A01 - A14 | 20 |
+

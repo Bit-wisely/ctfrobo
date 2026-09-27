@@ -1,9 +1,9 @@
-**Solution: A05 - PCAP INVESTIGATION**
+Solution: A05 - PCAP INVESTIGATION
 
-**Concept**  
+Concept  
 Packet capture analysis and payload stream extraction.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect the packet stream in `challenge/capture.pcap` using `strings`:
    ```bash
    strings challenge/capture.pcap | grep "flag{"
@@ -12,5 +12,5 @@ Packet capture analysis and payload stream extraction.
 3. Locate the flag payload:
    `flag{pcap_stream_extracted}`
 
-**Flag**  
+Flag  
 `flag{pcap_stream_extracted}`

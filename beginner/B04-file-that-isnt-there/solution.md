@@ -1,9 +1,9 @@
-**Solution: B04 - THE FILE THAT ISN'T THERE**
+Solution: B04 - THE FILE THAT ISN'T THERE
 
-**Concept**  
+Concept  
 Linux filesystem hidden dotfiles and discovery.
 
-**Walkthrough**  
+Walkthrough  
 1. Navigate into `challenge/evidence/`.
 2. List all directory contents including hidden dotfiles:
    ```bash
@@ -15,5 +15,5 @@ Linux filesystem hidden dotfiles and discovery.
    cat .clue
    ```
 
-**Flag**  
+Flag  
 `flag{not_every_file_is_visible}`

@@ -1,4 +1,4 @@
-**Hints: I10 - ROBOTS KNOW**
+Hints: I10 - ROBOTS KNOW
 
 1. `robots.txt` instructs search crawlers which paths to avoid indexing.
 2. Read `challenge/website/robots.txt` to find restricted endpoints.

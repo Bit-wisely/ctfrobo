@@ -1,4 +1,4 @@
-**Hints: A04 - STEGO CHAIN**
+Hints: A04 - STEGO CHAIN
 
 1. Extract the least significant bits from the RGB pixel channels in `evidence.png`.
 2. The extracted string is `ZmxhZ3tzdGVnb19jaGFpbl9kZWNvZGVkfQ==`.

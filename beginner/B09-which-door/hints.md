@@ -1,4 +1,4 @@
-**Hints: B09 - WHICH DOOR?**
+Hints: B09 - WHICH DOOR?
 
 1. Network port numbers identify network applications and services.
 2. Standard web servers listen on port 80 for HTTP and port 443 for HTTPS.

@@ -1,9 +1,9 @@
-**Solution: I07 - THE CAPTURED CONVERSATION**
+Solution: I07 - THE CAPTURED CONVERSATION
 
-**Concept**  
+Concept  
 Cleartext HTTP traffic analysis and credential leakage.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/capture.txt`.
 2. Locate the GET request containing the secret parameter:
    ```http
@@ -11,5 +11,5 @@ Cleartext HTTP traffic analysis and credential leakage.
    ```
 3. Extract the token value.
 
-**Flag**  
+Flag  
 `flag{secret_token_in_traffic}`

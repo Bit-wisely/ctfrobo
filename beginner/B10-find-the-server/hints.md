@@ -1,4 +1,4 @@
-**Hints: B10 - FIND THE SERVER**
+Hints: B10 - FIND THE SERVER
 
 1. Read `challenge/clues.txt` for the target hostname `vault.internal`.
 2. Locate `vault.internal` in the host table in `challenge/network.txt`.

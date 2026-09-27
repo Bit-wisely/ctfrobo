@@ -1,4 +1,4 @@
-**Hints: A12 - JWT**
+Hints: A12 - JWT
 
 1. A JWT is constructed in three parts separated by dots: `<header>.<payload>.<signature>`.
 2. The verification logic in `app.py` accepts tokens where `header.alg` equals `"none"`.

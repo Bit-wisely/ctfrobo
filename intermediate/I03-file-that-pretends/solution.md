@@ -1,9 +1,9 @@
-**Solution: I03 - THE FILE THAT PRETENDS**
+Solution: I03 - THE FILE THAT PRETENDS
 
-**Concept**  
+Concept  
 Magic bytes and file signature identification.
 
-**Walkthrough**  
+Walkthrough  
 1. Check `challenge/notes.txt` using the `file` utility:
    ```bash
    file challenge/notes.txt
@@ -15,5 +15,5 @@ Magic bytes and file signature identification.
    ```
 4. Output: `flag{dont_trust_extensions}`.
 
-**Flag**  
+Flag  
 `flag{dont_trust_extensions}`

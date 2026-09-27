@@ -1,9 +1,9 @@
-**Solution: I15 - CHAIN REACTION**
+Solution: I15 - CHAIN REACTION
 
-**Concept**  
+Concept  
 Multi-stage forensic workflows combining Base64 decoding, hidden files, and hex decoding.
 
-**Walkthrough**  
+Walkthrough  
 1. Decode Base64 in `challenge/mystery.bin`:
    `Y2hhbGxlbmdlL2FyY2hpdmUvLnNlY3JldF9jbHVl` -> `challenge/archive/.secret_clue`
 2. Open `challenge/archive/.secret_clue` to read the hex string:
@@ -11,5 +11,5 @@ Multi-stage forensic workflows combining Base64 decoding, hidden files, and hex 
 3. Decode hex bytes to ASCII:
    `flag{multi_stage_forensics_solved}`
 
-**Flag**  
+Flag  
 `flag{multi_stage_forensics_solved}`

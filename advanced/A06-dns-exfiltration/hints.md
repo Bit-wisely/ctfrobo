@@ -1,4 +1,4 @@
-**Hints: A06 - DNS EXFILTRATION**
+Hints: A06 - DNS EXFILTRATION
 
 1. Queries sent to `exfil.domain.com` follow the format `<seq>.<hex_payload>.exfil.domain.com`.
 2. Sort the queries by sequence number from `01` to `07`.

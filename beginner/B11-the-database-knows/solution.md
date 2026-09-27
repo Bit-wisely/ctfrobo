@@ -1,9 +1,9 @@
-**Solution: B11 - THE DATABASE KNOWS**
+Solution: B11 - THE DATABASE KNOWS
 
-**Concept**  
+Concept  
 Relational database queries and SQL inspection.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/database.sql`.
 2. Locate the insert statements for `classified_vault`:
    ```sql
@@ -12,5 +12,5 @@ Relational database queries and SQL inspection.
    ```
 3. Or run `python challenge/query_db.py` to view the retrieved note.
 
-**Flag**  
+Flag  
 `flag{sqlite_vault_revealed}`

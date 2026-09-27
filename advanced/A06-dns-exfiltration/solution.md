@@ -1,9 +1,9 @@
-**Solution: A06 - DNS EXFILTRATION**
+Solution: A06 - DNS EXFILTRATION
 
-**Concept**  
+Concept  
 DNS tunneling and chunked payload reassembly.
 
-**Walkthrough**  
+Walkthrough  
 1. Filter the DNS logs for queries to `exfil.domain.com`:
    - 01: `666c61677b` ('flag{')
    - 02: `646e735f65` ('dns_e')
@@ -17,5 +17,5 @@ DNS tunneling and chunked payload reassembly.
 3. Decode to ASCII:
    `flag{dns_exfil_chunk_reassembled}`
 
-**Flag**  
+Flag  
 `flag{dns_exfil_chunk_reassembled}`

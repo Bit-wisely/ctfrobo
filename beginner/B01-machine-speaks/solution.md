@@ -1,9 +1,9 @@
-**Solution: B01 - THE MACHINE SPEAKS**
+Solution: B01 - THE MACHINE SPEAKS
 
-**Concept**  
+Concept  
 Binary representation and conversion to ASCII text.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect the binary output lines provided in `challenge/output.txt`:
    - `01100110` -> decimal 102 -> 'f'
    - `01101100` -> decimal 108 -> 'l'
@@ -21,5 +21,5 @@ flag = "".join(chr(int(b, 2)) for b in lines)
 print(flag)
 ```
 
-**Flag**  
+Flag  
 `flag{binary_speaks}`

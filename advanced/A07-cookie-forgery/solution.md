@@ -1,9 +1,9 @@
-**Solution: A07 - COOKIE FORGERY**
+Solution: A07 - COOKIE FORGERY
 
-**Concept**  
+Concept  
 Client-side session forgery without cryptographic integrity validation.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect the initial cookie:
    `session=eyJ1c2VyIjogImd1ZXN0IiwgInJvbGUiOiAiYWRtaW4ifQ==`
 2. Base64-decode:
@@ -22,5 +22,5 @@ Client-side session forgery without cryptographic integrity validation.
    ```
 6. The server returns `flag{tampered_session_token}`.
 
-**Flag**  
+Flag  
 `flag{tampered_session_token}`

@@ -1,9 +1,9 @@
-**Solution: A03 - JAILBREAK THE BOX**
+Solution: A03 - JAILBREAK THE BOX
 
-**Concept**  
+Concept  
 Parser logic weaknesses and variable expansion in restricted execution environments.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/jail.c`.
 2. Notice the argument check inside `handle_echo`:
    ```c
@@ -14,5 +14,5 @@ Parser logic weaknesses and variable expansion in restricted execution environme
 3. Enter `echo $FLAG` into the shell.
 4. Output: `flag{escaped_the_box}`.
 
-**Flag**  
+Flag  
 `flag{escaped_the_box}`

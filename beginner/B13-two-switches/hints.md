@@ -1,4 +1,4 @@
-**Hints: B13 - TWO SWITCHES**
+Hints: B13 - TWO SWITCHES
 
 1. The light switches correspond to the XOR (Exclusive OR) logical operation.
 2. XOR possesses a symmetric property: `Plaintext = Ciphertext ^ Key`.

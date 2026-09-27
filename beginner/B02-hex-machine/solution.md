@@ -1,9 +1,9 @@
-**Solution: B02 - HEX MACHINE**
+Solution: B02 - HEX MACHINE
 
-**Concept**  
+Concept  
 Hexadecimal encoding and byte decoding.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/output.txt`:
    `66 6c 61 67 7b 68 65 78 5f 6d 61 63 68 69 6e 65 7d`
 2. Map each hexadecimal byte to its ASCII equivalent:
@@ -26,5 +26,5 @@ Hexadecimal encoding and byte decoding.
    - `0x7d` -> '}'
 3. The resulting string is `flag{hex_machine}`.
 
-**Flag**  
+Flag  
 `flag{hex_machine}`

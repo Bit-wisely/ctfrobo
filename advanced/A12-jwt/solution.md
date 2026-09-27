@@ -1,9 +1,9 @@
-**Solution: A12 - JWT**
+Solution: A12 - JWT
 
-**Concept**  
+Concept  
 JSON Web Token (JWT) signature bypass via `alg: none`.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/app/app.py`.
 2. Notice the algorithmic bypass:
    ```python
@@ -20,5 +20,5 @@ JSON Web Token (JWT) signature bypass via `alg: none`.
    ```
 5. Flag output: `flag{jwt_token_forged}`.
 
-**Flag**  
+Flag  
 `flag{jwt_token_forged}`

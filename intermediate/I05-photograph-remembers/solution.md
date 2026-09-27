@@ -1,9 +1,9 @@
-**Solution: I05 - THE PHOTOGRAPH REMEMBERS**
+Solution: I05 - THE PHOTOGRAPH REMEMBERS
 
-**Concept**  
+Concept  
 Image metadata extraction and EXIF analysis.
 
-**Walkthrough**  
+Walkthrough  
 1. Run `exiftool` on `challenge/photograph.jpg`:
    ```bash
    exiftool challenge/photograph.jpg
@@ -14,5 +14,5 @@ Image metadata extraction and EXIF analysis.
    ```
 3. Locate the comment: `flag{exif_metadata_secret}`.
 
-**Flag**  
+Flag  
 `flag{exif_metadata_secret}`

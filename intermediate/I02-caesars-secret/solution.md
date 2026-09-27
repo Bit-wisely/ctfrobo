@@ -1,9 +1,9 @@
-**Solution: I02 - CAESAR'S SECRET**
+Solution: I02 - CAESAR'S SECRET
 
-**Concept**  
+Concept  
 Caesar cipher monoalphabetic substitution cryptanalysis.
 
-**Walkthrough**  
+Walkthrough  
 1. Inspect `challenge/message.txt`:
    `IODJ{FDHVDU}`
 2. Identify the shift: `I` (9) - `F` (6) = 3 positions.
@@ -19,5 +19,5 @@ Caesar cipher monoalphabetic substitution cryptanalysis.
    - `D` -> 'a'
    - `U` -> 'r'
 
-**Flag**  
+Flag  
 `flag{caesar}`
