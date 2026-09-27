@@ -1,0 +1,11 @@
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+25/tcp  open  smtp
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+3306/tcp open mysql
+8080/tcp open http-proxy

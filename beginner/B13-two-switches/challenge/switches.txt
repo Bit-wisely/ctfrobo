@@ -1,0 +1,15 @@
+SWITCH CIPHER LOGIC:
+Switch A | Switch B | Output
+0        | 0        | 0
+0        | 1        | 1
+1        | 0        | 1
+1        | 1        | 0
+
+Operation: Bitwise XOR (^)
+Cipher Key: 66 (0x42)
+
+Ciphertext Bytes (Decimal):
+36 46 35 37 57 58 45 48 29 43 49 29 48 39 52 39 48 49 43 32 46 39 63
+
+Instruction:
+XOR each ciphertext number with the key 66 to restore the original ASCII characters.

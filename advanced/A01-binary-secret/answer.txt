@@ -1,0 +1,1 @@
+flag{read_the_binary}

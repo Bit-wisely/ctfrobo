@@ -1,0 +1,22 @@
+PID   USER          COMMAND
+1     root          /sbin/init
+2     root          [kthreadd]
+3     root          [rcu_gp]
+4     root          [rcu_par_gp]
+102   systemd-times /lib/systemd/systemd-timesyncd
+340   syslog        /usr/sbin/rsyslogd -n -iNONE
+405   messagebus    @dbus-daemon --system --address=systemd: --nofork
+512   root          /usr/sbin/sshd -D
+788   daemon        /usr/sbin/atd -f
+819   root          /usr/sbin/cron -f
+1024  www-data      /usr/sbin/nginx -g daemon on; master_process on;
+1025  www-data      nginx: worker process
+1026  www-data      nginx: worker process
+2048  mysql         /usr/sbin/mysqld
+3110  backup        /usr/bin/rsync -avz /var/www /backup/
+3982  guest         /usr/bin/python3 -m http.server 8000
+4192  investigator  /opt/forensics/agent --inspect --token=investigator
+5012  ubuntu        /bin/bash
+5088  ubuntu        ps aux
+6200  nobody        /usr/sbin/dnsmasq -x /var/run/dnsmasq/dnsmasq.pid
+8991  postfix       /usr/lib/postfix/sbin/master -w

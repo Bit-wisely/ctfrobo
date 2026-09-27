@@ -1,0 +1,2 @@
+Congratulations! You completed the beginner chain.
+flag{chain_reaction_beginner}

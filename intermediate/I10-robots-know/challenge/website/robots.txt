@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /hidden_admin_vault_9921/
+Disallow: /private_logs/

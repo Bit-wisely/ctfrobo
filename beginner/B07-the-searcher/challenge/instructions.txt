@@ -1,0 +1,11 @@
+Target to find: 1131
+
+Search Rules:
+1. The list `numbers.txt` contains 100 sorted integers indexed from 0 to 99.
+2. Use standard binary search with integer midpoint calculation: mid = floor((low + high) / 2).
+3. If target == arr[mid], terminate.
+4. If target < arr[mid], search the left half (high = mid - 1).
+5. If target > arr[mid], search the right half (low = mid + 1).
+
+Count how many comparison steps (mid calculations / checks) it takes to reach 1131.
+Flag format: flag{binary_search_<N>_steps}

@@ -1,0 +1,47 @@
+GET /index.html HTTP/1.1
+Host: internal.corp.local
+User-Agent: Mozilla/5.0
+Accept: text/html
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 142
+
+<html><body><h1>Internal Portal</h1><p>Welcome employee.</p></body></html>
+
+GET /static/style.css HTTP/1.1
+Host: internal.corp.local
+User-Agent: Mozilla/5.0
+
+HTTP/1.1 200 OK
+Content-Type: text/css
+Content-Length: 45
+
+body { background: #fff; font-family: sans-serif; }
+
+POST /api/v1/telemetry HTTP/1.1
+Host: telemetry.corp.local
+Content-Type: application/json
+Content-Length: 52
+
+{"status": "alive", "uptime": 86400, "node": "srv-04"}
+
+HTTP/1.1 204 No Content
+
+GET /api/v1/vault/session?token=flag{secret_token_in_traffic} HTTP/1.1
+Host: secure-vault.corp.local
+User-Agent: Agent-Internal-V2
+Authorization: Bearer confidential_passcode_992
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 68
+
+{"status": "authenticated", "message": "Access granted to archive."}
+
+GET /favicon.ico HTTP/1.1
+Host: internal.corp.local
+User-Agent: Mozilla/5.0
+
+HTTP/1.1 404 Not Found
+Content-Length: 0

@@ -1,0 +1,2 @@
+Archive Manifest:
+This archive directory contains system backups. Look for hidden dotfiles.
