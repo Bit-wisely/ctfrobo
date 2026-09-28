@@ -1,1 +1,1 @@
-flag{read the binary}
+read the binary

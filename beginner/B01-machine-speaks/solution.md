@@ -4,22 +4,21 @@ Concept
 Binary representation and conversion to ASCII text.
 
 Walkthrough  
-1. Inspect the binary output lines provided in `challenge/output.txt`:
-   - `01100110` -> decimal 102 -> 'f'
-   - `01101100` -> decimal 108 -> 'l'
+1. Inspect the binary output lines from the challenge:
+   - `01100010` -> decimal 98  -> 'b'
+   - `01101001` -> decimal 105 -> 'i'
+   - `01101110` -> decimal 110 -> 'n'
    - `01100001` -> decimal 97  -> 'a'
-   - `01100111` -> decimal 103 -> 'g'
-   - `01111011` -> decimal 123 -> '{'
-   - ...
-   - `01111101` -> decimal 125 -> '}'
-2. Reassemble all characters sequentially.
-
-```python
-with open("output.txt") as f:
-    lines = f.read().split()
-flag = "".join(chr(int(b, 2)) for b in lines)
-print(flag)
-```
+   - `01110010` -> decimal 114 -> 'r'
+   - `01111001` -> decimal 121 -> 'y'
+   - `00100000` -> decimal 32  -> ' '
+   - `01110011` -> decimal 115 -> 's'
+   - `01110000` -> decimal 112 -> 'p'
+   - `01100101` -> decimal 101 -> 'e'
+   - `01100001` -> decimal 97  -> 'a'
+   - `01101011` -> decimal 107 -> 'k'
+   - `01110011` -> decimal 115 -> 's'
+2. Reassemble all characters sequentially: `binary speaks`.
 
 Flag  
-`flag{binary speaks}`
+`binary speaks`

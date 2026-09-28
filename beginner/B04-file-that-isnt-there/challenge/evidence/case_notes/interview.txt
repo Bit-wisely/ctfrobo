@@ -1,0 +1,11 @@
+WITNESS INTERVIEW TRANSCRIPT
+CASE: EV-2024-0819
+INTERVIEWEE: System Administrator (J. Doe)
+INTERVIEWER: Det. Miller
+
+Q: When was the abnormal activity first observed?
+A: Around 03:00 UTC during scheduled log maintenance.
+Q: Did you notice any files being relocated or hidden?
+A: We noticed temporary files and cache folders were generated in the logging subtrees.
+Q: Has any data been recovered from volatile memory?
+A: Preliminary fragments were dumped to local cache and temporary locations for examination.

@@ -9,9 +9,6 @@ Frontend application exports have sanitized sensitive entries, but the underlyin
 Objective
 Query the SQL database dump to extract the hidden administrator credentials and flag.
 
-Challenge Files
-- `challenge/database.sql`
-- `challenge/query_db.py`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

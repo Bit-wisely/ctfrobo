@@ -11,4 +11,4 @@ print(f"Calculated float math: {f_result}")
 if int_result != 10:
     print("Notice how integer division truncates the fractional part!")
     print("The flag key concept is: integer division precision")
-    print("Flag: flag{integer division precision}")
+    print("Flag: integer division precision")

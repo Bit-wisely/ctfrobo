@@ -8,9 +8,9 @@ Walkthrough
 2. Locate the insert statements for `classified_vault`:
    ```sql
    INSERT INTO classified_vault (id, user_id, secret_note) VALUES
-   (3, 3, 'flag{sqlite vault revealed}');
+   (3, 3, 'sqlite vault revealed');
    ```
-3. Or run `python challenge/query_db.py` to view the retrieved note.
+3. Or inspect the query results to view the retrieved note: `sqlite vault revealed`.
 
 Flag  
-`flag{sqlite vault revealed}`
+`sqlite vault revealed`

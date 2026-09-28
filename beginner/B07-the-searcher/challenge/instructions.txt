@@ -8,4 +8,4 @@ Search Rules:
 5. If target > arr[mid], search the right half (low = mid + 1).
 
 Count how many comparison steps (mid calculations / checks) it takes to reach 1131.
-Flag format: flag{binary search <N> steps}
+Flag format: binary search <N> steps

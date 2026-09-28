@@ -49,7 +49,7 @@ class JWTHandler(BaseHTTPRequestHandler):
             <html><body>
                 <h1>JWT Admin Console</h1>
                 <p>Welcome, Admin!</p>
-                <p>Secret Flag: <b>flag{{jwt token forged}}</b></p>
+                <p>Secret Flag: <b>jwt token forged</b></p>
             </body></html>
             """
         else:

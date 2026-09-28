@@ -1,0 +1,5 @@
+PHOTO METADATA RECORD: IMG003
+Timestamp: 2024-08-19 03:01:50 UTC
+Dimensions: 1920x1080
+Camera: Security-Cam-West
+Description: Exit hallway. No unusual movement observed.

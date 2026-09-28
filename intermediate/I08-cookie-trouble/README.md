@@ -9,9 +9,6 @@ An internal web portal relies on client-side session cookies to determine access
 Objective
 Examine the application source code to understand how cookies dictate user roles and manipulate the session to retrieve the flag.
 
-Challenge Files
-- challenge/app/app.py
-- challenge/app/templates/index.html
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

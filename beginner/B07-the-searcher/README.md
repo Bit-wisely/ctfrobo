@@ -9,9 +9,6 @@ A binary search algorithm navigates a sorted array of numbers by repeatedly halv
 Objective
 Count the exact number of midpoint comparison steps required to find the target and submit the flag.
 
-Challenge Files
-- `challenge/instructions.txt`
-- `challenge/numbers.txt`
-
-Flag Format
-flag{binary search <N> steps}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

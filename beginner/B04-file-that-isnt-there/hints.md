@@ -1,5 +1,5 @@
 Hints: B04 - THE FILE THAT ISN'T THERE
 
-1. Examine the contents of the evidence folder using directory listing utilities.
-2. On Unix-like systems, filenames starting with a period character are treated as hidden entries and omitted from standard directory views.
-3. Use listing commands with flags that show all hidden entries, such as listing with the all flag, to identify and view the hidden file.
+1. Explore the directory trees inside the evidence folder using recursive listing tools.
+2. In Linux filesystems, directories and files beginning with a dot character are hidden from default directory listings.
+3. Check the logs hierarchy thoroughly using listing flags that include hidden entries or recursive search commands to uncover concealed cache directories.

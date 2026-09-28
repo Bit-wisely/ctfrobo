@@ -28,7 +28,7 @@ Content-Length: 52
 
 HTTP/1.1 204 No Content
 
-GET /api/v1/vault/session?token=flag{secret token in traffic} HTTP/1.1
+GET /api/v1/vault/session?token=secret token in traffic HTTP/1.1
 Host: secure-vault.corp.local
 User-Agent: Agent-Internal-V2
 Authorization: Bearer confidential_passcode_992

@@ -1,1 +1,1 @@
-flag{cookie admin access}
+cookie admin access

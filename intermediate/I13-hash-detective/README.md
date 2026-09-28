@@ -9,9 +9,6 @@ A credential digest was recovered during an incident response investigation. Cry
 Objective
 Perform a dictionary attack using the provided wordlist to identify the plaintext password and construct the flag.
 
-Challenge Files
-- challenge/hash.txt
-- challenge/wordlist.txt
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

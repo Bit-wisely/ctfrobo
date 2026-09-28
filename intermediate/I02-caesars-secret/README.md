@@ -9,9 +9,6 @@ An old transmission was intercepted containing text where every character appear
 Objective
 Determine the rotational shift used on the message and decode the ciphertext to reveal the flag.
 
-Challenge Files
-- challenge/message.txt
-- challenge/converter.py
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

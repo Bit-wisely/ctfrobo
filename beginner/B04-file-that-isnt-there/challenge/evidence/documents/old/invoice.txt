@@ -1,0 +1,7 @@
+INVOICE #7810
+VENDOR: Apex Cyber Forensics LLC
+CLIENT: Incident Response Team
+DATE: 2023-11-20
+SERVICES: Annual security certificate validation.
+TOTAL DUE: $800.00
+PAYMENT STATUS: PAID

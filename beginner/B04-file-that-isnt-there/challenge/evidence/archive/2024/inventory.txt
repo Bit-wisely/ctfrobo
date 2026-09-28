@@ -1,0 +1,5 @@
+INVENTORY LOG 2024
+Device ID: SVR-01 | Type: Server | OS: Debian Linux
+Device ID: SVR-02 | Type: Database | OS: Ubuntu Server
+Device ID: SVR-03 | Type: Storage Vault | OS: FreeBSD
+Device ID: WS-04  | Type: Workstation | OS: Linux

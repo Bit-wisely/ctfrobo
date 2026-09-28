@@ -1,1 +1,1 @@
-flag{predictable reset token}
+predictable reset token

@@ -1,1 +1,1 @@
-flag{suspicious c2 domain found}
+suspicious c2 domain found

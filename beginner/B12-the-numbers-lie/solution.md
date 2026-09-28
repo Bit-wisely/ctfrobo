@@ -10,4 +10,4 @@ Walkthrough
 4. The key concept is `integer division precision`.
 
 Flag  
-`flag{integer division precision}`
+`integer division precision`

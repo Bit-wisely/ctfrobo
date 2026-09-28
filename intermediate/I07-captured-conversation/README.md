@@ -9,8 +9,6 @@ A network sensor intercepted unencrypted communication traffic between a client 
 Objective
 Parse the captured network stream to identify the exposed communication parameters and extract the flag.
 
-Challenge Files
-- challenge/capture.txt
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

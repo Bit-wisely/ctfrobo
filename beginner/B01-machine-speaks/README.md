@@ -9,10 +9,6 @@ A legacy terminal is transmitting raw electrical pulses across the network. The 
 Objective
 Decode the binary stream into ASCII text to reveal the hidden flag.
 
-Challenge Files
-- `challenge/speak.c`
-- `challenge/speak.py`
-- `challenge/converter.py`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

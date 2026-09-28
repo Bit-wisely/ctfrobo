@@ -9,9 +9,6 @@ An operative transmitted an innocent-looking graphic across the wire, but threat
 Objective
 Analyze the least significant bits of the image color channels using the provided extraction script to reconstruct the flag.
 
-Challenge Files
-- challenge/image.png
-- challenge/extract_lsb.py
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

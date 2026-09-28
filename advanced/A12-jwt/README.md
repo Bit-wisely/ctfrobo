@@ -1,16 +1,14 @@
-A12 - JWT
+# A12 - JWT
 
 Points: 20
 Category: Advanced / JWT Security
 
-Scenario
+## Scenario
 A web service authenticates API requests using JSON Web Tokens (JWT). The token verification mechanism improperly trusts token headers without enforcing valid cryptographic signatures.
 
-Objective
+## Objective
 Forge an unauthorized JWT with elevated privileges to bypass authentication and retrieve the flag.
 
-Challenge Files
-- `challenge/app/app.py`
-
-Flag Format
-`flag{...}`
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

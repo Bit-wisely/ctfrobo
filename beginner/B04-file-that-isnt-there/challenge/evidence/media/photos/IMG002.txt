@@ -1,0 +1,5 @@
+PHOTO METADATA RECORD: IMG002
+Timestamp: 2024-08-19 02:45:10 UTC
+Dimensions: 1920x1080
+Camera: Security-Cam-East
+Description: Console terminal 4 active session.

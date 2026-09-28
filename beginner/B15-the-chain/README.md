@@ -9,10 +9,6 @@ A multi-stage investigation requires piecing together sequential clues, beginnin
 Objective
 Decode the initial binary pointer to find the intermediate clue file and trace the chain to the final flag.
 
-Challenge Files
-- `challenge/start.bin`
-- `challenge/clue.txt`
-- `challenge/final_flag.txt`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

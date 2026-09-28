@@ -4,7 +4,7 @@ TIMESTAMP           CLIENT_IP      QUERY_TYPE  DOMAIN                           
 2026-09-27T10:01:22 192.168.1.102  AAAA        google.com                          2a00:1450:4009:81f::200e
 2026-09-27T10:02:04 192.168.1.108  A           github.com                          140.82.121.3
 2026-09-27T10:03:40 192.168.1.110  A           update.microsoft.com                20.112.52.29
-2026-09-27T10:04:12 192.168.1.105  TXT         c2-beacon-flag-suspicious_c2_domain_found.threat-intel.xyz "v=spf1 include:_spf.threat-intel.xyz ~all"
+2026-09-27T10:04:12 192.168.1.105  TXT         c2-beacon-suspicious_c2_domain_found.threat-intel.xyz "v=spf1 include:_spf.threat-intel.xyz ~all"
 2026-09-27T10:05:00 192.168.1.102  A           cdn.cloudflare.com                  104.16.132.229
 2026-09-27T10:06:19 192.168.1.115  A           api.slack.com                       18.155.153.33
 2026-09-27T10:07:33 192.168.1.108  A           crates.io                           18.66.149.88

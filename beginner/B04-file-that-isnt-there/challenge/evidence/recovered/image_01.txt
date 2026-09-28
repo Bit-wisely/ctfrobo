@@ -1,0 +1,6 @@
+RECOVERED CARVED IMAGE ARTIFACT 01
+Offset: Sector 1048576
+Header: 0xFFD8FFE0 (JPEG)
+File integrity: Partial block reconstruction
+Metadata: Camera EXIF timestamp destroyed
+Status: CARVED_INCOMPLETE

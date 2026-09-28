@@ -1,0 +1,3 @@
+Project task list:
+- Review logs
+- Verify signatures

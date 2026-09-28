@@ -1,1 +1,1 @@
-flag{shadow password cracked}
+shadow password cracked

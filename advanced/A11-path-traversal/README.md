@@ -1,18 +1,14 @@
-A11 - PATH TRAVERSAL
+# A11 - PATH TRAVERSAL
 
 Points: 20
 Category: Advanced / Path Traversal
 
-Scenario
+## Scenario
 A document downloading portal accepts file path parameters to serve public files. The application does not properly validate or constrain requests to the intended public directory.
 
-Objective
+## Objective
 Use path traversal techniques to navigate outside the allowed public folder and read the restricted flag file.
 
-Challenge Files
-- `challenge/app/app.py`
-- `challenge/app/public/sample.txt`
-- `challenge/app/secret/flag.txt`
-
-Flag Format
-`flag{...}`
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

@@ -1,17 +1,14 @@
-A03 - JAILBREAK THE BOX
+# A03 - JAILBREAK THE BOX
 
 Points: 20
 Category: Advanced / Sandbox Security
 
-Scenario
+## Scenario
 You have gained access to a restricted execution environment designed to sandbox untrusted commands. The system claims to strictly isolate sensitive variables and prevent unauthorized execution.
 
-Objective
+## Objective
 Identify flaws in how the sandbox evaluates and expands input to escape restrictions and extract the flag.
 
-Challenge Files
-- `challenge/jail.c`
-- `challenge/jail.py`
-
-Flag Format
-`flag{...}`
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

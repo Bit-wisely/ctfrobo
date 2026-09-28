@@ -34,7 +34,7 @@ class WebChainHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({
                     "status": "success",
-                    "flag": "flag{full web exploit chain}"
+                    "flag": "full web exploit chain"
                 }).encode('utf-8'))
             else:
                 self.send_response(403)

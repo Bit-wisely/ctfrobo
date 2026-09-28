@@ -7,5 +7,5 @@ def solve_chain(extracted_payload):
     return decoded
 
 if __name__ == '__main__':
-    sample_payload = "ZmxhZ3tzdGVnbyBjaGFpbiBkZWNvZGVkfQ=="
+    sample_payload = "c3RlZ28gY2hhaW4gZGVjb2RlZA=="
     solve_chain(sample_payload)

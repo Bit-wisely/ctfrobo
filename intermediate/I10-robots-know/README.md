@@ -9,10 +9,6 @@ A website administrator published crawler directives to instruct search engine r
 Objective
 Investigate the search engine rules and discover the restricted web path to find the flag.
 
-Challenge Files
-- challenge/website/index.html
-- challenge/website/robots.txt
-- challenge/website/hidden_admin_vault_9921/flag.html
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

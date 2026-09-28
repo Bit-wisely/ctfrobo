@@ -9,8 +9,6 @@ An investigator found a suspicious file labeled as plain text notes, but standar
 Objective
 Inspect the file's underlying magic bytes and header structure to identify its true file format and extract the flag.
 
-Challenge Files
-- challenge/notes.txt
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

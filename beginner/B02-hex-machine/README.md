@@ -9,10 +9,6 @@ An automated debugging interface outputs raw hexadecimal pairs representing memo
 Objective
 Translate the hexadecimal byte sequence into readable ASCII text to recover the flag.
 
-Challenge Files
-- `challenge/hexmachine.c`
-- `challenge/hexmachine.py`
-- `challenge/converter.py`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

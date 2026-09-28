@@ -9,9 +9,6 @@ A junior developer claimed to have securely encrypted a sensitive secret before 
 Objective
 Analyze the provided message and decoding script to determine the encoding scheme and recover the flag.
 
-Challenge Files
-- challenge/message.txt
-- challenge/converter.py
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

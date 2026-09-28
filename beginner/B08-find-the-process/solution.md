@@ -8,7 +8,7 @@ Walkthrough
 2. Locate the line for user `investigator`:
    `4192 investigator /opt/forensics/agent --inspect --token=investigator`
 3. Extract PID `4192` and token `investigator`.
-4. Assemble the flag: `flag{pid 4192 investigator}`.
+4. Assemble the answer string: `pid 4192 investigator`.
 
 Flag  
-`flag{pid 4192 investigator}`
+`pid 4192 investigator`

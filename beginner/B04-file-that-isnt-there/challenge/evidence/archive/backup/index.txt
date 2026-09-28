@@ -1,0 +1,5 @@
+BACKUP ARCHIVE CATALOG INDEX
+Volume 1: Full System Backup (2024-01-01)
+Volume 2: Incremental Differential Backup (2024-06-01)
+Volume 3: Daily Snapshot Backup (2024-08-18)
+Location: Offsite Tape Repository

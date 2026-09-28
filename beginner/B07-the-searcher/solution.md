@@ -13,6 +13,7 @@ Walkthrough
    - Step 6: index 81 (val 1116) -> search [82, 82]
    - Step 7: index 82 (val 1131) -> Match found.
 2. Total comparisons made: 7.
+3. Formulate the answer string: `binary search 7 steps`.
 
 Flag  
-`flag{binary search 7 steps}`
+`binary search 7 steps`

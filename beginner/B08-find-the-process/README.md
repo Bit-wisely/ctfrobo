@@ -9,8 +9,6 @@ A process listing snapshot contains hundreds of active system tasks and backgrou
 Objective
 Locate the rogue process associated with the investigator username and extract its PID and secret token.
 
-Challenge Files
-- `challenge/processes.txt`
-
-Flag Format
-flag{pid <PID> <SECRET_KEY>}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

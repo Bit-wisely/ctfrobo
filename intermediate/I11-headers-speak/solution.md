@@ -7,10 +7,10 @@ Walkthrough
 1. Inspect the response headers in `challenge/server/response.txt`:
    ```http
    HTTP/1.1 200 OK
-   X-CTF-Message: flag{headers contain secrets}
+   X-CTF-Message: headers contain secrets
    Content-Type: text/plain
    ```
 2. Extract the flag from the `X-CTF-Message` header value.
 
 Flag  
-`flag{headers contain secrets}`
+`headers contain secrets`

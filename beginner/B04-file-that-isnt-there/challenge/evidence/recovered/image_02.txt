@@ -1,0 +1,6 @@
+RECOVERED CARVED IMAGE ARTIFACT 02
+Offset: Sector 2097152
+Header: 0x89504E47 (PNG)
+Dimensions: 640x480
+Integrity: CRC check valid
+Status: RESTORED

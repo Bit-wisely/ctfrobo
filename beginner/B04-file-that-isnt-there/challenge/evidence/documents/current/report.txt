@@ -1,0 +1,6 @@
+INCIDENT REPORT - CURRENT
+CASE: IR-2024-884
+Summary of Preliminary Findings:
+The target machine was accessed outside standard operational maintenance hours.
+Log files were modified and moved to archival staging directories.
+Investigator is advised to inspect logs and hidden cache areas for artifacts.

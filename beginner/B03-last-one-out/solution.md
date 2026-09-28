@@ -10,7 +10,7 @@ Walkthrough
    - `PUSH 71` -> 'G'
    - `PUSH 69` -> 'E'
 2. Combining the pushed characters in original insertion order reveals the word `PAGE`.
-3. Open `challenge/page.txt` to retrieve the flag.
+3. Open `challenge/page.txt` to retrieve the flag: `stack escape`.
 
 Flag  
-`flag{stack escape}`
+`stack escape`

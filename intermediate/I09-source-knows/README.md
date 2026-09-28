@@ -9,8 +9,6 @@ A landing page was published with seemingly sparse content on the visual display
 Objective
 Inspect the underlying source code of the webpage to uncover hidden comments and retrieve the flag.
 
-Challenge Files
-- challenge/website/index.html
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

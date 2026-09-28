@@ -1,0 +1,9 @@
+HARDWARE DIAGNOSTIC LOG
+Host: SEC-TERM-04
+CPU: 8 cores detected @ 3.20GHz
+RAM: 16 GB DDR4 (Passed integrity scan)
+Storage:
+- /dev/sda (256 GB NVMe SSD) - Status: OK
+- /dev/sdb (1 TB HDD Evidence Drive) - Status: OK, Read-Only Mount
+Network: eth0 UP (1000Mbps full-duplex)
+USB Controller: 4 ports active, no rogue peripherals detected.

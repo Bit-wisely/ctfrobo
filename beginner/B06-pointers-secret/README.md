@@ -9,8 +9,6 @@ A C program allocates integer variables and reassigns multiple pointer reference
 Objective
 Follow the pointer addresses and dereferences to find the final target value and retrieve the flag.
 
-Challenge Files
-- `challenge/pointer.c`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

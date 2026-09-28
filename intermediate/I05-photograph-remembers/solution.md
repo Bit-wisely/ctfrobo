@@ -10,9 +10,9 @@ Walkthrough
    ```
 2. Or use `strings`:
    ```bash
-   strings challenge/photograph.jpg | grep "flag{"
+   strings challenge/photograph.jpg
    ```
-3. Locate the comment: `flag{exif metadata secret}`.
+3. Locate the comment: `exif metadata secret`.
 
 Flag  
-`flag{exif metadata secret}`
+`exif metadata secret`

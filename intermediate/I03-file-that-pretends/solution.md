@@ -11,9 +11,9 @@ Walkthrough
 2. The file is identified as a PNG image despite the `.txt` extension.
 3. Extract embedded ASCII strings:
    ```bash
-   strings challenge/notes.txt | grep "flag{"
+   strings challenge/notes.txt
    ```
-4. Output: `flag{dont trust extensions}`.
+4. Locate the text metadata string: `dont trust extensions`.
 
 Flag  
-`flag{dont trust extensions}`
+`dont trust extensions`

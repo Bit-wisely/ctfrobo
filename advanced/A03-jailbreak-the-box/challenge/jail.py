@@ -1,4 +1,4 @@
-FLAG = "flag{escaped the box}"
+FLAG = "escaped the box"
 
 def main():
     print("=== RESTRICTED SHELL JAIL ===")

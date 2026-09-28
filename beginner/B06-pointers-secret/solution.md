@@ -12,4 +12,4 @@ Walkthrough
 3. Dereferencing `ptr` resolves to `p2`, which holds `"pointer indirection found"`.
 
 Flag  
-`flag{pointer indirection found}`
+`pointer indirection found`

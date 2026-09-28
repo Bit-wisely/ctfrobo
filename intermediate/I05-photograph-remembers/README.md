@@ -9,8 +9,6 @@ A digital photograph was left behind as evidence in an ongoing investigation. Wh
 Objective
 Examine the image metadata and embedded properties to uncover the hidden message and flag.
 
-Challenge Files
-- challenge/photograph.jpg
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

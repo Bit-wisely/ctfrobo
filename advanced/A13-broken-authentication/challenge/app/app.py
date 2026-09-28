@@ -20,7 +20,7 @@ class AuthHandler(BaseHTTPRequestHandler):
                 html = f"""
                 <html><body>
                     <h2>Password Reset Successful for Administrator!</h2>
-                    <p>Administrative Flag: <b>flag{{predictable reset token}}</b></p>
+                    <p>Administrative Flag: <b>predictable reset token</b></p>
                 </body></html>
                 """
             else:

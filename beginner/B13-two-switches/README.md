@@ -9,9 +9,6 @@ An encrypted log contains integer values obfuscated with a reversible bitwise XO
 Objective
 Reverse the XOR transformation using the provided single-byte key to decrypt the original flag message.
 
-Challenge Files
-- `challenge/switches.txt`
-- `challenge/converter.py`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

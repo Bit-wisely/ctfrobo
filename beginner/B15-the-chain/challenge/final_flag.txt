@@ -1,2 +1,2 @@
 Congratulations! You completed the beginner chain.
-flag{chain reaction beginner}
+chain reaction beginner

@@ -1,9 +1,9 @@
-Solution: A03 - JAILBREAK THE BOX
+# Solution: A03 - JAILBREAK THE BOX
 
-Concept  
+## Concept
 Parser logic weaknesses and variable expansion in restricted execution environments.
 
-Walkthrough  
+## Walkthrough
 1. Inspect `challenge/jail.c`.
 2. Notice the argument check inside `handle_echo`:
    ```c
@@ -12,7 +12,7 @@ Walkthrough
    }
    ```
 3. Enter `echo $FLAG` into the shell.
-4. Output: `flag{escaped the box}`.
+4. Output: `escaped the box`.
 
-Flag  
-`flag{escaped the box}`
+## Flag
+`escaped the box`

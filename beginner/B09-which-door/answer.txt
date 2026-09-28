@@ -1,1 +1,1 @@
-flag{port 443 https}
+port 443 https

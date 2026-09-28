@@ -9,9 +9,6 @@ A compiled binary was recovered from a suspicious workstation, but executing unk
 Objective
 Analyze the binary file to extract human-readable text sequences and locate the hidden flag.
 
-Challenge Files
-- challenge/mystery.bin
-- challenge/mystery.c
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

@@ -1,0 +1,6 @@
+BACKUP RESTORATION LOG 2023
+Archive ID: BK-2023-12-31
+Target: /var/backup/historical
+Result: SUCCESS
+Total files restored: 1,420 files
+Verification: SHA256 checksum match verified.

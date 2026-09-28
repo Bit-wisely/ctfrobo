@@ -1,0 +1,4 @@
+RECOVERED DOCUMENT FRAGMENT
+Carved from unallocated disk clusters 4400-4420.
+Snippet:
+"...all system logs and diagnostic caches were instructed to be moved to secure partitions. Ensure all nested dot-directories are inspected during audit..."

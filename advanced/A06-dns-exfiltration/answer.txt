@@ -1,1 +1,1 @@
-flag{dns exfil chunk reassembled}
+dns exfil chunk reassembled

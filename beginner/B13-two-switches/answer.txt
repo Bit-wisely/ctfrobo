@@ -1,1 +1,1 @@
-flag{xor is reversible}
+xor is reversible

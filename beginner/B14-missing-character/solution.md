@@ -7,9 +7,9 @@ Walkthrough
 1. Inspect `challenge/message.txt`.
 2. Compute the missing integer: `97 + 10 = 107` ('k').
 3. Restore the full array:
-   `[102, 108, 97, 103, 123, 97, 115, 99, 105, 105, 32, 107, 101, 121, 32, 99, 111, 109, 112, 108, 101, 116, 101, 100, 125]`
+   `[97, 115, 99, 105, 105, 32, 107, 101, 121, 32, 99, 111, 109, 112, 108, 101, 116, 101, 100]`
 4. Decode to ASCII:
-   `flag{ascii key completed}`
+   `ascii key completed`
 
 Flag  
-`flag{ascii key completed}`
+`ascii key completed`

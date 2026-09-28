@@ -9,9 +9,6 @@ A company's relational database stores confidential security details across mult
 Objective
 Construct a relational database query that links the relevant tables and filters for the target record to reveal the flag.
 
-Challenge Files
-- challenge/database.sql
-- challenge/query.py
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

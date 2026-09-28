@@ -1,0 +1,8 @@
+[    0.000000] Linux version 5.15.0-generic (buildd@linux) (gcc 11.2.0) #1 SMP
+[    0.000004] Command line: BOOT_IMAGE=/vmlinuz-5.15.0-generic root=/dev/sda1 ro quiet splash
+[    0.051203] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.120401] Memory: 16384000K/16777216K available (14336K kernel code, 2048K rwdata)
+[    0.850120] ACPI: Core revision 20210604
+[    1.201450] systemd[1]: Starting system message bus...
+[    1.450210] systemd[1]: Started System Logging Service.
+[    2.001920] systemd[1]: Reached target Graphical Interface.

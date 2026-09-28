@@ -9,8 +9,6 @@ A Python script performs arithmetic calculations where integer division and prec
 Objective
 Analyze how the arithmetic operations evaluate to compute the correct output and reveal the flag.
 
-Challenge Files
-- `challenge/numbers.py`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

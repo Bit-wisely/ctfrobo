@@ -1,0 +1,6 @@
+Cache Manager Status: OPERATIONAL
+Max Size: 512 MB
+Used Space: 32 MB
+Eviction Policy: LRU
+Clean Expiry: 86400 seconds
+Last Sync: 2024-08-19 03:15:45 UTC

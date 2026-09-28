@@ -1,0 +1,5 @@
+THUMBNAIL CACHE MANIFEST
+thumb01.dat -> Resolution 128x128 JPEG Stream
+thumb02.dat -> Resolution 128x128 JPEG Stream
+Total Thumbnails: 2
+Status: Synchronized

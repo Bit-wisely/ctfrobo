@@ -1,0 +1,4 @@
+TODO list:
+1. Complete challenge writeups
+2. Validate scoring matrix
+3. Verify filesystem permissions

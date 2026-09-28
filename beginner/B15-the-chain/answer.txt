@@ -1,1 +1,1 @@
-flag{chain reaction beginner}
+chain reaction beginner

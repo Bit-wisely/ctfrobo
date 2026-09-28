@@ -7,7 +7,7 @@ Walkthrough
 1. Inspect `challenge/trace.py`.
 2. Trace the loop iterations from 1 through 24.
 3. At iteration 24, the state evaluates to `7417`.
-4. Wrap in flag format: `flag{loop trace 7417}`.
+4. Construct the answer string: `loop trace 7417`.
 
 Flag  
-`flag{loop trace 7417}`
+`loop trace 7417`

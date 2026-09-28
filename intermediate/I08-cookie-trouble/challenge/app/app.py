@@ -25,7 +25,7 @@ class CookieHandler(BaseHTTPRequestHandler):
             body = f"""
             <html><body>
                 <h1>Welcome, Administrator!</h1>
-                <p>Secret Flag: <b>flag{{cookie admin access}}</b></p>
+                <p>Secret Flag: <b>cookie admin access</b></p>
             </body></html>
             """
         else:

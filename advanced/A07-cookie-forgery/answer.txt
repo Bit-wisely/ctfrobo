@@ -1,1 +1,1 @@
-flag{tampered session token}
+tampered session token

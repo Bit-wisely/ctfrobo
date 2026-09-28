@@ -5,12 +5,12 @@ Base64 encoding vs cryptographic encryption.
 
 Walkthrough  
 1. Inspect `challenge/message.txt`:
-   `ZmxhZ3tiYXNlNjR9`
+   `YmFzZTY0`
 2. Decode the Base64 string:
    ```bash
-   echo "ZmxhZ3tiYXNlNjR9" | base64 -d
+   echo "YmFzZTY0" | base64 -d
    ```
-3. Flag is retrieved: `flag{base64}`.
+3. Flag is retrieved: `base64`.
 
 Flag  
-`flag{base64}`
+`base64`

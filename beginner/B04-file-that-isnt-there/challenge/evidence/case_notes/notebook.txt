@@ -1,0 +1,4 @@
+INVESTIGATOR NOTEBOOK
+- Check all storage trees including system, archive, media, documents, and logs.
+- Remember that dotfiles or hidden subdirectories (prefixed with .) might not show up in regular directory listings without showing all entries.
+- Search thoroughly through nested directories.

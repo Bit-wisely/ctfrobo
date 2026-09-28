@@ -14,4 +14,4 @@ def extract_lsb_from_raw(raw_bytes):
 
 if __name__ == "__main__":
     print("LSB extraction template ready.")
-    print("Example flag recovered from hidden bits: flag{lsb bits unlocked}")
+    print("Example flag recovered from hidden bits: lsb bits unlocked")

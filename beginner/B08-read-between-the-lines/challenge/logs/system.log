@@ -1,0 +1,140 @@
+2026-09-28 08:00:01 INFO systemd: Starting system initialization...
+2026-09-28 08:00:03 INFO kernel: Initializing CPU#0 (Intel Core Processor)
+2026-09-28 08:00:04 INFO kernel: Memory: 16384MB available
+2026-09-28 08:00:05 INFO kernel: ACPI: Core revision 20200925
+2026-09-28 08:00:07 INFO kernel: PCI: Using configuration type 1 for base access
+2026-09-28 08:00:09 INFO kernel: SCSI subsystem initialized
+2026-09-28 08:00:11 INFO kernel: libata version 3.00 loaded
+2026-09-28 08:00:13 INFO kernel: ata1: SATA max UDMA/133 abar m2048@0xf7f30000 port 0xf7f30100 irq 28
+2026-09-28 08:00:15 INFO kernel: sd 0:0:0:0: [sda] 500118192 512-byte logical blocks: (256 GB/238 GiB)
+2026-09-28 08:00:17 INFO kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode
+2026-09-28 08:00:19 INFO systemd[1]: Reached target Local File Systems.
+2026-09-28 08:00:21 INFO systemd[1]: Starting Network Time Synchronization...
+2026-09-28 08:00:23 INFO systemd-timesyncd[412]: Synchronized to time server 192.168.1.1:123.
+2026-09-28 08:00:25 INFO systemd[1]: Reached target System Time Synchronized.
+2026-09-28 08:00:28 INFO systemd[1]: Starting Network Manager...
+2026-09-28 08:00:30 INFO NetworkManager[523]: <info> [1695888030.12] NetworkManager (version 1.36.4) is starting...
+2026-09-28 08:00:32 INFO NetworkManager[523]: <info> [1695888032.45] Read config: /etc/NetworkManager/NetworkManager.conf
+2026-09-28 08:00:35 INFO NetworkManager[523]: <info> [1695888035.78] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/1)
+2026-09-28 08:00:38 INFO NetworkManager[523]: <info> [1695888038.01] device (eth0): state change: unmanaged -> unavailable
+2026-09-28 08:00:40 INFO NetworkManager[523]: <info> [1695888040.23] device (eth0): state change: unavailable -> disconnected
+2026-09-28 08:00:42 INFO NetworkManager[523]: <info> [1695888042.56] policy: auto-activating connection 'Wired connection 1'
+2026-09-28 08:00:45 INFO NetworkManager[523]: <info> [1695888045.89] device (eth0): Activation: starting connection 'Wired connection 1'
+2026-09-28 08:00:48 INFO NetworkManager[523]: <info> [1695888048.12] device (eth0): state change: disconnected -> prepare
+2026-09-28 08:00:50 INFO NetworkManager[523]: <info> [1695888050.34] device (eth0): state change: prepare -> config
+2026-09-28 08:00:52 INFO NetworkManager[523]: <info> [1695888052.67] device (eth0): state change: config -> ip-config
+2026-09-28 08:00:55 INFO dhclient[612]: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+2026-09-28 08:00:57 INFO dhclient[612]: DHCPACK from 192.168.1.1
+2026-09-28 08:01:00 INFO NetworkManager[523]: <info> [1695888060.01] device (eth0): state change: ip-config -> activated
+2026-09-28 08:01:02 INFO systemd[1]: Reached target Network.
+2026-09-28 08:01:05 INFO systemd[1]: Starting OpenSSH server daemon...
+2026-09-28 08:01:07 INFO sshd[680]: Server listening on 0.0.0.0 port 22.
+2026-09-28 08:01:09 INFO sshd[680]: Server listening on :: port 22.
+2026-09-28 08:01:12 INFO systemd[1]: Started OpenSSH server daemon.
+2026-09-28 08:01:15 INFO systemd[1]: Starting Cron periodic job scheduler...
+2026-09-28 08:01:18 INFO crond[712]: (CRON) STARTUP (V5.0)
+2026-09-28 08:01:20 INFO systemd[1]: Started Cron periodic job scheduler.
+2026-09-28 08:01:25 INFO systemd[1]: Reached target Multi-User System.
+2026-09-28 08:05:01 INFO CRON[801]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 08:10:00 INFO systemd[1]: Starting Daily apt download activities...
+2026-09-28 08:10:14 INFO systemd[1]: apt-daily.service: Deactivated successfully.
+2026-09-28 08:15:01 INFO CRON[850]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 08:20:02 INFO systemd[1]: Starting Cleanup of Temporary Directories...
+2026-09-28 08:20:04 INFO systemd-tmpfiles[890]: [/usr/lib/tmpfiles.d/systemd.conf:24] Duplicate line for /tmp.
+2026-09-28 08:20:05 INFO systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-09-28 08:25:01 INFO CRON[920]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 08:30:00 INFO CRON[945]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+2026-09-28 08:30:12 INFO backup-rotate: Archiving snapshot 20260928_daily.tar.gz
+2026-09-28 08:30:15 INFO backup-rotate: Verification checksum: 8f92a10e7b23
+2026-09-28 08:35:01 INFO CRON[980]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 08:40:02 DEBUG kernel: usb 1-1: new high-speed USB device number 2 using xhci_hcd
+2026-09-28 08:40:04 DEBUG kernel: usb 1-1: New USB device found, idVendor=058f, idProduct=6387
+2026-09-28 08:40:05 DEBUG kernel: usb-storage 1-1:1.0: USB Mass Storage device detected
+2026-09-28 08:40:07 DEBUG kernel: scsi host1: usb-storage 1-1:1.0
+2026-09-28 08:40:09 INFO kernel: sd 1:0:0:0: [sdb] 15663104 512-byte logical blocks: (8.02 GB/7.47 GiB)
+2026-09-28 08:40:11 INFO kernel: sdb: sdb1
+2026-09-28 08:40:13 INFO kernel: sd 1:0:0:0: [sdb] Attached SCSI removable disk
+2026-09-28 08:45:01 INFO CRON[1024]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 08:50:00 INFO auditd[410]: Audit daemon periodic health check: OK
+2026-09-28 08:55:01 INFO CRON[1060]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:00:01 INFO CRON[1100]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:01:12 INFO User session started: uid=1000 (analyst)
+2026-09-28 09:01:15 INFO Checking system status for user analyst
+2026-09-28 09:01:19 INFO Backup completed for home directory
+2026-09-28 09:02:03 INFO Service running: worker-daemon-01
+2026-09-28 09:02:18 INFO Temporary file removed: /tmp/sess_91283
+2026-09-28 09:05:01 INFO CRON[1140]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:10:00 INFO rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0"] rsyslogd was HUPed
+2026-09-28 09:15:01 INFO CRON[1180]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:20:00 INFO kernel: TCP: eth0: Driver supports PSO, GSO, TSO
+2026-09-28 09:25:01 INFO CRON[1220]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:30:00 INFO systemd[1]: Starting Database maintenance...
+2026-09-28 09:30:05 INFO db-maintenance: Vacuum analyze completed on database vault
+2026-09-28 09:35:01 INFO CRON[1260]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:40:00 INFO smartd[580]: Device: /dev/sda, [ATA Crucial CT250MX5], S/M/A/R/T Check Passed.
+2026-09-28 09:45:01 INFO CRON[1300]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 09:50:00 INFO kernel: CPU1: Core temperature above threshold, cpu clock throttled
+2026-09-28 09:50:05 INFO kernel: CPU1: Core temperature normal
+2026-09-28 09:55:01 INFO CRON[1340]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:00:01 INFO CRON[1380]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:05:00 INFO sshd[1410]: Connection closed by authenticating user analyst 192.168.1.105 port 52344 [preauth]
+2026-09-28 10:10:01 INFO CRON[1430]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:15:00 INFO postfix/master[1480]: daemon started -- version 3.6.4, configuration /etc/postfix
+2026-09-28 10:20:01 INFO CRON[1510]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:25:00 INFO systemd[1]: Starting Logrotate...
+2026-09-28 10:25:04 INFO logrotate[1540]: Processing logrotate configuration files
+2026-09-28 10:25:08 INFO systemd[1]: logrotate.service: Deactivated successfully.
+2026-09-28 10:30:01 INFO CRON[1570]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:35:00 INFO named[650]: client @0x7f920 127.0.0.1#41200: query: internal.corp.net IN A + (127.0.0.1)
+2026-09-28 10:40:01 INFO CRON[1600]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:45:00 INFO auditd[410]: Audit daemon heart beat: OK
+2026-09-28 10:50:01 INFO CRON[1630]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 10:55:00 NOTICE systemd[1]: Reloading configuration...
+2026-09-28 11:00:01 INFO CRON[1670]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 11:05:00 INFO kernel: nf_conntrack: default automatic helper assignment has been turned off
+2026-09-28 11:10:01 INFO CRON[1700]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 11:15:00 INFO systemd[1]: Starting Update UTMP about System Runlevel Changes...
+2026-09-28 11:20:01 INFO CRON[1740]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 11:25:00 INFO kernel: EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+2026-09-28 11:30:01 INFO CRON[1770]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 11:35:00 INFO dbus-daemon[490]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2026-09-28 11:40:01 INFO CRON[1810]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 11:43:20 WARNING Security auditing subsystem: buffer check triggered
+2026-09-28 11:43:24 NOTICE Session monitoring: user activity logged on pts/2
+2026-09-28 11:43:27 WARNING Unusual activity detected on channel 4
+2026-09-28 11:43:28 INFO Connection closed by remote subsystem
+2026-09-28 11:43:31 INFO Service restarted: monitoring-daemon
+2026-09-28 11:43:35 CTF-MESSAGE: The answer is silent_witness
+2026-09-28 11:43:39 INFO System check completed: Status OK
+2026-09-28 11:43:42 DEBUG Packet filter rules updated for interface eth0
+2026-09-28 11:45:01 INFO CRON[1840]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 11:50:00 INFO kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:15:5d:01:23:45 SRC=192.168.1.200 DST=192.168.1.100 PROTO=TCP SPT=49152 DPT=8080
+2026-09-28 11:55:01 INFO CRON[1880]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:00:01 INFO CRON[1910]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:05:00 INFO systemd[1]: Starting Daily man-db regeneration...
+2026-09-28 12:05:08 INFO systemd[1]: man-db.service: Deactivated successfully.
+2026-09-28 12:10:01 INFO CRON[1940]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:15:00 INFO smartd[580]: Device: /dev/sda, Self-Test Log unchanged
+2026-09-28 12:20:01 INFO CRON[1970]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:25:00 INFO rsyslogd: action 'action-1-builtin:omfile' resumed
+2026-09-28 12:30:01 INFO CRON[2000]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:35:00 INFO sshd[2040]: Received disconnect from 192.168.1.105 port 52344:11: disconnected by user
+2026-09-28 12:40:01 INFO CRON[2070]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:45:00 INFO kernel: perf: interrupt took too long (2510 > 2500), lowering kernel.perf_event_max_sample_rate to 50000
+2026-09-28 12:50:01 INFO CRON[2100]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 12:55:00 INFO systemd[1]: Starting Periodic ext4 trim...
+2026-09-28 12:55:04 INFO fstrim[2130]: /: 184.2 GiB (197779951616 bytes) trimmed on /dev/sda1
+2026-09-28 12:55:06 INFO systemd[1]: fstrim.service: Deactivated successfully.
+2026-09-28 13:00:01 INFO CRON[2160]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 13:05:00 INFO auditd[410]: Audit daemon status report: All queues clean
+2026-09-28 13:10:01 INFO CRON[2190]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 13:15:00 INFO kernel: clocksource: timekeeping watchdog on CPU0: wd-tsc-wd rolling over
+2026-09-28 13:20:01 INFO CRON[2220]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 13:25:00 INFO systemd[1]: Starting Network Name Resolution...
+2026-09-28 13:30:01 INFO CRON[2250]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 13:35:00 INFO kernel: e1000e 0000:00:19.0 eth0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx
+2026-09-28 13:40:01 INFO CRON[2280]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 13:45:00 INFO postfix/anvil[2310]: statistics: max connection rate 1/60s for (smtp:192.168.1.1) at Sep 28 10:15:00
+2026-09-28 13:50:01 INFO CRON[2340]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)
+2026-09-28 13:55:00 INFO systemd[1]: Reached target Timers.
+2026-09-28 14:00:01 INFO CRON[2380]: (root) CMD (/usr/lib/sysstat/debian-sa1 1 1)

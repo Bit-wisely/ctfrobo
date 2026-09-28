@@ -13,7 +13,7 @@ Walkthrough
    JOIN secure_vault ON employees.emp_id = secure_vault.emp_id
    WHERE departments.name = 'Cyber Security' AND employees.role = 'Department Head';
    ```
-3. Retrieve the flag: `flag{relational database joined}`.
+3. Retrieve the flag: `relational database joined`.
 
 Flag  
-`flag{relational database joined}`
+`relational database joined`

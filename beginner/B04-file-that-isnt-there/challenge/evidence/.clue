@@ -1,2 +1,2 @@
 You found the hidden file!
-flag{not every file is visible}
+not every file is visible

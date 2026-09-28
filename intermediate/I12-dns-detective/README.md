@@ -9,8 +9,6 @@ Security telemetry recorded thousands of routine DNS lookups from an internal co
 Objective
 Analyze the DNS query logs to pinpoint the anomalous record lookup and uncover the flag.
 
-Challenge Files
-- challenge/dns.log
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

@@ -9,9 +9,6 @@ A web server responds to requests with standard web content, but servers often i
 Objective
 Examine the server response headers to find the custom header value containing the flag.
 
-Challenge Files
-- challenge/server/app.py
-- challenge/server/response.txt
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

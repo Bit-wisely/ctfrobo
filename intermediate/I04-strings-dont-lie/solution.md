@@ -8,8 +8,8 @@ Walkthrough
    ```bash
    strings challenge/mystery.bin
    ```
-2. Locate the hardcoded flag:
-   `flag{strings revealed}`
+2. Locate the hardcoded secret:
+   `strings revealed`
 
 Flag  
-`flag{strings revealed}`
+`strings revealed`

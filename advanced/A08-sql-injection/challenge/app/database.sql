@@ -7,5 +7,5 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (id, username, password, secret_flag) VALUES
-(1, 'admin', 'SuperComplexHashP@ssword2026!#$%', 'flag{sql injection master}'),
+(1, 'admin', 'SuperComplexHashP@ssword2026!#$%', 'sql injection master'),
 (2, 'guest', 'guestpass', 'No flag here');

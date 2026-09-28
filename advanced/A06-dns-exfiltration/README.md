@@ -1,16 +1,14 @@
-A06 - DNS EXFILTRATION
+# A06 - DNS EXFILTRATION
 
 Points: 20
 Category: Advanced / DNS Tunneling
 
-Scenario
+## Scenario
 An external adversary bypassed perimeter egress controls by encoding stolen assets into recursive DNS queries. The DNS query logs hold the fragmented pieces of the exfiltrated transmission.
 
-Objective
+## Objective
 Filter the DNS query records, extract the ordered payload segments, and reassemble the original flag.
 
-Challenge Files
-- `challenge/dns.log`
-
-Flag Format
-`flag{...}`
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

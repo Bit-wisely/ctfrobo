@@ -4,15 +4,11 @@ Points: 5
 Category: Beginner / Linux Environment
 
 Scenario
-An investigator noted that four evidence files were archived in the directory, but standard directory listings only reveal three.
+A complex filesystem image containing multiple directory hierarchies has been extracted for investigation. A critical evidence artifact has been stashed away inside a hidden directory within the logging subtrees.
 
 Objective
-Uncover the hidden dotfile within the evidence directory and extract the concealed flag.
+Navigate through the evidence directory structure, uncover the hidden cache directory and fragment file, and extract the flag.
 
-Challenge Files
-- `challenge/evidence/notes.txt`
-- `challenge/evidence/photo.jpg`
-- `challenge/evidence/report.txt`
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

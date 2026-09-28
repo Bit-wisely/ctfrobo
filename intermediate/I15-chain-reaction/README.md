@@ -9,9 +9,6 @@ An adversary staged their artifacts using multi-layer obfuscation and nested fil
 Objective
 Follow the forensic breadcrumbs through multiple stages of decoding to assemble the final flag.
 
-Challenge Files
-- challenge/mystery.bin
-- challenge/archive/stage2.txt
-
-Flag Format
-flag{...}
+Execution Reference
+To run Python files: python filename.py
+To compile and run C files: gcc filename.c -o output && ./output

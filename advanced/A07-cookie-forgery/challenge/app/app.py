@@ -29,7 +29,7 @@ class ForgeryAppHandler(BaseHTTPRequestHandler):
             <html><body>
                 <h1>Admin Control Panel</h1>
                 <p>Welcome, Administrator!</p>
-                <p>Secret Flag: <b>flag{{tampered session token}}</b></p>
+                <p>Secret Flag: <b>tampered session token</b></p>
             </body></html>
             """
         else:

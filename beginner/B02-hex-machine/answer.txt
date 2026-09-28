@@ -1,1 +1,1 @@
-flag{hex machine}
+hex machine

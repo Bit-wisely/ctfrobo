@@ -11,7 +11,7 @@ int main() {
     ptr = &p2;
 
     printf("The secret pointer resolves to: %s\n", *ptr);
-    printf("Flag structure: flag{%s}\n", *ptr);
+    printf("Flag: %s\n", *ptr);
 
     return 0;
 }

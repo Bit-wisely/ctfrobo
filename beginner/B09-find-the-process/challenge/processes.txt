@@ -1,0 +1,43 @@
+USER       PID     PPID    CPU    MEM    STAT    COMMAND
+
+root         1       0     0.0    0.1    S       /sbin/init
+root       214       1     0.0    0.2    S       /usr/lib/systemd/systemd-journald
+root       287       1     0.0    0.1    S       /usr/lib/systemd/systemd-udevd
+root       346       1     0.1    0.3    S       /usr/lib/systemd/systemd-timesyncd
+root       411       1     0.2    0.5    S       /usr/lib/systemd/systemd-resolved
+root       438       1     0.3    0.6    S       /usr/sbin/NetworkManager
+root       502       1     0.0    0.3    S       /usr/sbin/cron
+root       551       1     0.1    0.4    S       /usr/sbin/rsyslogd
+root       603       1     0.0    0.3    S       /usr/lib/systemd/systemd-logind
+root       641       1     0.0    0.2    S       /usr/sbin/dbus-daemon
+root       704       1     0.1    0.4    S       /usr/sbin/sshd
+root       731     704     0.0    0.2    S       sshd: user@pts/0
+user       744     731     0.1    0.7    S       -bash
+user       781     744     0.0    0.2    S       vim notes.txt
+user       806     744     0.0    0.3    S       python3 assignment.py
+root       833       1     0.1    0.5    S       /usr/sbin/cupsd
+root       871       1     0.0    0.2    S       /usr/sbin/avahi-daemon
+root       914       1     0.1    0.4    S       /usr/bin/containerd
+root       958       1     0.2    0.7    S       /usr/bin/dockerd
+root      1007       1     0.0    0.3    S       /usr/libexec/polkitd
+user      1042     744     0.0    0.4    S       firefox
+user      1088     744     0.2    1.8    S       /usr/lib/firefox/firefox
+user      1124     744     0.0    0.9    S       /usr/lib/firefox/firefox
+root      1173       1     0.1    0.3    S       /usr/sbin/apache2
+www-data  1191    1173     0.2    0.6    S       /usr/sbin/apache2
+www-data  1192    1173     0.1    0.6    S       /usr/sbin/apache2
+www-data  1193    1173     0.1    0.6    S       /usr/sbin/apache2
+root      1234       1     0.0    0.2    S       /usr/sbin/sshd
+user      1261     744     0.4    0.5    S       /usr/bin/gedit
+user      1298     744     0.1    0.3    S       /usr/bin/python3
+user      1331     744     0.0    0.2    S       /usr/bin/less
+root      1372       1     0.0    0.2    S       /usr/sbin/ufw
+root      1411       1     0.1    0.4    S       /usr/sbin/NetworkManager
+user      1462     744     0.2    0.4    S       /usr/bin/ssh
+user      1517     744     0.0    0.2    S       /usr/bin/nano
+user      1583     744     0.1    0.3    S       /usr/bin/python3
+user      1629     744     0.3    0.5    S       /usr/bin/htop
+user      1704     744     0.2    0.4    S       /tmp/cache-service
+user      1748     744     0.1    0.4    S       /home/user/scripts/backup.sh
+root      1812       1     0.0    0.3    S       /usr/sbin/logrotate
+root      1871       1     0.0    0.2    S       /usr/sbin/acpid

@@ -1,0 +1,5 @@
+CACHE INDEX REGISTRY
+ID: 001 | TAG: sys_init | SIZE: 4096 bytes | VALID: YES
+ID: 002 | TAG: net_config | SIZE: 8192 bytes | VALID: YES
+ID: 003 | TAG: auth_session | SIZE: 2048 bytes | VALID: YES
+ID: 004 | TAG: telemetry | SIZE: 16384 bytes | VALID: YES

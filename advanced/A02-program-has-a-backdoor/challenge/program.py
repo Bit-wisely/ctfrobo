@@ -17,7 +17,7 @@ def main():
             break
         elif cmd in ["backdoor", "__backdoor_access_99__"]:
             print("[!] BACKDOOR ACTIVATED.")
-            print("FLAG: flag{backdoor found}")
+            print("FLAG: backdoor found")
         else:
             print(f"Unknown command: {cmd}")
 

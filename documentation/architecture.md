@@ -4,12 +4,14 @@ The question bank is organized into three tiers of difficulty:
 
 ---
 
-Beginner Tier (B01 - B15)
+Beginner Tier (B01 - B18)
 
 Focuses on fundamental computer science and security concepts:
 - Binary and hexadecimal encoding
+- Logic and pattern recognition
 - Stack data structures (LIFO)
-- Linux CLI environment and hidden files
+- Linux CLI environment and recursive filesystem search
+- Hidden dotfile and directory discovery
 - Control flow and pointer tracing
 - Binary search algorithms
 - Process identification and network port/IP identification
