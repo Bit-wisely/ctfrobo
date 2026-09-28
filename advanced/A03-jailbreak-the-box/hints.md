@@ -1,5 +1,5 @@
 Hints: A03 - JAILBREAK THE BOX
 
-1. The sandbox strictly filters command prefixes but passes arguments to `handle_echo`.
-2. Inspect `challenge/jail.c` to see how arguments are compared.
-3. Pass `echo $FLAG` or `echo --flag` to trigger the secret expansion.
+1. The restricted shell limits which commands can be executed, but examine how arguments are handled by permitted commands.
+2. Trace the implementation of allowed builtins to see if any special flags or arguments trigger hidden actions.
+3. Test argument patterns or inspect the source logic handling specific parameter values to reveal the protected secret.

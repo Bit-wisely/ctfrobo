@@ -8,11 +8,11 @@ Walkthrough
 2. Compute `c ^ 66` for each ciphertext integer in the array:
 
 ```python
-cipher = [36, 46, 35, 37, 57, 58, 45, 48, 29, 43, 49, 29, 48, 39, 52, 39, 48, 49, 43, 32, 46, 39, 63]
+cipher = [36, 46, 35, 37, 57, 58, 45, 48, 98, 43, 49, 98, 48, 39, 52, 39, 48, 49, 43, 32, 46, 39, 63]
 key = 66
 flag = "".join(chr(c ^ key) for c in cipher)
 print(flag)
 ```
 
 Flag  
-`flag{xor_is_reversible}`
+`flag{xor is reversible}`

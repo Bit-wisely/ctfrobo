@@ -1,5 +1,5 @@
 Hints: A07 - COOKIE FORGERY
 
-1. Base64-decode the session cookie string to inspect the JSON dictionary.
-2. Update the JSON payload: `{"user": "admin", "role": "admin"}`.
-3. Encode the updated JSON string into Base64 (`eyJ1c2VyIjogImFkbWluIiwgInJvbGUiOiAiYWRtaW4ifQ==`) and supply it as the `session` cookie.
+1. Inspect the browser cookies or HTTP request headers to examine how session state is stored.
+2. Analyze the cookie structure to see if it is serialized or encoded without cryptographic signing or tamper protection.
+3. Modify the decoded session claims to elevate privileges, re-encode the modified structure, and submit the forged cookie.

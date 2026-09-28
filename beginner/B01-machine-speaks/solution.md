@@ -22,4 +22,4 @@ print(flag)
 ```
 
 Flag  
-`flag{binary_speaks}`
+`flag{binary speaks}`

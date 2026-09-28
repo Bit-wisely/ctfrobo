@@ -13,7 +13,7 @@ Walkthrough
    ```bash
    strings challenge/notes.txt | grep "flag{"
    ```
-4. Output: `flag{dont_trust_extensions}`.
+4. Output: `flag{dont trust extensions}`.
 
 Flag  
-`flag{dont_trust_extensions}`
+`flag{dont trust extensions}`

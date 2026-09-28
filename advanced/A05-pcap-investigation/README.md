@@ -1,20 +1,17 @@
 A05 - PCAP INVESTIGATION
 
 Points: 20
-Category: Advanced / Network Forensics  
+Category: Advanced / Network Forensics
 
-Challenge Overview  
-Network packet captures (.pcap files) record full Ethernet frames and higher-layer protocols traversing a network segment. Packet analysis tools allow security analysts to inspect network sessions, identify suspicious hosts, and reconstruct unencrypted data payloads.
+Scenario
+A security monitoring sensor captured a stream of network packets during a suspected intrusion. Suspicious communication was recorded across multiple protocols without encryption.
 
-Participant Question  
-You weren't watching the network when it happened. Fortunately, someone captured the traffic. Find what shouldn't be there.
+Objective
+Analyze the packet capture file, reconstruct the anomalous network streams, and recover the transmitted flag.
 
-Clue  
-Open `capture.pcap` with a packet analyzer (such as Wireshark or `tcpdump`) and inspect the payload stream within the UDP packets.
-
-Challenge Files  
+Challenge Files
 - `challenge/capture.pcap`
 - `challenge/README.txt`
 
-Flag Format  
+Flag Format
 `flag{...}`

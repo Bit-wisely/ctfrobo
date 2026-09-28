@@ -1,5 +1,5 @@
 Hints: A05 - PCAP INVESTIGATION
 
-1. Inspect the packet capture using `strings capture.pcap` or `tcpdump -r capture.pcap -X`.
-2. Locate the UDP packet frames exchanged between the client and gateway.
-3. The second UDP frame payload contains the cleartext flag string.
+1. Open the network capture file using Wireshark, tshark, or tcpdump to inspect the recorded traffic flows.
+2. Filter the traffic by transport protocols or look for anomalous data exchanges between hosts.
+3. Inspect the payload data within individual packet streams to locate unencrypted information.

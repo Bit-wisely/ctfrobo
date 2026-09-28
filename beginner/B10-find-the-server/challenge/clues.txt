@@ -3,4 +3,4 @@ INVESTIGATION CLUES:
 2. Its hostname is `vault.internal`.
 3. It operates on the segmented `192.168.10.0/24` subnet.
 
-Find its IP address from network.txt and replace dots with underscores.
+Find its IP address from network.txt and replace dots with spaces.

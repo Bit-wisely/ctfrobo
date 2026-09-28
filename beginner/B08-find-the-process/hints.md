@@ -1,5 +1,5 @@
 Hints: B08 - FIND THE PROCESS
 
-1. Search `processes.txt` for the line associated with the `investigator` username.
-2. Note the numerical Process ID in the first column.
-3. Identify the token string passed in the command arguments.
+1. Open the process table snapshot file to inspect the active system processes.
+2. Filter or search the process entries for the specific username referenced in the scenario.
+3. Extract the process identifier from the first column and the secret argument string passed to that command.

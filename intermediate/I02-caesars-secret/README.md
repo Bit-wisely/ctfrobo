@@ -1,19 +1,17 @@
 I02 - CAESAR'S SECRET
 
 Points: 10
-Category: Intermediate / Classical Cryptography  
+Category: Intermediate / Classical Cryptography
 
-Challenge Overview  
-The Caesar cipher is one of the earliest known encryption techniques. It operates as a monoalphabetic substitution cipher where each letter in the plaintext is shifted by a fixed number of positions down the alphabet. In CTF competitions, recognizing shifted flag formats (`IODJ{...}` matching `FLAG{...}`) allows instant cryptanalysis.
+Scenario
+An old transmission was intercepted containing text where every character appears to be systematically shifted along the alphabet. The sender believed this ancient rotational method would keep their secret safe.
 
-Participant Question  
-Someone decided that shifting letters was enough to keep a secret. Recover the message.
+Objective
+Determine the rotational shift used on the message and decode the ciphertext to reveal the flag.
 
-Clue  
-Compare the encrypted prefix `IODJ` with the known flag prefix `FLAG`. Determine the alphabet shift amount and shift each letter backward.
+Challenge Files
+- challenge/message.txt
+- challenge/converter.py
 
-Challenge Files  
-- `challenge/message.txt`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

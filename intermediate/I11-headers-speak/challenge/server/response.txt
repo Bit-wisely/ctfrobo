@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
 Date: Sun, 27 Sep 2026 21:00:00 GMT
 Server: Apache/2.4.41 (Ubuntu)
-X-CTF-Message: flag{headers_contain_secrets}
+X-CTF-Message: flag{headers contain secrets}
 X-Powered-By: PHP/7.4.3
 Content-Length: 46
 Content-Type: text/plain

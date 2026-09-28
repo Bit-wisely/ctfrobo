@@ -1,5 +1,5 @@
 Hints: I04 - STRINGS DON'T LIE
 
-1. Executing unknown binaries is unnecessary when static strings are embedded.
-2. The `strings` utility extracts consecutive printable characters.
-3. Run `strings mystery.bin | grep flag`.
+1. You do not need to execute the binary to find information stored inside it.
+2. Compiled binaries often leave human-readable text and string literals intact within their sections.
+3. Extract all printable character sequences using the strings utility and filter for relevant flag patterns.

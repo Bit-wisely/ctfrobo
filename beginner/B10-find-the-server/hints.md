@@ -1,5 +1,5 @@
 Hints: B10 - FIND THE SERVER
 
-1. Read `challenge/clues.txt` for the target hostname `vault.internal`.
-2. Locate `vault.internal` in the host table in `challenge/network.txt`.
-3. Replace all dots in the IP address with underscores (e.g., `192.168.10.45` -> `192_168_10_45`).
+1. Review the clues provided in the investigation notes file.
+2. Cross-reference the specified target hostname against the routing and host records in the network configuration file.
+3. Once you obtain the matching IP address, format it according to the flag specification by replacing periods with spaces.

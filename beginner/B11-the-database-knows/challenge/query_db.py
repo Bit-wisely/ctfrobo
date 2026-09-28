@@ -1,7 +1,6 @@
 import sqlite3
 
 def run_query():
-    # In-memory SQLite database initialized with the challenge SQL
     conn = sqlite3.connect(":memory:")
     cur = conn.cursor()
     

@@ -1,20 +1,17 @@
 I14 - SQL QUESTION
 
 Points: 10
-Category: Intermediate / Relational SQL  
+Category: Intermediate / Relational SQL
 
-Challenge Overview  
-In normalized database schemas, related business information is distributed across multiple distinct tables connected through primary and foreign keys. Answering complex security and operational questions requires joining multiple tables to synthesize the complete record.
+Scenario
+A company's relational database stores confidential security details across multiple structured tables. Crucial organizational insights can only be retrieved by connecting the related records together.
 
-Participant Question  
-One table has names. Another has departments. Another has records. The information you need isn't in one place.
+Objective
+Construct a relational database query that links the relevant tables and filters for the target record to reveal the flag.
 
-Clue  
-Write a multi-table SQL `INNER JOIN` query connecting `departments`, `employees`, and `secure_vault`. Filter for the `Department Head` of the `Cyber Security` department.
+Challenge Files
+- challenge/database.sql
+- challenge/query.py
 
-Challenge Files  
-- `challenge/database.sql`
-- `challenge/query.py`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

@@ -1,1 +1,1 @@
-flag{stego_chain_decoded}
+flag{stego chain decoded}

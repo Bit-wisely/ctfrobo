@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-const char *FLAG = "flag{escaped_the_box}";
+const char *FLAG = "flag{escaped the box}";
 
 void handle_echo(char *arg) {
     if (strcmp(arg, "$FLAG") == 0 || strcmp(arg, "--flag") == 0) {

@@ -1,20 +1,17 @@
 I08 - COOKIE TROUBLE
 
 Points: 10
-Category: Intermediate / Web Security  
+Category: Intermediate / Web Security
 
-Challenge Overview  
-HTTP cookies allow web applications to maintain state across stateless HTTP requests. If a server relies on client-controlled cookies to make authorization decisions without server-side validation or cryptographic signing, users can tamper with their cookie values to impersonate other roles.
+Scenario
+An internal web portal relies on client-side session cookies to determine access privileges. The backend trusts the cookie presented by the browser without cryptographic verification.
 
-Participant Question  
-The server thinks you are just a normal user. But it trusts something you carry. Find out what the server believes about you.
+Objective
+Examine the application source code to understand how cookies dictate user roles and manipulate the session to retrieve the flag.
 
-Clue  
-Inspect the HTTP request cookies. Change `role=user` to `role=admin` to elevate permissions.
+Challenge Files
+- challenge/app/app.py
+- challenge/app/templates/index.html
 
-Challenge Files  
-- `challenge/app/app.py`
-- `challenge/app/templates/index.html`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

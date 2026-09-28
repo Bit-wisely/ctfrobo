@@ -1,5 +1,5 @@
 Hints: A11 - PATH TRAVERSAL
 
-1. The server combines the input `file` with the base folder `public/`.
-2. Directory navigation sequence `../` steps up to the parent directory.
-3. Submit `/download?file=../secret/flag.txt` to read the flag.
+1. When a server retrieves files based on user-supplied paths, inspect if input validation prevents directory navigation.
+2. Use relative path traversal sequences to navigate up the directory hierarchy outside the restricted root directory.
+3. Combine traversal sequences with directory names discovered through reconnaissance to access sensitive restricted files.

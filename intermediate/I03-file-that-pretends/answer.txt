@@ -1,1 +1,1 @@
-flag{dont_trust_extensions}
+flag{dont trust extensions}

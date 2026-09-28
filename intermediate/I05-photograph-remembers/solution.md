@@ -12,7 +12,7 @@ Walkthrough
    ```bash
    strings challenge/photograph.jpg | grep "flag{"
    ```
-3. Locate the comment: `flag{exif_metadata_secret}`.
+3. Locate the comment: `flag{exif metadata secret}`.
 
 Flag  
-`flag{exif_metadata_secret}`
+`flag{exif metadata secret}`

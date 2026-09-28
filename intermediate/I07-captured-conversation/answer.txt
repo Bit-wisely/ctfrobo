@@ -1,1 +1,1 @@
-flag{secret_token_in_traffic}
+flag{secret token in traffic}

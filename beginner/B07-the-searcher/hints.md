@@ -1,5 +1,5 @@
 Hints: B07 - THE SEARCHER
 
-1. The array `numbers.txt` has 100 sorted integers with 0-indexed positions from 0 to 99.
-2. Initialize `low = 0`, `high = 99` and calculate `mid = (low + high) // 2`.
-3. Count each midpoint comparison until reaching target 1131 at index 82.
+1. Read the instructions file and examine the sorted array of numbers.
+2. Binary search repeatedly halves the search interval by calculating the midpoint index between low and high bounds.
+3. Track each interval adjustment and count how many midpoint evaluations occur until the target value matches the midpoint element.

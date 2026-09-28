@@ -1,5 +1,5 @@
 Hints: A12 - JWT
 
-1. A JWT is constructed in three parts separated by dots: `<header>.<payload>.<signature>`.
-2. The verification logic in `app.py` accepts tokens where `header.alg` equals `"none"`.
-3. Construct an unsigned token ending with a trailing dot: `eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoiYWRtaW4ifQ.`.
+1. Decode the three dot-separated components of the JSON Web Token to inspect the algorithm header and user claims.
+2. Check how the backend validates token signatures and whether unsecured algorithm types are accepted.
+3. Modify the payload claims, adjust the algorithm header to disable signature verification, and assemble the forged token.

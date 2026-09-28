@@ -1,1 +1,1 @@
-flag{headers_contain_secrets}
+flag{headers contain secrets}

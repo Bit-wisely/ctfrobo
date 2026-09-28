@@ -15,4 +15,4 @@ Walkthrough
 2. Total comparisons made: 7.
 
 Flag  
-`flag{binary_search_7_steps}`
+`flag{binary search 7 steps}`

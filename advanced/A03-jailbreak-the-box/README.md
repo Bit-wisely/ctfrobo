@@ -1,20 +1,17 @@
 A03 - JAILBREAK THE BOX
 
 Points: 20
-Category: Advanced / Sandbox Security  
+Category: Advanced / Sandbox Security
 
-Challenge Overview  
-Restricted shells and execution sandboxes aim to limit participant access to a strict whitelist of safe commands. However, custom command parsers that improperly handle argument expansion or special variables can be manipulated into executing forbidden actions.
+Scenario
+You have gained access to a restricted execution environment designed to sandbox untrusted commands. The system claims to strictly isolate sensitive variables and prevent unauthorized execution.
 
-Participant Question  
-Welcome to the box. You have a few commands. The flag is not one of them. But the box was written by a human. Humans make mistakes.
+Objective
+Identify flaws in how the sandbox evaluates and expands input to escape restrictions and extract the flag.
 
-Clue  
-The sandbox permits the `echo` command. Test how arguments containing variables like `$FLAG` are parsed.
-
-Challenge Files  
+Challenge Files
 - `challenge/jail.c`
 - `challenge/jail.py`
 
-Flag Format  
+Flag Format
 `flag{...}`

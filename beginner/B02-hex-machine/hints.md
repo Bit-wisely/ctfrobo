@@ -1,5 +1,5 @@
 Hints: B02 - HEX MACHINE
 
-1. The output contains space-separated character pairs: `66 6c 61 67 7b ...`.
-2. These characters are hexadecimal byte representations in base-16.
-3. Convert the hexadecimal sequence to ASCII using Python's `bytes.fromhex("666c61...").decode("utf-8")`.
+1. Inspect the challenge files to observe the sequence of two-digit byte tokens.
+2. The tokens are representations in hexadecimal (base-16) notation, where each pair represents one byte.
+3. Convert the hexadecimal pairs into raw bytes or ASCII characters using base-16 decoding tools or scripts.

@@ -12,7 +12,7 @@ Walkthrough
    }
    ```
 3. Enter `echo $FLAG` into the shell.
-4. Output: `flag{escaped_the_box}`.
+4. Output: `flag{escaped the box}`.
 
 Flag  
-`flag{escaped_the_box}`
+`flag{escaped the box}`

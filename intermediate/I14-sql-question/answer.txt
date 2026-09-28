@@ -1,1 +1,1 @@
-flag{relational_database_joined}
+flag{relational database joined}

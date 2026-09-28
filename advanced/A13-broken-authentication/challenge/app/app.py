@@ -2,7 +2,6 @@ import hashlib
 import urllib.parse
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-# Flawed predictable token generator: MD5(username + "_secret_recovery_salt_2026")
 SALT = "_secret_recovery_salt_2026"
 
 def get_reset_token(username):
@@ -21,7 +20,7 @@ class AuthHandler(BaseHTTPRequestHandler):
                 html = f"""
                 <html><body>
                     <h2>Password Reset Successful for Administrator!</h2>
-                    <p>Administrative Flag: <b>flag{{predictable_reset_token}}</b></p>
+                    <p>Administrative Flag: <b>flag{{predictable reset token}}</b></p>
                 </body></html>
                 """
             else:

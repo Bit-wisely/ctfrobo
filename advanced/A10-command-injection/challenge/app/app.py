@@ -1,4 +1,3 @@
-# Educational Toy Command Injection Target
 import os
 import subprocess
 import urllib.parse
@@ -12,10 +11,8 @@ class PingHandler(BaseHTTPRequestHandler):
 
         output = ""
         if host:
-            # INSECURE: direct shell command execution with unsanitized parameters
             cmd = f"ping -c 1 {host}"
             try:
-                # Simulated safe environment execution
                 if ";" in host or "&&" in host or "|" in host:
                     if "cat flag.txt" in host or "type flag.txt" in host or "flag" in host:
                         output = open("flag.txt").read()

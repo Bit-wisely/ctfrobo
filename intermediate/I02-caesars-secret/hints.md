@@ -1,5 +1,5 @@
 Hints: I02 - CAESAR'S SECRET
 
-1. Notice that `IODJ` follows the format of `FLAG`.
-2. 'I' is 3 letters ahead of 'F' in the alphabet.
-3. Shift each letter backward by 3 positions (or use ROT-23 / Caesar with offset 3).
+1. Look closely at the start of the encoded message and compare its pattern to standard flag formats.
+2. Classical substitution ciphers shift each alphabetic character by a constant numerical offset across the alphabet.
+3. Calculate the difference between the first few ciphertext characters and the expected prefix, then apply that uniform reverse shift to all characters.

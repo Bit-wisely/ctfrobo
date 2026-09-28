@@ -1,5 +1,5 @@
 Hints: B05 - FOLLOW THE LOOP
 
-1. Trace each step of the loop starting from `x = 1337`.
-2. Notice the order of evaluation in the `if ... elif ... else` block.
-3. You can execute `trace.py` with a print statement at the end to confirm the evaluated value.
+1. Inspect the loop control structure and initial variable state in the tracing script.
+2. Pay close attention to how conditional branches evaluate the loop counter on each step, altering the accumulator.
+3. Trace the arithmetic and bitwise modifications iteratively, or output the variable state after the loop concludes to obtain the final value.

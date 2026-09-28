@@ -1,5 +1,5 @@
 Hints: A04 - STEGO CHAIN
 
-1. Extract the least significant bits from the RGB pixel channels in `evidence.png`.
-2. The extracted string is `ZmxhZ3tzdGVnb19jaGFpbl9kZWNvZGVkfQ==`.
-3. Decode this Base64 payload using `echo <payload> | base64 -d`.
+1. Steganography tools or pixel analysis scripts can extract hidden data embedded within the image pixels.
+2. Look at the least significant bits (LSB) across color channels to extract the hidden payload stream.
+3. The extracted stream represents an encoded string; identify its encoding format and decode it to reveal the flag.

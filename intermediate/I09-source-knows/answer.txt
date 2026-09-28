@@ -1,1 +1,1 @@
-flag{html_comments_hide_secrets}
+flag{html comments hide secrets}

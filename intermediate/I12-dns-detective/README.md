@@ -1,19 +1,16 @@
 I12 - DNS DETECTIVE
 
 Points: 10
-Category: Intermediate / DNS Forensics  
+Category: Intermediate / DNS Forensics
 
-Challenge Overview  
-Domain Name System (DNS) logs provide essential telemetry for tracking network activity. Malware and Advanced Persistent Threats (APTs) often communicate with Command and Control (C2) servers or execute data staging using unusual DNS queries and anomalous record types (such as TXT records).
+Scenario
+Security telemetry recorded thousands of routine DNS lookups from an internal corporate network, but an attacker used DNS queries for covert command and control communication.
 
-Participant Question  
-Most of these requests are normal. One of them isn't. Find the strange one.
+Objective
+Analyze the DNS query logs to pinpoint the anomalous record lookup and uncover the flag.
 
-Clue  
-Look through the DNS query logs for anomalous TXT record types and non-standard domain names containing `c2-beacon`.
+Challenge Files
+- challenge/dns.log
 
-Challenge Files  
-- `challenge/dns.log`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

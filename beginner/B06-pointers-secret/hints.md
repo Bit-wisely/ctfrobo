@@ -1,5 +1,5 @@
 Hints: B06 - THE POINTER'S SECRET
 
-1. In C, `&x` yields the memory address of `x`, and dereferencing `p` accesses the target value.
-2. `char double-pointer ptr` stores the memory address of a `char` pointer variable.
-3. Observe that `ptr` is updated from `&p1` to `&p2`, pointing directly to `real_target`.
+1. Inspect the C source file to see how string addresses and pointer variables are assigned.
+2. In C, address referencing stores the location of a variable, while double pointers store the address of another pointer variable.
+3. Follow the assignment changes to see which string pointer variable the double pointer ultimately references before dereferencing.

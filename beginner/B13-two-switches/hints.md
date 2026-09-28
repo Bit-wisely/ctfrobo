@@ -1,5 +1,5 @@
 Hints: B13 - TWO SWITCHES
 
-1. The light switches correspond to the XOR (Exclusive OR) logical operation.
-2. XOR possesses a symmetric property: `Plaintext = Ciphertext ^ Key`.
-3. XOR each number in `challenge/switches.txt` with key 66 and convert to ASCII.
+1. Inspect the switch logic table and ciphertext values in the challenge file.
+2. The truth table represents an exclusive-OR (XOR) operation, which is symmetric and self-inverting when applied with the same key.
+3. Apply the XOR operation between each ciphertext value and the cipher key indicated in the challenge, then translate the results to ASCII.

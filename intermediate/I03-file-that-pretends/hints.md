@@ -1,5 +1,5 @@
 Hints: I03 - THE FILE THAT PRETENDS
 
-1. Do not trust the `.txt` extension on the file name.
-2. The initial 8 bytes contain `89 50 4E 47 0D 0A 1A 0A` (PNG signature).
-3. Extract text embedded within the image chunk using `strings notes.txt`.
+1. File extensions can be misleading; inspect the true file header and magic bytes with a hex editor or the file utility.
+2. The leading bytes identify the file as a structured binary format rather than plain text.
+3. Use binary analysis tools like strings or open the file with an appropriate viewer to locate the hidden text.

@@ -1,19 +1,16 @@
 B12 - THE NUMBERS LIE
 
-Points: 5  
-Category: Beginner / Programming Arithmetic  
+Points: 5
+Category: Beginner / Programming Arithmetic
 
-Challenge Overview  
-Computers represent numbers using fixed-width data types and specific operational rules. In many programming languages, integer division drops remainders, and floating-point arithmetic introduces rounding imprecision. These arithmetic quirks can lead to logic bugs and bypasses if developers make assumptions about exact equality.
+Scenario
+A Python script performs arithmetic calculations where integer division and precision rules produce unexpected numeric outcomes.
 
-Participant Question  
-The answer should be obvious. Except the computer disagrees. Run the program. Then explain why.
+Objective
+Analyze how the arithmetic operations evaluate to compute the correct output and reveal the flag.
 
-Clue  
-Notice how integer division truncates fractions: `(10 // 3) multiplied by 3` produces 9 instead of 10.
-
-Challenge Files  
+Challenge Files
 - `challenge/numbers.py`
 
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

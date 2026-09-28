@@ -12,7 +12,7 @@ Walkthrough
    print(hashlib.md5(b"shadow").hexdigest())
    ```
 3. `shadow` matches the hash digest.
-4. Format the flag: `flag{shadow_password_cracked}`.
+4. Format the flag: `flag{shadow password cracked}`.
 
 Flag  
-`flag{shadow_password_cracked}`
+`flag{shadow password cracked}`

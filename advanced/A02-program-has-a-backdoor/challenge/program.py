@@ -1,5 +1,3 @@
-# Python version of A02 CLI
-
 def main():
     print("=== Secure Firmware Terminal ===")
     print("Type 'help' for commands.")
@@ -19,7 +17,7 @@ def main():
             break
         elif cmd in ["backdoor", "__backdoor_access_99__"]:
             print("[!] BACKDOOR ACTIVATED.")
-            print("FLAG: flag{backdoor_found}")
+            print("FLAG: flag{backdoor found}")
         else:
             print(f"Unknown command: {cmd}")
 

@@ -1,6 +1,4 @@
-# Python version of A03 Restricted Jail
-
-FLAG = "flag{escaped_the_box}"
+FLAG = "flag{escaped the box}"
 
 def main():
     print("=== RESTRICTED SHELL JAIL ===")

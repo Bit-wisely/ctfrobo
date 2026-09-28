@@ -15,8 +15,8 @@ Walkthrough
    ```bash
    curl -X POST -H "X-Debug-Key: debug_admin_984" http://localhost:5008/api/execute
    ```
-4. The server responds with the flag: `flag{full_web_exploit_chain}`.
+4. The server responds with the flag: `flag{full web exploit chain}`.
 
 Flag  
-`flag{full_web_exploit_chain}`
+`flag{full web exploit chain}`
 

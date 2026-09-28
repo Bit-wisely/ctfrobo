@@ -1,19 +1,16 @@
 I07 - THE CAPTURED CONVERSATION
 
 Points: 10
-Category: Intermediate / Traffic Analysis  
+Category: Intermediate / Traffic Analysis
 
-Challenge Overview  
-Unencrypted web communications (cleartext HTTP) transmit all headers, URIs, query parameters, and body data in the clear across the network. Security analysts monitor network logs to identify data leaks, exposed API tokens, and unauthorized transactions.
+Scenario
+A network sensor intercepted unencrypted communication traffic between a client and a remote server. Sensitive transaction details and endpoint parameters were transmitted in cleartext.
 
-Participant Question  
-Someone was talking. You weren't there. But you have their conversation. Find what they were trying to hide.
+Objective
+Parse the captured network stream to identify the exposed communication parameters and extract the flag.
 
-Clue  
-Search the captured HTTP stream for sensitive API endpoints and session query parameters.
+Challenge Files
+- challenge/capture.txt
 
-Challenge Files  
-- `challenge/capture.txt`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

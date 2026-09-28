@@ -1,19 +1,17 @@
 B14 - THE MISSING CHARACTER
 
-Points: 5  
-Category: Beginner / ASCII Encoding  
+Points: 5
+Category: Beginner / ASCII Encoding
 
-Challenge Overview  
-Digital transmission channels occasionally suffer from single-byte data corruption or dropped packets. In this challenge, an ASCII byte array has been recovered with one missing value. Using contextual clues and character offsets, you must determine the dropped character and restore the message.
+Scenario
+A transmitted ASCII byte array has suffered single-byte data corruption, leaving one character placeholder missing.
 
-Participant Question  
-A message was almost recovered. Every character is represented by a number. One character is missing. Find it and complete the message.
+Objective
+Calculate the missing ASCII character code from the contextual hints to restore the complete message.
 
-Clue  
-The missing value equals `ord('a') + 10 = 107` (character 'k'). Insert 107 in place of `[MISSING]` to complete the array.
-
-Challenge Files  
+Challenge Files
 - `challenge/message.txt`
+- `challenge/converter.py`
 
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

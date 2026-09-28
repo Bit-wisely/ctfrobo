@@ -13,4 +13,4 @@ Walkthrough
 3. Open `challenge/page.txt` to retrieve the flag.
 
 Flag  
-`flag{stack_escape}`
+`flag{stack escape}`

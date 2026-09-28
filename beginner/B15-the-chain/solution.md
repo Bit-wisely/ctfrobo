@@ -10,4 +10,4 @@ Walkthrough
 3. Open `challenge/final_flag.txt` to read the flag.
 
 Flag  
-`flag{chain_reaction_beginner}`
+`flag{chain reaction beginner}`

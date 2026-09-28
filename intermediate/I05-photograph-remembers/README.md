@@ -1,19 +1,16 @@
 I05 - THE PHOTOGRAPH REMEMBERS
 
 Points: 10
-Category: Intermediate / Forensics & EXIF  
+Category: Intermediate / Forensics & EXIF
 
-Challenge Overview  
-Digital cameras and photo editing software embed metadata tags (Exchangeable Image File Format or EXIF) within JPEG image files. EXIF tags contain camera settings, geographic GPS coordinates, creation timestamps, and author/comment notes. Forensic investigators frequently extract metadata to reconstruct digital timelines.
+Scenario
+A digital photograph was left behind as evidence in an ongoing investigation. While the visual image appears ordinary, modern cameras and editors embed hidden details in file metadata.
 
-Participant Question  
-The photograph looks ordinary. But photographs remember things that aren't visible.
+Objective
+Examine the image metadata and embedded properties to uncover the hidden message and flag.
 
-Clue  
-Use an EXIF metadata inspection tool (such as `exiftool` or `strings`) to inspect non-pixel comment fields.
+Challenge Files
+- challenge/photograph.jpg
 
-Challenge Files  
-- `challenge/photograph.jpg`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

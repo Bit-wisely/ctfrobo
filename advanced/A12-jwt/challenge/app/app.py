@@ -30,7 +30,6 @@ class JWTHandler(BaseHTTPRequestHandler):
                     header = json.loads(b64url_decode(parts[0]))
                     payload = json.loads(b64url_decode(parts[1]))
 
-                    # VULNERABLE: Accepting alg="none" without signature verification
                     if header.get('alg', '').lower() == 'none':
                         user_role = payload.get('role', 'guest')
                     elif header.get('alg') == 'HS256' and len(parts) == 3:
@@ -50,7 +49,7 @@ class JWTHandler(BaseHTTPRequestHandler):
             <html><body>
                 <h1>JWT Admin Console</h1>
                 <p>Welcome, Admin!</p>
-                <p>Secret Flag: <b>flag{{jwt_token_forged}}</b></p>
+                <p>Secret Flag: <b>flag{{jwt token forged}}</b></p>
             </body></html>
             """
         else:

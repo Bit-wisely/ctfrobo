@@ -36,6 +36,6 @@ INSERT INTO employees (emp_id, name, dept_id, role) VALUES
 INSERT INTO secure_vault (record_id, emp_id, secret_value) VALUES
 (1, 1, 'Standard HR insurance document'),
 (2, 2, 'Fiscal quarter report Q3'),
-(3, 3, 'flag{relational_database_joined}'),
+(3, 3, 'flag{relational database joined}'),
 (4, 4, 'Intrusion detection rule pack 2026'),
 (5, 5, 'Warehouse delivery manifest');

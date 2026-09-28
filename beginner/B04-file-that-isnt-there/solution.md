@@ -16,4 +16,4 @@ Walkthrough
    ```
 
 Flag  
-`flag{not_every_file_is_visible}`
+`flag{not every file is visible}`

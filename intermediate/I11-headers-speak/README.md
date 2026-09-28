@@ -1,20 +1,17 @@
 I11 - HEADERS SPEAK
 
 Points: 10
-Category: Intermediate / HTTP Protocol  
+Category: Intermediate / HTTP Protocol
 
-Challenge Overview  
-HTTP communication is divided into response headers and the response body. Web servers transmit important metadata inside headers, such as caching rules, content types, server software, and custom debugging flags. Checking both the body and the HTTP headers is critical in web assessments.
+Scenario
+A web server responds to requests with standard web content, but servers often include auxiliary metadata and custom telemetry in their response headers.
 
-Participant Question  
-You found the page. But the server sent more than the page. Listen to everything it says.
+Objective
+Examine the server response headers to find the custom header value containing the flag.
 
-Clue  
-Inspect the HTTP response headers using `curl -I` or by viewing `response.txt`. Look for custom headers starting with `X-`.
+Challenge Files
+- challenge/server/app.py
+- challenge/server/response.txt
 
-Challenge Files  
-- `challenge/server/app.py`
-- `challenge/server/response.txt`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

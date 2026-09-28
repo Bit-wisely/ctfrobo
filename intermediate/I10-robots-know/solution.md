@@ -9,7 +9,7 @@ Walkthrough
    Disallow: /hidden_admin_vault_9921/
    ```
 2. Open `challenge/website/hidden_admin_vault_9921/flag.html`.
-3. Retrieve the flag: `flag{robots_keep_no_secrets}`.
+3. Retrieve the flag: `flag{robots keep no secrets}`.
 
 Flag  
-`flag{robots_keep_no_secrets}`
+`flag{robots keep no secrets}`

@@ -1,5 +1,5 @@
 Hints: A08 - SQL INJECTION
 
-1. The SQL query formats the string using `f"SELECT ... WHERE username = '{username}' AND password = '{password}'"`.
-2. Supplying a single quote terminates the string literal.
-3. Pass `admin' --` into the username field to authenticate as the administrator without a password.
+1. Authentication forms that dynamically concatenate user input into database queries are vulnerable to SQL injection.
+2. Use special SQL characters such as single quotes to break out of the string literal in the query syntax.
+3. Craft an input that comments out the remainder of the query condition so authentication succeeds without validating the password.

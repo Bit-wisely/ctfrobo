@@ -12,7 +12,7 @@ Walkthrough
    }
    ```
 3. Type `backdoor` into the application prompt.
-4. Output: `flag{backdoor_found}`.
+4. Output: `flag{backdoor found}`.
 
 Flag  
-`flag{backdoor_found}`
+`flag{backdoor found}`

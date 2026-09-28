@@ -1,5 +1,5 @@
 Hints: A10 - COMMAND INJECTION
 
-1. The `host` query parameter is formatted directly into a system command: `ping -c 1 {host}`.
-2. Shell control characters such as `;` allow chaining multiple shell commands.
-3. Submit `127.0.0.1; cat flag.txt` to dump the secret flag file.
+1. Identify input fields or query parameters that get passed directly to shell execution functions.
+2. Use command separator characters like semicolons, pipes, or ampersands to append arbitrary shell commands.
+3. Chain a command to list or read files from the filesystem to retrieve the target information.

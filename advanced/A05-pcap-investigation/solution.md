@@ -10,7 +10,7 @@ Walkthrough
    ```
 2. Or use `tcpdump -r challenge/capture.pcap -A`.
 3. Locate the flag payload:
-   `flag{pcap_stream_extracted}`
+   `flag{pcap stream extracted}`
 
 Flag  
-`flag{pcap_stream_extracted}`
+`flag{pcap stream extracted}`

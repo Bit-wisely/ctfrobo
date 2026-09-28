@@ -1,1 +1,1 @@
-flag{lsb_bits_unlocked}
+flag{lsb bits unlocked}

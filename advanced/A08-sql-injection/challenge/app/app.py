@@ -8,7 +8,6 @@ def init_db():
         conn.executescript(f.read())
     return conn
 
-# Shared memory database instance
 db_conn = init_db()
 
 class SQLiHandler(BaseHTTPRequestHandler):
@@ -27,7 +26,6 @@ class SQLiHandler(BaseHTTPRequestHandler):
         username = params.get('username', [''])[0]
         password = params.get('password', [''])[0]
 
-        # VULNERABLE SQL QUERY CONSTRUCTION
         query = f"SELECT username, secret_flag FROM users WHERE username = '{username}' AND password = '{password}'"
 
         cur = db_conn.cursor()

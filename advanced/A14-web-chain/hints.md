@@ -1,6 +1,5 @@
 Hints: A14 - WEB CHAIN
 
-1. Check the HTML source of the landing page for hidden endpoint comments.
-2. Send a GET request to `/secret_api_gateway_v1/` and inspect the response headers.
-3. Use the header `X-Debug-Key: debug_admin_984` in a POST request to `/api/execute`.
-
+1. Perform thorough reconnaissance by reviewing HTML comments, source code references, and hidden endpoints.
+2. Send requests to discovered internal endpoints and inspect response headers or debug output for authentication tokens.
+3. Use the acquired credentials or headers to authenticate against the final execution API endpoint.

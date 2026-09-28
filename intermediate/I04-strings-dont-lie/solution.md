@@ -9,7 +9,7 @@ Walkthrough
    strings challenge/mystery.bin
    ```
 2. Locate the hardcoded flag:
-   `flag{strings_revealed}`
+   `flag{strings revealed}`
 
 Flag  
-`flag{strings_revealed}`
+`flag{strings revealed}`

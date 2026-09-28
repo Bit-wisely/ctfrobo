@@ -9,7 +9,7 @@ Walkthrough
    zsteg challenge/image.png
    ```
 2. Or use Python to iterate through the bytes, collecting `b & 1` and assembling 8-bit groups into ASCII characters.
-3. The extracted payload is `flag{lsb_bits_unlocked}`.
+3. The extracted payload is `flag{lsb bits unlocked}`.
 
 Flag  
-`flag{lsb_bits_unlocked}`
+`flag{lsb bits unlocked}`

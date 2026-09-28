@@ -1,5 +1,5 @@
 Hints: A06 - DNS EXFILTRATION
 
-1. Queries sent to `exfil.domain.com` follow the format `<seq>.<hex_payload>.exfil.domain.com`.
-2. Sort the queries by sequence number from `01` to `07`.
-3. Concatenate the hex substrings and decode them from hex to ASCII.
+1. DNS queries often encapsulate exfiltrated data inside subdomains or query labels.
+2. Filter and extract the requested domain names, observing any sequence indexing or payload chunks in the subdomains.
+3. Order the extracted chunks sequentially, join the payload segments, and decode the combined hex representation into plaintext.

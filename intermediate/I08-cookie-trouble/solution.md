@@ -10,7 +10,7 @@ Walkthrough
    ```bash
    curl -H "Cookie: role=admin" http://localhost:5000/
    ```
-4. The server returns `flag{cookie_admin_access}`.
+4. The server returns `flag{cookie admin access}`.
 
 Flag  
-`flag{cookie_admin_access}`
+`flag{cookie admin access}`

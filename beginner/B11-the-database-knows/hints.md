@@ -1,5 +1,5 @@
 Hints: B11 - THE DATABASE KNOWS
 
-1. The SQL file defines two tables: `users` and `classified_vault`.
-2. Inspect the insert statements in `database.sql` or run a `SELECT` query on `classified_vault`.
-3. Locate the row corresponding to user ID 3.
+1. Inspect the relational schema and table definitions within the SQL database dump.
+2. Check the user records to identify the user ID associated with the administrative role.
+3. Query or locate the corresponding entry in the classified vault table linked by that user ID to retrieve the flag.

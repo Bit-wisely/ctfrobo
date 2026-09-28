@@ -12,4 +12,4 @@ Walkthrough
 4. The database authenticates the user as `admin` and returns the flag.
 
 Flag  
-`flag{sql_injection_master}`
+`flag{sql injection master}`

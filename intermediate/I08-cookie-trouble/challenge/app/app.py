@@ -1,4 +1,3 @@
-# Flask application vulnerable to client-side cookie tampering
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import urllib.parse
 
@@ -26,7 +25,7 @@ class CookieHandler(BaseHTTPRequestHandler):
             body = f"""
             <html><body>
                 <h1>Welcome, Administrator!</h1>
-                <p>Secret Flag: <b>flag{{cookie_admin_access}}</b></p>
+                <p>Secret Flag: <b>flag{{cookie admin access}}</b></p>
             </body></html>
             """
         else:

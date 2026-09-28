@@ -20,7 +20,7 @@ Walkthrough
    ```bash
    curl -H "Cookie: session=eyJ1c2VyIjogImFkbWluIiwgInJvbGUiOiAiYWRtaW4ifQ==" http://localhost:5001/
    ```
-6. The server returns `flag{tampered_session_token}`.
+6. The server returns `flag{tampered session token}`.
 
 Flag  
-`flag{tampered_session_token}`
+`flag{tampered session token}`

@@ -9,7 +9,6 @@ class FileServerHandler(BaseHTTPRequestHandler):
 
         if parsed.path == '/download':
             filename = params.get('file', [''])[0]
-            # VULNERABLE: Direct path joining without canonical path validation or safe basename
             target_path = os.path.normpath(os.path.join("public", filename))
 
             try:

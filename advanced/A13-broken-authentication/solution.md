@@ -12,7 +12,7 @@ Walkthrough
    print(token) # 04519965d1d64380eb9a3dd732958f2d
    ```
 3. Request `/reset?token=04519965d1d64380eb9a3dd732958f2d`.
-4. The server returns the flag: `flag{predictable_reset_token}`.
+4. The server returns the flag: `flag{predictable reset token}`.
 
 Flag  
-`flag{predictable_reset_token}`
+`flag{predictable reset token}`

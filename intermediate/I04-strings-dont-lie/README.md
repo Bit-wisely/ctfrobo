@@ -1,20 +1,17 @@
 I04 - STRINGS DON'T LIE
 
 Points: 10
-Category: Intermediate / Binary Analysis  
+Category: Intermediate / Binary Analysis
 
-Challenge Overview  
-Compiled executables and binary blobs often contain plain human-readable strings embedded within data sections (`.rodata`, `.data`, `.rdata`). Extracting printable strings from unknown binaries is the first step of basic static analysis before launching a debugger or decompiler.
+Scenario
+A compiled binary was recovered from a suspicious workstation, but executing unknown code in production is risky. Static analysis can often reveal what a binary contains without ever running it.
 
-Participant Question  
-Don't execute it. Ask it what words it remembers.
+Objective
+Analyze the binary file to extract human-readable text sequences and locate the hidden flag.
 
-Clue  
-Use the standard Linux `strings` utility to print printable character sequences contained inside the binary.
+Challenge Files
+- challenge/mystery.bin
+- challenge/mystery.c
 
-Challenge Files  
-- `challenge/mystery.bin`
-- `challenge/mystery.c`
-
-Flag Format  
-`flag{...}`
+Flag Format
+flag{...}

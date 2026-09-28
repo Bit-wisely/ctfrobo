@@ -19,7 +19,7 @@ void print_version() {
 
 void secret_backdoor() {
     printf("[!] BACKDOOR ACTIVATED. Administrative Override Triggered!\n");
-    printf("FLAG: flag{backdoor_found}\n");
+    printf("FLAG: flag{backdoor found}\n");
 }
 
 int main() {

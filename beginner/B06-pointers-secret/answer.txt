@@ -1,1 +1,1 @@
-flag{pointer_indirection_found}
+flag{pointer indirection found}

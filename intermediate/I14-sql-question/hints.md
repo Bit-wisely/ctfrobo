@@ -1,5 +1,5 @@
 Hints: I14 - SQL QUESTION
 
-1. The tables are linked by `departments.dept_id = employees.dept_id` and `employees.emp_id = secure_vault.emp_id`.
-2. Use `INNER JOIN` syntax to bridge all three tables in a single query.
-3. Add `WHERE departments.name = 'Cyber Security' AND employees.role = 'Department Head'`.
+1. Review the relational schema to identify foreign key links between the different tables.
+2. Use table join clauses to combine records across departments, employees, and secure storage tables.
+3. Apply specific filtering conditions in your WHERE clause matching the department and role specified in the challenge.
