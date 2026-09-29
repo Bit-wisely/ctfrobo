@@ -28,7 +28,7 @@
 | Advanced | A01 | THE BINARY SECRET | Reverse Engineering | 20 | `read the binary` |
 | Advanced | A02 | THE PROGRAM HAS A BACKDOOR | Hidden Functionality | 20 | `backdoor found` |
 | Advanced | A03 | JAILBREAK THE BOX | Parser Vulnerability | 20 | `escaped the box` |
-| Advanced | A04 | THE EMBEDDED SHADOW | Steganography (`steghide`) | 20 | `stegocoverthide` |
+| Advanced | A04 | THE EMBEDDED SHADOW | Steganography (`steghide`) | 20 | `it_is_more_than_pixel` |
 | Advanced | A05 | PCAP INVESTIGATION | PCAP Stream Analysis | 20 | `pcap stream extracted` |
 | Advanced | A06 | DNS EXFILTRATION | DNS Tunneling | 20 | `dns exfil chunk reassembled` |
 | Advanced | A07 | SQL INJECTION | SQL Injection | 20 | `sql injection master` |

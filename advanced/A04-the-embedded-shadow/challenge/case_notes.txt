@@ -5,7 +5,14 @@ Investigator: Special Agent D. Miller
 Summary of Findings:
 - Surveillance of the suspect's workstation indicates use of command-line steganographic tools (`steghide`) on Linux.
 - Target carrier asset recovered: evidence.jpg
-- A deleted scratch file in /tmp revealed the following configuration memo:
-  "Key derivation salt: SHADOW-OPS"
-  "Passphrase policy: shadowprotocol2026"
-- Objective: Run steghide extraction or parse embedded payload to recover the classified dossier.
+- The suspect wiped their terminal history, but volatile RAM acquisition of `/tmp/.exfil_config` recovered remnant configuration data:
+  [CONFIG FRAGMENT]
+  KEY_SALT: SHADOW-OPS-DCT
+  PASS_HEX: 6c6f636b6564
+  HASH_SHA256: 14493f5f5470ed48c3f103d917ec52ae9005fa3913128031d0fac2a49ac3cc41
+  PASS_HINT: Status of a secured facility vault (6 lowercase letters).
+
+- Objective:
+  1. Recover the extraction passphrase from the configuration fragment.
+  2. Use steghide (or the included extraction utility) to extract the secret payload (`secret.txt`) from evidence.jpg.
+  3. Reverse the suspect's exfiltration armor in `secret.txt` to uncover the final flag.
