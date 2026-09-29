@@ -8,11 +8,11 @@ A structured, beginner-to-advanced Cybersecurity Capture The Flag challenge repo
 - **Advanced Track (8 Challenges):** 20 points each (160 points total)
 - **Total Event Score:** 315 points across 31 curated challenges
 
-## Workstation Prerequisites
+## Workstation Prerequisites & Software Policy
 - Standard Linux / Ubuntu environment (or offline CTF participant VM)
-- Python 3 (`python3`) & GCC (`gcc`)
-- Network packet analysis: `wireshark` / `tshark`
-- Steganography tool (for Advanced Track A04): `sudo apt install steghide`
+- Standard core tools: Python 3 (`python3`), GCC (`gcc`), and standard terminal utilities (`grep`, `strings`, `base64`, `file`)
+- **Third-Party Software Policy:** **Only `steghide` is allowed as third-party software** (required for Advanced challenge A04: `sudo apt install -y steghide`). No other external tools are permitted or needed.
+- All network and PCAP investigations are performed using native Python scripts and standard utilities provided within the challenge packages.
 
 ## Question Format
 All challenges contain standardized README descriptions, hint guides, solutions, and challenge distribution packages.

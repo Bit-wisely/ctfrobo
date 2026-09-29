@@ -12,4 +12,4 @@ Correlate the concurrent network streams across different IP endpoints and ports
 Execution Reference
 To run Python files: python filename.py
 To compile and run C files: gcc filename.c -o output && ./output
-Wireshark / TShark: wireshark challenge/capture.pcap
+To run PCAP dissector: python challenge/dissect_pcap.py

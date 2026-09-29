@@ -4,7 +4,7 @@
 Multi-stream network forensics, protocol correlation, payload reconstruction across fragmented TCP sessions, and XOR stream decryption.
 
 ## Walkthrough
-1. Inspect the packet capture (`challenge/capture.pcap`) using Wireshark, `tshark`, or the included script `python challenge/dissect_pcap.py`.
+1. Inspect the packet capture (`challenge/capture.pcap`) using the included utility `python challenge/dissect_pcap.py` or a custom Python script.
 2. Observe multiple network conversations:
    - Client (`10.0.2.15`) communicating with HTTP C2 server (`198.51.100.88:80`).
    - Client communicating with internal intranet server (`10.0.2.1:80`).
