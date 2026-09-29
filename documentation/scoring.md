@@ -2,11 +2,11 @@
 
 | Tier | ID | Challenge Name | Concept | Points | Flag |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Beginner | B01 | BASE64 ISN'T ENCRYPTION | Base64 Encoding | 5 | `protocol_stream_echo_24` |
+| Beginner | B01 | THE MACHINE SPEAKS | Binary to ASCII | 5 | `pulsar_signal_detected_19` |
 | Beginner | B02 | HEX MACHINE | Hexadecimal to ASCII | 5 | `matrix_beacon_online_88` |
-| Beginner | B03 | THE MACHINE SPEAKS | Binary to ASCII | 5 | `pulsar_signal_detected_19` |
+| Beginner | B03 | BASE64 ISN'T ENCRYPTION | Base64 Encoding | 5 | `protocol_stream_echo_24` |
 | Beginner | B04 | HIDDEN IN PLAIN SIGHT | Linux / Filesystem Navigation | 5 | `dot_entry_unlocked_37` |
-| Beginner | B05 | PERMISSION DENIED | Linux / File Permissions | 5 | `audit_permit_override_64` |
+| Beginner | B05 | PERMISSION DENIED | Linux / File Permissions | 5 | `permit_least_privilege_600` |
 | Beginner | B06 | READ BETWEEN THE LINES | Linux / Text Investigation & grep | 5 | `trace_vector_active_91` |
 | Beginner | B07 | FIND THE PROCESS | Linux Administration / Process Management | 5 | `1704` |
 | Beginner | B08 | WHICH DOOR? | Network Ports & Services | 5 | `port_443_tls_secure` |

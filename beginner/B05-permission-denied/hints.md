@@ -1,10 +1,14 @@
 # Hints: B05 - PERMISSION DENIED
 
 ### Hint 1
-Standard file listing commands without details only show file names, not who is allowed to open or modify them.
+Execute the policy validator script (`verify_access.py`). Notice the exact error message and what permission mode it reports for the target credential file.
 
 ### Hint 2
-Each file in Linux maintains permission flags divided into owner, group, and others. The letter `r` designates read permission.
+In Unix/Linux security, tools like OpenSSH and GPG enforce the "Principle of Least Privilege": sensitive keys and credentials must not be readable or writable by other users or groups on the system.
 
 ### Hint 3
-Evaluate the permission strings of all files in the audit directory to pinpoint which document grants unprivileged read rights to the current user or world.
+Review the octal numbering system used by `chmod`:
+- Read (`r`) = 4
+- Write (`w`) = 2
+- Execute (`x`) = 1
+Configure the file so that only the owner has read and write permissions (4 + 2 = 6), while group and others receive zero access (0).

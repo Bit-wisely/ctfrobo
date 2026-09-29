@@ -3,24 +3,28 @@
 | Attribute | Details |
 | :--- | :--- |
 | **Points** | 5 |
-| **Category** | Beginner / Linux Filesystem |
+| **Category** | Beginner / Linux Filesystem & Permissions |
 | **Difficulty** | Introductory |
 
 ---
 
 ## Scenario
-A security auditor stored critical notes in an audit directory alongside sensitive configuration files and private keys. The files have varying access permissions configured to prevent unauthorized viewing. Most files are restricted to root or specialized system service accounts, but one public report was left accessible.
+An automated access gateway utility (`verify_access.py`) enforces strict least-privilege security policies before decrypting internal credentials. In production environments, services like SSH and GPG reject private keys or sensitive tokens if filesystem permissions allow unauthorized users or groups to read them. When you attempt to run the validator, access is denied due to unsafe file permissions on `confidential_token.key`.
 
 ## Objective
-Inspect the file permissions in `challenge/audit/`, identify which document can be read by standard users, and retrieve the flag.
+Inspect and adjust the filesystem permissions of `challenge/confidential_token.key` using the `chmod` command to satisfy the required least-privilege policy (Owner Read/Write ONLY: `0600`), then execute `verify_access.py` to retrieve the flag.
 
 ## Challenge Files
-- `challenge/audit/` — Directory containing various configuration and report files
+- `challenge/confidential_token.key` — The protected credential file
+- `challenge/verify_access.py` — Security policy verification script
 
 ## Execution Reference
 ```bash
-# Navigate to challenge directory:
-cd challenge/audit
+# Check current permissions:
+ls -l challenge/confidential_token.key
+
+# Run the validator:
+python3 challenge/verify_access.py
 ```
 
 ## Submission Format

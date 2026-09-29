@@ -1,4 +1,4 @@
-# B03 - THE MACHINE SPEAKS
+# B01 - THE MACHINE SPEAKS
 
 | Attribute | Details |
 | :--- | :--- |
@@ -17,7 +17,7 @@ Execute the simulation binary or script in `challenge/`, parse the 8-bit binary 
 ## Challenge Files
 - `challenge/speak.py` — Python transmission emulator
 - `challenge/speak.c` — C transmission emulator
-- `challenge/converter.py` — Optional conversion helper tool
+- `challenge/converter.py` — Optional binary-to-text converter utility
 
 ## Execution Reference
 ```bash

@@ -1,1 +1,1 @@
-audit_permit_override_64
+permit_least_privilege_600

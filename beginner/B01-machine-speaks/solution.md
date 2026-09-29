@@ -1,4 +1,4 @@
-# Solution: B03 - THE MACHINE SPEAKS
+# Solution: B01 - THE MACHINE SPEAKS
 
 ## Concept
 Base-2 binary representation converts binary octets into integer values, which map directly to ASCII characters (where bit values correspond to powers of 2 from $2^0$ to $2^7$).

@@ -7,9 +7,9 @@ The question bank is organized into three balanced tiers of difficulty consistin
 ### Beginner Tier (B01 - B15) — 5 Points Each (75 pts total)
 
 Focuses on foundational cybersecurity, data representation, and Linux/network literacy:
-- **B01:** Base64 representation and decoding
+- **B01:** Binary to ASCII decoding
 - **B02:** Hexadecimal to ASCII decoding
-- **B03:** Binary to ASCII decoding
+- **B03:** Base64 representation and decoding
 - **B04:** Linux hidden files and directory discovery (`ls -la`)
 - **B05:** Linux file system permissions (`chmod`, `ls -l`)
 - **B06:** Log investigation and pattern filtering (`grep`)

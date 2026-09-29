@@ -22,9 +22,9 @@ All challenges contain standardized README descriptions, hint guides, solutions,
 ## Challenge Tracks
 
 ### Beginner Track (5 Points Each — 15 Challenges)
-- **B01:** BASE64 ISN'T ENCRYPTION (Base64 Encoding & Representation)
+- **B01:** THE MACHINE SPEAKS (Binary to ASCII)
 - **B02:** HEX MACHINE (Hexadecimal to ASCII)
-- **B03:** THE MACHINE SPEAKS (Binary to ASCII)
+- **B03:** BASE64 ISN'T ENCRYPTION (Base64 Encoding & Representation)
 - **B04:** HIDDEN IN PLAIN SIGHT (Linux / Filesystem Navigation)
 - **B05:** PERMISSION DENIED (Linux / File Permissions)
 - **B06:** READ BETWEEN THE LINES (Linux / Text Investigation & grep)

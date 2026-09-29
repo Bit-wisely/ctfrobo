@@ -1,26 +1,35 @@
 # Solution: B05 - PERMISSION DENIED
 
 ## Concept
-Linux access control uses file mode bits (rwx for User, Group, and Others). Files with world read permissions (such as mode 0644 `-rw-r--r--`) can be opened and inspected by non-root users.
+The principle of least privilege requires that private credentials and encryption keys be inaccessible to non-privileged users. In Unix/Linux, mode `0600` (`-rw-------`) grants read and write access strictly to the file owner, which is mandatory for secure services like OpenSSH (`chmod 600 id_rsa`).
 
 ## Walkthrough
-1. Inspect file details in `challenge/audit/`:
+1. Run the validator tool in `challenge/`:
    ```bash
-   ls -l challenge/audit/
+   python3 challenge/verify_access.py
    ```
-2. Check the permission modes of each entry:
-   - `database.conf` (restricted)
-   - `root_secret.key` (restricted)
-   - `system_kernel.log` (restricted)
-   - `public_report.txt` (`-rw-r--r--`, readable by others)
-3. Read `public_report.txt`:
+2. The program outputs:
+   ```
+   [-] PERMISSION DENIED: Security audit failure!
+   [-] Policy requirement: Exactly mode 0600 (Owner Read/Write ONLY: -rw-------).
+   ```
+3. Inspect current file attributes:
    ```bash
-   cat challenge/audit/public_report.txt
+   ls -l challenge/confidential_token.key
    ```
-4. Flag recovered:
+   Output indicates mode `0644` (`-rw-r--r--`).
+4. Modify the permissions using `chmod`:
+   ```bash
+   chmod 600 challenge/confidential_token.key
    ```
-   audit_permit_override_64
+5. Rerun the verification tool:
+   ```bash
+   python3 challenge/verify_access.py
+   ```
+6. The validator verifies the `0600` mode and decrypts the flag:
+   ```
+   [+] Vault Flag: permit_least_privilege_600
    ```
 
 ## Flag
-`audit_permit_override_64`
+`permit_least_privilege_600`
