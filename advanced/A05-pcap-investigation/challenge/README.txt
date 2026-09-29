@@ -1,5 +1,7 @@
-Network packet dump collected from gateway switch.
-Filter by UDP / TCP packets and search for ASCII text streams.
-To analyze:
-- Wireshark: Open capture.pcap -> filter by `frame contains "pcap"`
-- Strings: strings capture.pcap | grep "pcap"
+Network packet capture (capture.pcap) collected from perimeter monitoring TAP.
+Investigate the concurrent sessions between the compromised host (10.0.2.15) and external infrastructure.
+
+Tools for analysis:
+- Wireshark: Open capture.pcap -> Follow TCP Streams
+- TShark: tshark -r capture.pcap -Y "http || tcp.port == 8888" -T fields -e text
+- Python: python dissect_pcap.py

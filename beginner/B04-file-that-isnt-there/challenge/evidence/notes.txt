@@ -1,3 +1,0 @@
-Investigation Notes:
-1. Four files were confirmed present on the storage partition.
-2. Ensure you check for hidden system entries and dotted dotfiles.

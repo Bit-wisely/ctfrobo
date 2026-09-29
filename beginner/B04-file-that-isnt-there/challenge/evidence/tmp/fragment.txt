@@ -1,4 +1,0 @@
-TEMP RUNTIME SCRATCH FRAGMENT
-Process: PID 9021 (worker)
-Memory Block: 0x7ffd9800 - 0x7ffd9fff
-Status: Unused scratchpad buffer

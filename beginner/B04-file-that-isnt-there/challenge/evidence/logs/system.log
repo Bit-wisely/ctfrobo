@@ -1,6 +1,0 @@
-2024-08-19 02:30:11 systemd[1]: Starting Network Manager...
-2024-08-19 02:30:12 systemd[1]: Started Network Manager.
-2024-08-19 02:45:00 sshd[2041]: Server listening on 0.0.0.0 port 22.
-2024-08-19 02:45:12 sshd[2042]: Accepted password for investigator from 192.168.10.45 port 54321 ssh2
-2024-08-19 03:00:01 CRON[2100]: (root) CMD (/usr/local/bin/log_rotate.sh)
-2024-08-19 03:15:22 kernel: [ 3600.123456] audit: type=1300 audit(1724037322.123:45): arch=c000003e syscall=2 success=yes exit=3

@@ -1,4 +1,0 @@
-SEMI-ANNUAL SECURITY AUDIT REPORT 2024
-Department of Infrastructure
-Status: IN PROGRESS
-Preliminary Findings: Routine forensic disk analysis required following maintenance anomaly.

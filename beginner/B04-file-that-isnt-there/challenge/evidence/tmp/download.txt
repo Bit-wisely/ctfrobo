@@ -1,5 +1,0 @@
-TEMPORARY DOWNLOAD BUFFER
-URL: https://internal.repo.local/packages/patch-2024.tar.gz
-Downloaded: 14.2 MB / 14.2 MB
-Status: Completed
-Verification: MD5 check passed

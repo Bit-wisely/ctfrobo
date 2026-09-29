@@ -1,9 +1,0 @@
-ELF_MOCK_HEADER\x00\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00
---- Welcome to the System Security Checker v1.0 ---
-DevOps Security Team
-strings revealed
-DEBUG_MODE_DISABLED_IN_PROD
-Access Denied: Authentication module inactive.
-.rodata.str1.1
-.text
-.symtab

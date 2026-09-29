@@ -1,3 +1,0 @@
-OLD MIGRATION NOTES:
-- Previous server migration completed on 2023-12-10.
-- Old logs and configs rotated out to logs/old/ and archive/.

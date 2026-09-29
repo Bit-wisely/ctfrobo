@@ -1,5 +1,0 @@
-ANNUAL SECURITY AUDIT REPORT 2023
-Department of Infrastructure
-Status: CLOSED
-Summary: All security controls evaluated and deemed compliant for fiscal year 2023.
-No persistent anomalies noted in root file hierarchy.

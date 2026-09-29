@@ -1,1 +1,0 @@
-Backup snapshot #1: Database dump and user directories.

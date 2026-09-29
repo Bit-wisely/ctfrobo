@@ -1,7 +1,0 @@
-LOG CACHE FRAGMENT DUMP [SESSION ID: 0x99A4F]
-==================================================
-Corrupted segment recovered from /var/log/.cache/
-Stream offset: 0x00004F10
-Extracted string payload:
-follow the evidence
-==================================================

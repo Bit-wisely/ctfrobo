@@ -1,9 +1,0 @@
-CASE FILE: EV-2024-0819
-OFFICER: Det. Miller
-DATE: 2024-08-19 09:15:00 UTC
-LOCATION: Primary Server Room, Terminal 4
-
-Initial inspection of the target workstation complete. System was found powered on.
-Evidence partition /dev/sdb1 mounted read-only for forensic imaging.
-Several directories observed containing system logs, documents, and archives.
-Evidence acquisition underway.

@@ -1,7 +1,0 @@
-INVOICE #9042
-VENDOR: Apex Cyber Forensics LLC
-CLIENT: Incident Response Team
-DATE: 2024-08-15
-SERVICES: Digital evidence preservation and partition imaging.
-TOTAL DUE: $1,250.00
-PAYMENT STATUS: PAID

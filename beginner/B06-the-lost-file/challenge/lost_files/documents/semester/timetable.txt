@@ -1,5 +1,0 @@
-Monday: Systems Programming
-Tuesday: Network Security
-Wednesday: Database Architecture
-Thursday: Computer Architecture
-Friday: Lab Sessions

@@ -1,6 +1,0 @@
-MANIFEST: BACKUP-2024-VOL3
-Creation Date: 2024-08-18 23:59:59 UTC
-Compression: GZIP
-Encryption: AES-256-GCM
-Included Trees: /etc, /home, /var/log, /var/www
-Status: VERIFIED

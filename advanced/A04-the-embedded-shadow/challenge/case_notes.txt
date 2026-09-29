@@ -1,0 +1,11 @@
+INCIDENT RESPONSE CASE NOTES: IR-2026-9042
+Subject: Unauthorized Exfiltration Incident
+Investigator: Special Agent D. Miller
+
+Summary of Findings:
+- Surveillance of the suspect's workstation indicates use of command-line steganographic tools (`steghide`) on Linux.
+- Target carrier asset recovered: evidence.jpg
+- A deleted scratch file in /tmp revealed the following configuration memo:
+  "Key derivation salt: SHADOW-OPS"
+  "Passphrase policy: shadowprotocol2026"
+- Objective: Run steghide extraction or parse embedded payload to recover the classified dossier.

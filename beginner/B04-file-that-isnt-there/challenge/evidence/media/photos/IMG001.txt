@@ -1,5 +1,0 @@
-PHOTO METADATA RECORD: IMG001
-Timestamp: 2024-08-19 01:12:04 UTC
-Dimensions: 1920x1080
-Camera: Security-Cam-North
-Description: Server rack corridor view. Normal status.

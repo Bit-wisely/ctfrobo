@@ -1,3 +1,0 @@
-Congratulations on navigating the stack!
-Here is your recovered flag:
-stack escape

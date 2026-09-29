@@ -1,4 +1,0 @@
-LEGACY REPORT - 2023
-STATUS: ARCHIVED
-Summary: Routine security review of server cluster.
-All baseline parameters operational.

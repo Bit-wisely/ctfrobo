@@ -1,4 +1,0 @@
-Incident Investigation Report:
-Subject: Missing Asset Discovery
-Status: Open
-Note: The digital locker evidence folder was dumped directly from the host system.

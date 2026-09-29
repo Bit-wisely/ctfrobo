@@ -1,3 +1,0 @@
-Great job decoding start.bin!
-You arrived at clue.txt.
-The final clue is located inside the file: final_flag.txt

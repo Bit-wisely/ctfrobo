@@ -1,0 +1,20 @@
+Solution: B15 - TWO SWITCHES
+
+Concept
+Bitwise XOR cipher and symmetric reversibility.
+
+Walkthrough
+1. Review the XOR truth table in `challenge/switches.txt`.
+2. Compute `c ^ 66` for each ciphertext integer in the array:
+
+```python
+cipher = [58, 45, 48, 98, 43, 49, 98, 48, 39, 52, 39, 48, 49, 43, 32, 46, 39]
+key = 66
+flag = "".join(chr(c ^ key) for c in cipher)
+print(flag)
+```
+
+3. Flag is decoded: `xor is reversible`.
+
+Flag
+xor is reversible

@@ -1,50 +1,52 @@
-Architecture and Design
+# Architecture and Design
 
-The question bank is organized into three tiers of difficulty:
-
----
-
-Beginner Tier (B01 - B18)
-
-Focuses on fundamental computer science and security concepts:
-- Binary and hexadecimal encoding
-- Logic and pattern recognition
-- Stack data structures (LIFO)
-- Linux CLI environment and recursive filesystem search
-- Hidden dotfile and directory discovery
-- Control flow and pointer tracing
-- Binary search algorithms
-- Process identification and network port/IP identification
-- Basic SQL queries and integer arithmetic
-- Bitwise XOR operations and sequential puzzle chains
+The question bank is organized into three balanced tiers of difficulty consisting of 31 curated cybersecurity CTF challenges:
 
 ---
 
-Intermediate Tier (I01 - I15)
+### Beginner Tier (B01 - B15) — 5 Points Each (75 pts total)
 
-Focuses on security tooling, web security basics, and forensics:
-- Base64 encoding and Caesar cipher
-- File signatures and magic bytes
-- String extraction from binaries
-- EXIF metadata and LSB steganography
-- Network traffic and DNS log analysis
-- Cookie tampering, HTML comments, and robots.txt
-- HTTP response headers
-- Hash identification and relational SQL JOIN queries
-- Multi-stage investigation workflows
+Focuses on foundational cybersecurity, data representation, and Linux/network literacy:
+- **B01:** Binary to ASCII decoding
+- **B02:** Hexadecimal to ASCII decoding
+- **B03:** Base64 representation and decoding
+- **B04:** Classical rotational substitution (Caesar cipher)
+- **B05:** Client-side HTML source comment inspection & recon
+- **B06:** Linux file system permissions (`chmod`, `ls -l`)
+- **B07:** Linux hidden files and directory discovery (`ls -la`)
+- **B08:** Log investigation and pattern filtering (`grep`)
+- **B09:** Process management and identification (`ps`, `top`)
+- **B10:** IPv4 subnets, CIDR notation, and network addressing
+- **B11:** File signature detection, magic bytes, and archive extraction
+- **B12:** Standard TCP port reconnaissance (HTTP vs. HTTPS)
+- **B13:** Phishing email analysis and header forensics
+- **B14:** Relational database querying and SQL inspection
+- **B15:** Bitwise XOR operations and reversible encryption
 
 ---
 
-Advanced Tier (A01 - A14)
+### Intermediate Tier (I01 - I08) — 10 Points Each (80 pts total)
 
-Focuses on reverse engineering, web vulnerabilities, and exploitation:
-- Binary reverse engineering and disassembled logic
-- Hidden backdoor commands and parser sandboxes
-- Multi-tier steganography chains
-- PCAP packet stream reconstruction and DNS tunneling exfiltration
-- Client-side session tampering and JWT validation flaws
-- SQL injection (Error-based, union-based, and boolean blind)
-- Command injection and path traversal
-- Broken authentication logic
-- Multi-stage web exploitation chains
+Focuses on security tooling, forensic analysis, steganography, and web security:
+- **I01:** Magic byte repair and corrupted file signature restoration
+- **I02:** EXIF metadata analysis and hidden image attributes
+- **I03:** Least Significant Bit (LSB) image pixel steganography
+- **I04:** Packet capture (PCAP) inspection and traffic stream analysis
+- **I05:** Session cookie decoding and privilege tampering
+- **I06:** DNS query log threat hunting and malicious C2 domain identification
+- **I07:** Cryptographic hash identification and dictionary/rainbow cracking
+- **I08:** Multi-stage forensic investigation workflow
 
+---
+
+### Advanced Tier (A01 - A08) — 20 Points Each (160 pts total)
+
+Focuses on binary reverse engineering, exploitation, covert exfiltration, and high-impact web vulnerabilities:
+- **A01:** ELF binary disassembly and control flow reverse engineering
+- **A02:** Hidden backdoor logic and undocumented trigger discovery in compiled binaries
+- **A03:** Parser vulnerability exploitation and sandbox/jailbreak escape
+- **A04:** Cryptographic steganography inside JPEG images using `steghide`
+- **A05:** In-depth multi-stream PCAP dissection and payload carving
+- **A06:** Covert data exfiltration detection through DNS tunneling
+- **A07:** Dynamic SQL injection authentication bypass and database extraction
+- **A08:** Remote Code Execution (RCE) via operating system command injection

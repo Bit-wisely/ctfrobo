@@ -1,1 +1,0 @@
-Backup snapshot #3: System daemon logs and kernel modules.

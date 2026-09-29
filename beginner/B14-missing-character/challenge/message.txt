@@ -1,6 +1,0 @@
-RECOVERED ASCII SEQUENCE:
-97, 115, 99, 105, 105, 32, [MISSING], 101, 121, 32, 99, 111, 109, 112, 108, 101, 116, 101, 100
-
-Clue for [MISSING]:
-The missing decimal value is equal to: ord('a') + 10 = 97 + 10 = 107 (ASCII character 'k').
-Convert the entire array back into ASCII text.
