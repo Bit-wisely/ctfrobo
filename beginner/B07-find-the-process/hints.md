@@ -1,10 +1,10 @@
 # Hints: B07 - FIND THE PROCESS
 
 ### Hint 1
-Rather than focusing solely on Process IDs, analyze the relational columns that describe who invoked each program and what command was executed.
+Rather than focusing solely on Process IDs, observe how the tabular columns relate commands to their parent execution context.
 
 ### Hint 2
-Distinguish between system-level services spawned by the init system (PPID 1) and child tasks spawned interactively under active user login sessions.
+Distinguish between persistent operating system background daemons and transient tasks launched from interactive user sessions.
 
 ### Hint 3
-Examine the filesystem locations of the binaries. Standard Unix utilities reside in structured paths like `/usr/bin` or `/usr/sbin`, whereas unauthorized programs frequently run from temporary directories like `/tmp`.
+Compare the command paths across all active processes. Look for discrepancies where an executable's launch directory deviates from standard system program locations.
