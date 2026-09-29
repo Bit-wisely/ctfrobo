@@ -1,4 +1,4 @@
-Hints: I13 - HASH DETECTIVE
+Hints: I07 - HASH DETECTIVE
 
 1. Cryptographic hashes are one-way functions; identifying the digest length helps determine the algorithm used.
 2. A 32-character hexadecimal string corresponds to a 128-bit hash algorithm commonly used in legacy applications.

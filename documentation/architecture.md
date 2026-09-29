@@ -7,19 +7,19 @@ The question bank is organized into three balanced tiers of difficulty consistin
 ### Beginner Tier (B01 - B15) — 5 Points Each (75 pts total)
 
 Focuses on foundational cybersecurity, data representation, and Linux/network literacy:
-- **B01:** Binary to ASCII decoding
+- **B01:** Base64 representation and decoding
 - **B02:** Hexadecimal to ASCII decoding
-- **B03:** Base64 representation and decoding
-- **B04:** Classical rotational substitution (Caesar cipher)
-- **B05:** Client-side HTML source comment inspection & recon
-- **B06:** Linux file system permissions (`chmod`, `ls -l`)
-- **B07:** Linux hidden files and directory discovery (`ls -la`)
-- **B08:** Log investigation and pattern filtering (`grep`)
-- **B09:** Process management and identification (`ps`, `top`)
-- **B10:** IPv4 subnets, CIDR notation, and network addressing
+- **B03:** Binary to ASCII decoding
+- **B04:** Linux hidden files and directory discovery (`ls -la`)
+- **B05:** Linux file system permissions (`chmod`, `ls -l`)
+- **B06:** Log investigation and pattern filtering (`grep`)
+- **B07:** Process management and identification (`ps`, `top`)
+- **B08:** Standard TCP port reconnaissance (HTTP vs. HTTPS)
+- **B09:** IPv4 subnets, CIDR notation, and network addressing
+- **B10:** Client-side HTML source comment inspection & recon
 - **B11:** File signature detection, magic bytes, and archive extraction
-- **B12:** Standard TCP port reconnaissance (HTTP vs. HTTPS)
-- **B13:** Phishing email analysis and header forensics
+- **B12:** Phishing email analysis and header forensics
+- **B13:** Classical rotational substitution (Caesar cipher)
 - **B14:** Relational database querying and SQL inspection
 - **B15:** Bitwise XOR operations and reversible encryption
 

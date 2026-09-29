@@ -2,21 +2,21 @@
 
 | Tier | ID | Challenge Name | Concept | Points | Flag |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Beginner | B01 | THE MACHINE SPEAKS | Binary to ASCII | 5 | `binary speaks` |
-| Beginner | B02 | HEX MACHINE | Hexadecimal to ASCII | 5 | `hex machine` |
-| Beginner | B03 | BASE64 ISN'T ENCRYPTION | Base64 Encoding | 5 | `base64` |
-| Beginner | B04 | CAESAR'S SECRET | Caesar Cipher | 5 | `caesar` |
-| Beginner | B05 | THE SOURCE KNOWS | HTML Source Inspection | 5 | `html comments hide secrets` |
-| Beginner | B06 | PERMISSION DENIED | Linux / File Permissions | 5 | `read permission granted` |
-| Beginner | B07 | HIDDEN IN PLAIN SIGHT | Linux / Filesystem | 5 | `Search me` |
-| Beginner | B08 | READ BETWEEN THE LINES | Linux / Text Investigation | 5 | `silent_witness` |
-| Beginner | B09 | FIND THE PROCESS | Linux Administration / Process Management | 5 | `1704` |
-| Beginner | B10 | FIND THE SERVER | IPv4 Network Subnets | 5 | `ip 192 168 10 45` |
-| Beginner | B11 | THE WRONG FILE | Linux / File Identification / Archives | 5 | `false_identity` |
-| Beginner | B12 | WHICH DOOR? | Network Ports | 5 | `port 443 https` |
-| Beginner | B13 | THE INBOX TRAP | Phishing / Email Forensics | 5 | `emailtrailflag` |
-| Beginner | B14 | THE DATABASE KNOWS | SQL Query | 5 | `sqlite vault revealed` |
-| Beginner | B15 | TWO SWITCHES | Bitwise XOR | 5 | `xor is reversible` |
+| Beginner | B01 | BASE64 ISN'T ENCRYPTION | Base64 Encoding | 5 | `protocol_stream_echo_24` |
+| Beginner | B02 | HEX MACHINE | Hexadecimal to ASCII | 5 | `matrix_beacon_online_88` |
+| Beginner | B03 | THE MACHINE SPEAKS | Binary to ASCII | 5 | `pulsar_signal_detected_19` |
+| Beginner | B04 | HIDDEN IN PLAIN SIGHT | Linux / Filesystem Navigation | 5 | `dot_entry_unlocked_37` |
+| Beginner | B05 | PERMISSION DENIED | Linux / File Permissions | 5 | `audit_permit_override_64` |
+| Beginner | B06 | READ BETWEEN THE LINES | Linux / Text Investigation & grep | 5 | `trace_vector_active_91` |
+| Beginner | B07 | FIND THE PROCESS | Linux Administration / Process Management | 5 | `1704` |
+| Beginner | B08 | WHICH DOOR? | Network Ports & Services | 5 | `port_443_tls_secure` |
+| Beginner | B09 | FIND THE SERVER | IPv4 Network Subnets | 5 | `host_vault_192_168_10_45` |
+| Beginner | B10 | THE SOURCE KNOWS | HTML Source Inspection | 5 | `source_whisper_found_83` |
+| Beginner | B11 | THE WRONG FILE | Linux / File Identification / Archives | 5 | `magic_header_unmasked_55` |
+| Beginner | B12 | THE INBOX TRAP | Phishing / Email Forensics | 5 | `phish_beacon_tracked_77` |
+| Beginner | B13 | CAESAR'S SECRET | Caesar Cipher | 5 | `centurion_shield_42` |
+| Beginner | B14 | THE DATABASE KNOWS | SQL Query | 5 | `vault_record_extracted_90` |
+| Beginner | B15 | TWO SWITCHES | Bitwise XOR | 5 | `parity_gate_inverted_63` |
 | Intermediate | I01 | THE FILE THAT PRETENDS | Magic Bytes | 10 | `dont trust extensions` |
 | Intermediate | I02 | THE PHOTOGRAPH REMEMBERS | EXIF Metadata | 10 | `exif metadata secret` |
 | Intermediate | I03 | SMALLEST BITS | LSB Steganography | 10 | `lsb bits unlocked` |

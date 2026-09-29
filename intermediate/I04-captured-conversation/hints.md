@@ -1,4 +1,4 @@
-Hints: I07 - THE CAPTURED CONVERSATION
+Hints: I04 - THE CAPTURED CONVERSATION
 
 1. Analyze the network packet or transaction log to map out client requests and server responses.
 2. Look for sensitive HTTP requests involving authentication, sessions, or API endpoints.

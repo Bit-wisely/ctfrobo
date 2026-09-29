@@ -1,6 +1,0 @@
-INVESTIGATION CLUES:
-1. The target server hosts the secret vault records.
-2. Its hostname is `vault.internal`.
-3. It operates on the segmented `192.168.10.0/24` subnet.
-
-Find its IP address from network.txt and replace dots with spaces.

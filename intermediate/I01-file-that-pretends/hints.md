@@ -1,4 +1,4 @@
-Hints: I03 - THE FILE THAT PRETENDS
+Hints: I01 - THE FILE THAT PRETENDS
 
 1. File extensions can be misleading; inspect the true file header and magic bytes with a hex editor or the file utility.
 2. The leading bytes identify the file as a structured binary format rather than plain text.

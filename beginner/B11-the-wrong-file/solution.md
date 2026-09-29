@@ -1,14 +1,26 @@
 # Solution: B11 - THE WRONG FILE
 
-Concept
-File signatures, magic bytes, misleading file extensions, and archive extraction.
+## Concept
+File extensions can be spoofed, but file identification utilities (`file`) check magic bytes to reveal the true format. Zip archives start with the ASCII signature `PK\x03\x04` regardless of their file extension.
 
-Walkthrough
-1. Inspect the file photo.jpg using the file command: `file photo.jpg`.
-2. Observe that the file is identified as a Zip archive data rather than a JPEG image.
-3. Extract the archive using unzip: `unzip photo.jpg`.
-4. Inspect the extracted folder `photo/`.
-5. Open `photo/metadata.txt` to find the secret answer.
+## Walkthrough
+1. Inspect the true type of `challenge/photo.jpg`:
+   ```bash
+   file challenge/photo.jpg
+   ```
+   Output confirms: `Zip archive data`.
+2. Extract the disguised archive into a folder or inspect its contents:
+   ```bash
+   unzip challenge/photo.jpg -d extracted/
+   ```
+3. Read `extracted/photo/metadata.txt`:
+   ```bash
+   cat extracted/photo/metadata.txt
+   ```
+4. Recover the flag:
+   ```
+   magic_header_unmasked_55
+   ```
 
-Flag
-false_identity
+## Flag
+`magic_header_unmasked_55`

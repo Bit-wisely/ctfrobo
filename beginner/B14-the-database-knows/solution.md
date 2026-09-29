@@ -1,16 +1,24 @@
-Solution: B14 - THE DATABASE KNOWS
+# Solution: B14 - THE DATABASE KNOWS
 
-Concept
-Relational database queries and SQL inspection.
+## Concept
+Relational database querying connects tables across foreign keys. In SQL, joining `users` and `classified_vault` on `users.id = classified_vault.user_id` allows extracting attributes associated with specific user roles.
 
-Walkthrough
-1. Inspect `challenge/database.sql`.
-2. Locate the insert statements for `classified_vault`:
+## Walkthrough
+1. Inspect the SQL table schema and records in `challenge/database.sql`:
+   - Account `charlie` has `id = 3` and `role = 'administrator'`.
+2. Locate the matching record in `classified_vault`:
    ```sql
    INSERT INTO classified_vault (id, user_id, secret_note) VALUES
-   (3, 3, 'sqlite vault revealed');
+   (3, 3, 'vault_record_extracted_90');
    ```
-3. Or run `python challenge/query_db.py` to view the retrieved note: `sqlite vault revealed`.
+3. Alternatively, execute `python3 challenge/query_db.py` to run the query in an in-memory SQLite instance:
+   ```
+   User: charlie | Note: vault_record_extracted_90
+   ```
+4. Recover the flag:
+   ```
+   vault_record_extracted_90
+   ```
 
-Flag
-sqlite vault revealed
+## Flag
+`vault_record_extracted_90`

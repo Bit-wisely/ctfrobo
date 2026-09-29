@@ -1,0 +1,703 @@
+From: "Prof. Robert Harrison" <harrison@university.example>
+To: user@university.example
+Subject: CS301 Assignment 2 Feedback & Office Hours
+Date: Sun, 27 Sep 2026 09:15:22 +0530
+Message-ID: <harrison.cs301.20260927.01@mail.university.example>
+
+Hi everyone,
+
+I have finished reviewing your submissions for CS301 Assignment 2 (Data Structures & Memory Models). Overall, the performance was quite strong, though many struggled with the pointer arithmetic section.
+
+Grades have been uploaded to the course portal. If you wish to contest any grading or have questions regarding problem 4, my office hours are Tuesday and Thursday from 2:00 PM to 4:30 PM in Hall 402.
+
+Best regards,
+Prof. Robert Harrison
+Department of Computer Science
+University of Science and Technology
+
+--------------------------------------------------------------------------------
+
+From: "University Library Services" <library@university.example>
+To: user@university.example
+Subject: Library Notice: Book Due Date Reminder
+Date: Sun, 27 Sep 2026 10:45:10 +0530
+Message-ID: <lib-circulation-notice-893041@library.university.example>
+
+Dear Student,
+
+This is an automated reminder that the following item(s) currently checked out to your student account are due in 3 days:
+
+Title: Introduction to Network Security and Cryptography (3rd Edition)
+Author: W. Stallings
+Barcode: 389201938401
+Due Date: Wednesday, 30 Sep 2026 17:00 IST
+
+You may renew this item online via the library catalog portal before the due date, provided no other patron has placed a hold on it.
+
+University Library Services
+Circulation & Reserves Desk
+
+--------------------------------------------------------------------------------
+
+From: "GitHub Notifications" <notifications@github.com>
+To: user@university.example
+Subject: [repo/ripgrep] Release v14.1.0 available
+Date: Sun, 27 Sep 2026 13:20:05 +0530
+Message-ID: <github/repo/ripgrep/releases/tag/v14.1.0@github.com>
+
+GitHub Release Notification
+
+BurntSushi/ripgrep has released v14.1.0.
+
+Release Notes:
+- Performance improvements across multithreaded regex searches.
+- Fixed boundary condition when handling binary file detection.
+- Updated documentation and man pages.
+
+View release assets and download packages:
+https://github.com/BurntSushi/ripgrep/releases/tag/v14.1.0
+
+You are receiving this email because you are watching this repository.
+
+--------------------------------------------------------------------------------
+
+From: "Instagram Security" <security@instagram-alerts.example>
+To: user@university.example
+Subject: Unusual login detected from new IP address
+Date: Sun, 27 Sep 2026 16:42:18 +0530
+Message-ID: <alert-sec-8849201@instagram-alerts.example>
+
+Dear User,
+
+We noticed an unauthorized login attempt to your Instagram account from an unrecognized IP address:
+
+Location: Bucharest, Romania
+IP Address: 185.220.101.5
+Browser / Device: Chrome on Linux x86_64
+Time: 27 Sep 2026, 11:12 UTC
+
+If this was not you, your account may be compromised. You must secure your account immediately to prevent unauthorized access.
+
+Secure your account immediately:
+http://instagram-checkpoint-secure.net/login/restore-access?id=84920481
+
+Instagram Security Operations
+Meta Security Incident Center
+
+--------------------------------------------------------------------------------
+
+From: "IEEE Spectrum Newsletter" <newsletters@spectrum.ieee.org>
+To: user@university.example
+Subject: IEEE Spectrum: This Week in Technology & Robotics
+Date: Sun, 27 Sep 2026 18:05:44 +0530
+Message-ID: <spectrum-weekly-20260927@spectrum.ieee.org>
+
+IEEE Spectrum Weekly Digest
+
+Top Stories:
+1. Breakthroughs in Quantum Annealing: How Hybrid Quantum Computing Is Accelerating Logistics.
+2. The Evolution of High-Performance RISC-V Microcontrollers for Autonomous Embedded Systems.
+3. Why Open-Source Large Language Models Are Reshaping Robotics Simulation Environments.
+
+Read the full edition online at:
+https://spectrum.ieee.org/editions/2026/09/week-4
+
+Manage your newsletter subscription preferences in your IEEE Member Portal.
+
+--------------------------------------------------------------------------------
+
+From: "Account Services" <account-alert.example.net>
+To: user@university.example
+Subject: Password expires today
+Date: Sun, 27 Sep 2026 21:11:09 +0530
+Message-ID: <pwd-expire-urg-99210@account-alert.example.net>
+
+CRITICAL ACCOUNT NOTICE:
+
+Your university domain password is set to expire in 2 hours.
+
+If you do not renew your credential before the expiration window closes, all network access, email synchronization, and institutional portal sessions will be permanently locked out.
+
+Renew your password immediately at the secure authentication link:
+http://university-portal-auth.example.net/renew-session?user=user&token=e93a01f
+
+Account Identity Operations
+University Central IT Services
+
+--------------------------------------------------------------------------------
+
+From: "Google Accounts" <no-reply@accounts.google.com>
+To: user@university.example
+Subject: Security alert: New sign-in on Linux
+Date: Mon, 28 Sep 2026 07:33:19 +0530
+Message-ID: <google-security-signin-993821@accounts.google.com>
+
+Security alert
+
+Your Google Account was just signed in to from a new Linux device.
+
+Device: Linux x86_64
+Location: Bengaluru, India
+Date: Monday, September 28, 2026 07:33 IST
+
+If this was you, you don't need to take any action. If you don't recognize this activity, please review your devices:
+https://myaccount.google.com/device-activity
+
+Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+
+--------------------------------------------------------------------------------
+
+From: "Dr. Eleanor Vance" <evance@university.example>
+To: user@university.example
+Subject: Research Group Meeting Rescheduled to Thursday
+Date: Mon, 28 Sep 2026 08:50:00 +0530
+Message-ID: <vance-research-group-0928@university.example>
+
+Hello Team,
+
+Due to a scheduling conflict with the upcoming departmental faculty symposium, our regular Tuesday morning research group meeting will be moved to Thursday at 11:00 AM in Conference Room 2B.
+
+Please ensure your experimental benchmarks for the dataset pipeline are committed to the lab repository by Wednesday evening so we can review the graphs together.
+
+See you all on Thursday.
+
+Best,
+Dr. Eleanor Vance
+Director, Applied Cryptography & Systems Security Lab
+
+--------------------------------------------------------------------------------
+
+From: "IT Helpdesk" <helpdesk@university.example>
+To: user@university.example
+Subject: Mandatory password update
+Date: Mon, 28 Sep 2026 10:14:52 +0530
+Message-ID: <univ-hd-pass-sync-39201@helpdesk.university.example>
+
+URGENT IT SECURITY BULLETIN
+
+Our systems detected legacy cipher suites enabled on your mailbox routing account. 
+
+All staff, faculty, and students must perform a mandatory password update through the campus Single Sign-On upgrade portal before 5:00 PM today. Failure to update will result in suspension of mailbox incoming routes.
+
+Update Password Now:
+http://helpdesk-passwords-reset.example.com/login.php?dest=cas_upgrade
+
+Thank you for your cooperation in maintaining campus cybersecurity.
+
+Campus IT Helpdesk & Network Administration Team
+
+--------------------------------------------------------------------------------
+
+From: "Spotify" <no-reply@spotify.com>
+To: user@university.example
+Subject: Your Discover Weekly is ready
+Date: Mon, 28 Sep 2026 12:00:15 +0530
+Message-ID: <spotify-discover-weekly-20260928@spotify.com>
+
+Your Monday playlist is waiting.
+
+We made you a personalized mix of 30 tracks tailored to your listening habits over the past week. Includes new releases and fresh recommendations across synthwave, ambient study beats, and classic rock.
+
+Listen now on Spotify:
+https://open.spotify.com/genre/discover-weekly
+
+Spotify AB, Regeringsgatan 19, SE-111 53 Stockholm, Sweden
+
+--------------------------------------------------------------------------------
+
+From: "University Registrar Office" <registrar@university.example>
+To: user@university.example
+Subject: Spring 2027 Course Registration Schedule & Advising
+Date: Mon, 28 Sep 2026 14:22:38 +0530
+Message-ID: <reg-spring2027-sched-00492@registrar.university.example>
+
+Dear Students,
+
+The course catalog and registration timetable for the Spring 2027 academic term are now published on the student information system.
+
+Registration Priority Windows:
+- Senior Undergraduate & Graduate: October 12 – October 14
+- Junior Undergraduate: October 15 – October 17
+- Sophomore & Freshman: October 18 – October 20
+
+Please schedule an academic advising appointment with your assigned faculty advisor prior to your registration window opening.
+
+Office of the Registrar
+University Administration Building, Suite 100
+
+--------------------------------------------------------------------------------
+
+From: "Steam Support" <noreply@steampowered.com>
+To: user@university.example
+Subject: Your Steam Guard verification code
+Date: Mon, 28 Sep 2026 15:40:02 +0530
+Message-ID: <steam-guard-code-991204@steampowered.com>
+
+Dear Steam User,
+
+Here is the Steam Guard code you need to log in to account:
+
+Login Code: K9P3M
+
+This code was generated following a login attempt from a web browser located in New Delhi, India.
+
+If you did not attempt this login, please change your password immediately and review your authorized devices via Steam Account Settings.
+
+Valve Corporation, PO Box 1688, Bellevue, WA 98009 USA
+
+--------------------------------------------------------------------------------
+
+From: "Global Parcel Logistics" <tracking@delivery-express-parcel.example>
+To: user@university.example
+Subject: Package #US982310 failed delivery attempt - Action needed
+Date: Mon, 28 Sep 2026 17:15:33 +0530
+Message-ID: <pkg-fail-notice-982310@delivery-express-parcel.example>
+
+Notice of Undeliverable Shipment
+
+Tracking Number: #US982310-8819A
+Sender: Overseas Distribution Hub
+Status: Held at Regional Sorting Facility
+
+Our courier attempted to deliver your package today at 14:30, but no recipient was available to sign. An address confirmation fee of $1.85 is required to reschedule delivery to your residential address.
+
+Reschedule delivery and confirm details:
+http://express-parcel-redelivery.org/track/confirm-address?id=US982310
+
+Packages not claimed within 48 hours will be returned to sender.
+
+Global Parcel Logistics Dispatch
+
+--------------------------------------------------------------------------------
+
+From: "Alice Baker" <abaker@university.example>
+To: user@university.example
+Subject: CS301 Study Group Notes & Practice Problems
+Date: Mon, 28 Sep 2026 19:30:45 +0530
+Message-ID: <abaker-cs301-notes-0928@university.example>
+
+Hey,
+
+Here are the notes we put together during today's study session for the upcoming midterms. We went over red-black tree insertions, memory-mapped I/O, and cache line alignment.
+
+I've attached the LaTeX summary to our shared Nextcloud folder. Let me know if you want to meet up in the library tomorrow after lunch to work through the practice questions from Chapter 5.
+
+Cheers,
+Alice
+
+--------------------------------------------------------------------------------
+
+From: "Coursera" <no-reply@coursera.org>
+To: user@university.example
+Subject: Recommended Course: Fundamentals of Digital Forensics
+Date: Mon, 28 Sep 2026 21:04:12 +0530
+Message-ID: <coursera-recom-course-29831@coursera.org>
+
+Hi learner,
+
+Based on your interest in computer systems and cybersecurity, we thought you might like this course:
+
+Course: Fundamentals of Digital Forensics & Incident Response
+Offered by: University of Colorado System
+Rating: 4.8 / 5.0 (1,240 reviews)
+
+Learn how to preserve digital evidence, analyze system artifacts, and reconstruct security events across modern operating systems.
+
+Explore Course:
+https://www.coursera.org/learn/digital-forensics-basics
+
+Happy learning,
+The Coursera Team
+
+--------------------------------------------------------------------------------
+
+From: "Instagram Checkpoint" <checkpoint@instagram.com>
+To: user@university.example
+Subject: Review recent login checkpoint
+Date: Tue, 29 Sep 2026 01:10:48 +0530
+Message-ID: <meta-chkpt-20260929-011048@instagram.com>
+
+Hi,
+
+We noticed a login to your Instagram account from a browser or device you don't usually use.
+
+Device: Safari on iOS 18
+IP: 103.21.144.18
+Location: Mumbai, India
+
+If this was you, you can ignore this email. If this wasn't you, please complete our checkpoint verification to review recent security events:
+
+https://www.instagram.com/security/checkpoint/
+
+Thanks,
+The Instagram Team
+
+--------------------------------------------------------------------------------
+
+From: "Career Development Services" <careers@university.example>
+To: user@university.example
+Subject: Fall Tech Career Fair Schedule & Company Info
+Date: Tue, 29 Sep 2026 08:00:20 +0530
+Message-ID: <career-fair-fall2026-inv@careers.university.example>
+
+Dear Students,
+
+The Annual Fall Technology & Engineering Career Fair will take place next Wednesday, October 7th, from 10:00 AM to 4:00 PM at the Student Union Grand Ballroom.
+
+Over 45 recruiting organizations will be in attendance representing software engineering, data science, cybersecurity, and hardware design.
+
+Pre-registration is required to obtain your recruiter check-in badge. Please bring printed copies of your resume and your student ID card.
+
+Career Development Center
+Student Life Building, 3rd Floor
+
+--------------------------------------------------------------------------------
+
+From: "Discord" <noreply@discord.com>
+To: user@university.example
+Subject: Verify your email address for Discord
+Date: Tue, 29 Sep 2026 08:45:12 +0530
+Message-ID: <discord-verify-email-984021@discord.com>
+
+Hey there,
+
+Thanks for registering with Discord! We just need to verify that your email address is correct.
+
+Please confirm your email by clicking the button below:
+https://click.discord.com/ls/click?upn=verify-email-token-88492041
+
+This link will expire in 24 hours. If you didn't create a Discord account using this email address, you can safely disregard this message.
+
+Discord Support Team
+
+--------------------------------------------------------------------------------
+
+From: "University Payroll Department" <payroll-department@univ-finance-service.org>
+To: user@university.example
+Subject: Urgent: Updated direct deposit slip pending review
+Date: Tue, 29 Sep 2026 09:30:19 +0530
+Message-ID: <fin-payroll-alert-882910@univ-finance-service.org>
+
+ATTENTION CAMPUS EMPLOYEES & GRADUATE ASSISTANTS
+
+An update to the university direct deposit disbursement schedule for the upcoming pay period has been generated. Due to end-of-quarter payroll reconciliations, all salaried and hourly staff must verify their bank account routing information.
+
+Please log in to the employee finance portal immediately to verify your direct deposit slip:
+http://univ-finance-portal.org/payslip/review?id=emp_94021
+
+Failure to verify routing information within 24 hours may delay fund disbursement.
+
+University Financial Administration
+
+--------------------------------------------------------------------------------
+
+From: "Hacker News Digest" <digest@hackernews.example>
+To: user@university.example
+Subject: Hacker News Digest: Daily Top Stories - Sep 29, 2026
+Date: Tue, 29 Sep 2026 10:05:01 +0530
+Message-ID: <hn-digest-20260929@hackernews.example>
+
+Hacker News Daily Digest
+
+Here are the top trending stories from Hacker News:
+
+1. Understanding Linux Kernel eBPF Filters in High-Throughput Routing (412 points, 89 comments)
+2. Why We Re-architected Our Microservices Back to a Monolith (680 points, 312 comments)
+3. Show HN: A Lightweight Terminal-Based Packet Dissector (230 points, 45 comments)
+4. Memory Safety in Systems Programming: Lessons Learned Over 5 Years (355 points, 120 comments)
+
+Read more at https://news.ycombinator.com
+
+--------------------------------------------------------------------------------
+
+From: "Campus Facilities & Energy Management" <facilities@university.example>
+To: user@university.example
+Subject: Scheduled Power Maintenance in Engineering Block C
+Date: Tue, 29 Sep 2026 10:35:40 +0530
+Message-ID: <fac-maint-blockc-20260929@facilities.university.example>
+
+Attention All Engineering Block C Occupants,
+
+Please be advised that scheduled electrical maintenance and backup generator testing will be conducted in Engineering Block C on Saturday, October 3, between 06:00 and 14:00.
+
+During this window:
+- Wall power outlets will experience intermittent outages lasting up to 20 minutes.
+- Central lab ventilation and air conditioning will be offline.
+- High-performance computing clusters in Room 310 should be cleanly shut down prior to Friday 18:00.
+
+We apologize for any inconvenience.
+
+Campus Facilities Operations
+
+--------------------------------------------------------------------------------
+
+From: "DocuSign Service" <notifications@docusign-secure-document.co>
+To: user@university.example
+Subject: Completed: Confidential Agreement requires your signature
+Date: Tue, 29 Sep 2026 10:55:18 +0530
+Message-ID: <docusign-envelope-request-492018@docusign-secure-document.co>
+
+DocuSign Document Notification
+
+Sender: University Legal Counsel & Research Compliance
+Document Name: Research_Grant_IP_Agreement_2026.pdf
+Status: Signature Required
+
+You have been designated as a signatory on an active compliance document. Please review and complete electronic signing within 48 hours to ensure compliance with university research protocols.
+
+Review and Sign Document:
+http://docusign-envelope-review.co/sign?env=4a89bc210f9e
+
+Do not share this email link with unauthorized individuals.
+
+DocuSign Electronic Signature Operations
+
+--------------------------------------------------------------------------------
+
+From: "Proton Mail Security" <security@proton.me>
+To: user@university.example
+Subject: Account security checkup: 2FA is active
+Date: Tue, 29 Sep 2026 11:05:00 +0530
+Message-ID: <proton-sec-chkup-20260929@proton.me>
+
+Hello,
+
+This is a periodic security summary for your Proton account.
+
+Security Highlights:
+- Two-Factor Authentication (TOTP): Enabled
+- Active Recovery Email: user@university.example
+- Number of active sessions: 1 web session, 1 mobile app session
+
+No unexpected security events or anomalous login requests were detected over the last 30 days.
+
+Proton AG, Route de la Galaise 32, 1228 Plan-les-Ouates, Geneva, Switzerland
+
+--------------------------------------------------------------------------------
+
+From: Instagram Support <support@instagram.com>
+To: user@university.example
+Subject: Your profile requires verification
+Date: Tue, 29 Sep 2026 11:17:42 +0530
+Message-ID: <meta-supp-req-20260929-111742@instagram.com>
+
+Hello,
+
+We detected unusual activity associated with your Instagram profile.
+
+To prevent restrictions on your account, please complete the profile verification process.
+
+Review your profile here:
+
+https://www.instagram.com/accounts/profile-review/?next=/profile/verification/check
+
+If you did not request this review, please contact Instagram Support.
+
+Reference ID: phish_beacon_tracked_77
+
+Instagram Support Team
+Meta Platforms, Inc.
+
+--------------------------------------------------------------------------------
+
+From: "Stack Overflow" <do-not-reply@stackoverflow.email>
+To: user@university.example
+Subject: Weekly Digest: Top Questions in Linux & Forensics
+Date: Tue, 29 Sep 2026 11:45:29 +0530
+Message-ID: <so-weekly-digest-20260929@stackoverflow.email>
+
+Stack Overflow Weekly Highlights
+
+Here are top questions from your tracked tags [linux, bash, forensics, networking]:
+
+1. How to recursively parse mbox files using standard POSIX command line utilities?
+2. Difference between /var/log/syslog and /var/log/messages on Debian-based distributions.
+3. Extracting metadata headers from multi-part MIME email streams in Python.
+4. Why does grep -r behave differently with symlinks in nested directories?
+
+Visit Stack Overflow:
+https://stackoverflow.com
+
+--------------------------------------------------------------------------------
+
+From: "Bob Miller" <bmiller@university.example>
+To: user@university.example
+Subject: Water bottle left in Lab 304?
+Date: Tue, 29 Sep 2026 12:10:04 +0530
+Message-ID: <bmiller-personal-msg-20260929@university.example>
+
+Hey,
+
+Did you happen to leave a blue stainless steel water bottle next to workstation 12 in Lab 304 after the compiler class yesterday?
+
+The lab assistant picked it up and put it on the front desk beside the projector switch box. You can grab it whenever you're around next.
+
+See you tomorrow,
+Bob
+
+--------------------------------------------------------------------------------
+
+From: "Microsoft 365 Admin Center" <admin@o365-tenant-portal.org>
+To: user@university.example
+Subject: Message Delivery Failure: 3 emails held in quarantine
+Date: Tue, 29 Sep 2026 12:40:15 +0530
+Message-ID: <o365-quarantine-hold-881920@o365-tenant-portal.org>
+
+OFFICE 365 MAILBOX SECURITY NOTIFICATION
+
+3 incoming email messages addressed to your institutional account have been withheld by the spam & malware quarantine filter.
+
+Held Items:
+- Sender: accounts-payable@supplier-invoices.com (Subject: Invoice #89102)
+- Sender: partner-desk@consortium.org (Subject: Project Proposal Update)
+- Sender: hr-notice@personnel-records.net (Subject: Annual Benefit Election)
+
+To review and release these messages to your inbox, access the Exchange Security Center:
+http://o365-security-portal.org/release/held-messages?account=user@university.example
+
+Quarantined messages will be permanently purged in 3 days.
+
+Microsoft 365 Exchange Protection Services
+
+--------------------------------------------------------------------------------
+
+From: "Bitwarden" <no-reply@bitwarden.com>
+To: user@university.example
+Subject: Vault export confirmation
+Date: Tue, 29 Sep 2026 13:05:50 +0530
+Message-ID: <bitwarden-export-alert-991823@bitwarden.com>
+
+Hello,
+
+An encrypted export of your Bitwarden personal password vault was completed successfully on Tuesday, September 29, 2026 at 13:05:48 IST.
+
+IP Address: 103.21.144.18
+Device: Firefox on Linux x86_64
+
+If you initiated this export, you can disregard this notification. If you did not authorize this action, please log in to your vault immediately and rotate your Master Password.
+
+Bitwarden Inc., 855 El Camino Real, Ste 13A #110, Palo Alto, CA 94301
+
+--------------------------------------------------------------------------------
+
+From: "Department of Computer Science" <cs-chair@university.example>
+To: user@university.example
+Subject: Distinguished Guest Lecture: Prof. Anil Kumar on Quantum Algorithms
+Date: Tue, 29 Sep 2026 13:30:00 +0530
+Message-ID: <cs-guest-lecture-announcement-20260929@university.example>
+
+Dear Faculty and Students,
+
+The Department of Computer Science is pleased to announce a distinguished guest lecture by Prof. Anil Kumar (Institute of Advanced Computational Sciences) on "Recent Advancements in Post-Quantum Cryptographic Standards".
+
+Date: Friday, October 9, 2026
+Time: 3:30 PM - 5:00 PM IST
+Venue: Main Auditorium, Block A
+
+All undergraduate and postgraduate students in computing disciplines are strongly encouraged to attend. Tea and refreshments will be served following the Q&A session.
+
+Prof. K. Ramanathan
+Head of Department, Computer Science and Engineering
+
+--------------------------------------------------------------------------------
+
+From: "Netflix Billing Support" <service@netflix-membership-billing.com>
+To: user@university.example
+Subject: Urgent: Update payment method to prevent membership cancellation
+Date: Tue, 29 Sep 2026 14:15:22 +0530
+Message-ID: <netflix-billing-declined-994821@netflix-membership-billing.com>
+
+Dear Member,
+
+We were unable to process your monthly membership payment using the primary payment card on file.
+
+As a result, streaming access will be suspended unless a valid payment method is updated within 24 hours.
+
+Update your billing details:
+http://netflix-billing-center.com/update-payment?member_id=89230192
+
+Once updated, your billing cycle will continue without interruption.
+
+The Netflix Customer Support Team
+
+--------------------------------------------------------------------------------
+
+From: "Medium Daily Digest" <digest@medium.com>
+To: user@university.example
+Subject: Medium Daily Digest: Architectural Patterns in Modern Web Applications
+Date: Tue, 29 Sep 2026 14:50:33 +0530
+Message-ID: <medium-daily-digest-20260929@medium.com>
+
+Stories for you on Medium
+
+- 5 Microservices Antipatterns You Should Avoid in 2026 (7 min read)
+- A Deep Dive into Distributed Consensus: Raft vs. Paxos (12 min read)
+- Building Real-Time Observability Pipelines with OpenTelemetry and Grafana (9 min read)
+- Why SQLite in Production Is More Powerful Than You Think (6 min read)
+
+Read more recommendations tailored to your reading history:
+https://medium.com
+
+--------------------------------------------------------------------------------
+
+From: "Office of Student Affairs" <studentaffairs@university.example>
+To: user@university.example
+Subject: Campus Dining Hall Menu Survey Results & Upgrades
+Date: Tue, 29 Sep 2026 15:20:11 +0530
+Message-ID: <student-affairs-dining-survey-20260929@university.example>
+
+Dear Campus Community,
+
+Thank you to everyone who participated in last month's Campus Dining Services Survey. Over 1,800 students, staff, and faculty submitted feedback.
+
+Key Improvements Starting Next Week:
+- Extended evening hours at the North Campus Cafeteria until 10:30 PM.
+- Expanded vegan, gluten-free, and halal certified meal selections across all food courts.
+- Introduction of reusable container discount credits for takeout meals.
+
+Detailed survey charts and responses can be viewed on the student portal announcement board.
+
+Office of Student Affairs & Campus Hospitality
+
+--------------------------------------------------------------------------------
+
+From: "GitHub Security" <security@github.com>
+To: user@university.example
+Subject: Personal access token expiring in 7 days
+Date: Tue, 29 Sep 2026 15:55:00 +0530
+Message-ID: <github-pat-expiration-reminder-29381@github.com>
+
+GitHub Security Alert
+
+Your personal access token "dev-deploy-key" (with scopes: repo, read:packages) is scheduled to expire on Tuesday, October 6, 2026.
+
+To prevent disruption to automated workflows or local git operations, please generate a new token or extend the expiration date:
+https://github.com/settings/tokens
+
+If you no longer use this token, you can delete it from your account settings.
+
+GitHub Security Team
+
+--------------------------------------------------------------------------------
+
+From: "Campus Recreation" <recreation@university.example>
+To: user@university.example
+Subject: Intramural Badminton Tournament Registration Open
+Date: Tue, 29 Sep 2026 16:30:18 +0530
+Message-ID: <rec-badminton-tourney-20260929@university.example>
+
+Calling All Badminton Players!
+
+Registration is now open for the Fall 2026 Intramural Badminton Championship.
+
+Categories:
+- Men's Singles & Doubles
+- Women's Singles & Doubles
+- Mixed Doubles
+
+Tournament Dates: October 17 – 18, 2026
+Venue: Campus Indoor Sports Complex
+
+Team registration deadline is Friday, October 9 at 17:00 IST. Spots are limited to 32 entries per bracket. Register your team at the Sports Complex front desk.
+
+University Campus Recreation & Sports Council

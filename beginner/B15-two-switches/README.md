@@ -1,14 +1,27 @@
-B15 - TWO SWITCHES
+# B15 - TWO SWITCHES
 
-Points: 5
-Category: Beginner / Cryptography & Bitwise Logic
+| Attribute | Details |
+| :--- | :--- |
+| **Points** | 5 |
+| **Category** | Beginner / Cryptography |
+| **Difficulty** | Intermediate Beginner |
 
-Scenario
-An encrypted log contains integer values obfuscated with a reversible bitwise XOR logic gate.
+---
 
-Objective
-Reverse the XOR transformation using the provided single-byte key to decrypt the original flag message.
+## Scenario
+An industrial field transponder encodes alert messages across an electronic switch matrix before transmitting them over sensor lines. An electrical reference card was left behind showing how the circuit switches combine signal and key inputs. The transmitted numbers represent decimal byte values masked by a single-byte secret key.
 
-Execution Reference
-To run Python files: python filename.py
-To compile and run C files: gcc filename.c -o output && ./output
+## Objective
+Analyze `challenge/switches.txt`, reverse the reversible logic transformation using the provided cipher key, and recover the plaintext flag.
+
+## Challenge Files
+- `challenge/switches.txt` — Logic gate reference card, cipher key, and ciphertext integer values
+- `challenge/converter.py` — Optional helper script for testing XOR operations
+
+## Execution Reference
+```bash
+python3 challenge/converter.py
+```
+
+## Submission Format
+Submit the recovered plaintext string directly (e.g. `secret_text_here`).

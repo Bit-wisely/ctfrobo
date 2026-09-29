@@ -22,5 +22,5 @@ INSERT INTO users (id, username, role) VALUES
 INSERT INTO classified_vault (id, user_id, secret_note) VALUES
 (1, 1, 'Routine office maintenance log'),
 (2, 2, 'Shift handover confirmed for sector 4'),
-(3, 3, 'sqlite vault revealed'),
+(3, 3, 'vault_record_extracted_90'),
 (4, 4, 'Annual system audit complete - all clear');

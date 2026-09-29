@@ -1,0 +1,12 @@
+# Port reconnaissance scan for gateway.internal
+PORT      STATE SERVICE    BANNER / ATTRIBUTES
+21/tcp    open  ftp        vsftpd 3.0.3
+22/tcp    open  ssh        OpenSSH 8.9p1
+25/tcp    open  smtp       Postfix smtpd
+53/tcp    open  domain     BIND 9.18.1
+80/tcp    open  http       Apache httpd 2.4.52 (plaintext web)
+110/tcp   open  pop3       Dovecot pop3d
+143/tcp   open  imap       Dovecot imapd
+443/tcp   open  https      Apache/2.4.52 (TLSv1.3: port_443_tls_secure)
+3306/tcp  open  mysql      MySQL 8.0.32
+8080/tcp  open  http-proxy Squid 5.2

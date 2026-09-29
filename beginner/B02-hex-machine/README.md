@@ -1,14 +1,30 @@
-B02 - HEX MACHINE
+# B02 - HEX MACHINE
 
-Points: 5
-Category: Beginner / Hexadecimal
+| Attribute | Details |
+| :--- | :--- |
+| **Points** | 5 |
+| **Category** | Beginner / Data Representation |
+| **Difficulty** | Introductory |
 
-Scenario
-An automated debugging interface outputs raw hexadecimal pairs representing memory byte values.
+---
 
-Objective
-Translate the hexadecimal byte sequence into readable ASCII text to recover the flag.
+## Scenario
+A legacy embedded device diagnostic interface prints raw memory values upon startup. The engineers documented that the machine dumps a sequence of two-digit byte values before initializing the main subsystem. You must convert these raw hexadecimal values back into plain text to identify the verification passphrase.
 
-Execution Reference
-To run Python files: python filename.py
-To compile and run C files: gcc filename.c -o output && ./output
+## Objective
+Execute the diagnostic program or inspect the byte sequences in `challenge/`, then decode the hexadecimal pairs into ASCII characters.
+
+## Challenge Files
+- `challenge/hexmachine.py` — Python script emitting the hex tokens
+- `challenge/hexmachine.c` — C implementation of the diagnostic output
+- `challenge/converter.py` — An optional conversion and testing utility
+
+## Execution Reference
+```bash
+python3 challenge/hexmachine.py
+# or compile C version:
+gcc challenge/hexmachine.c -o hexmachine && ./hexmachine
+```
+
+## Submission Format
+Submit the recovered plaintext string directly (e.g. `secret_text_here`).

@@ -1,14 +1,27 @@
-B11 - THE WRONG FILE
+# B11 - THE WRONG FILE
 
-Points: 5
-Category: Linux / File Identification / Archives
+| Attribute | Details |
+| :--- | :--- |
+| **Points** | 5 |
+| **Category** | Beginner / Forensics |
+| **Difficulty** | Intermediate Beginner |
 
-Scenario
-Someone sent you an image file named photo.jpg, but the system behaves unexpectedly when opening it. Discover what this file actually is and extract the hidden contents.
+---
 
-Objective
-Determine the real type of the supplied file, extract the archive, and retrieve the answer.
+## Scenario
+An investigator recovered a file named `photo.jpg` from an unauthorized transfer directory. When desktop image previewers attempt to render the image, they crash or fail with corrupt stream errors. Forensic analysts suspect the sender deliberately renamed the file to masquerade as an image while concealing internal documents.
 
-Execution Reference
-To run Python files: python filename.py
-To compile and run C files: gcc filename.c -o output && ./output
+## Objective
+Determine the true file format of `challenge/photo.jpg`, unpack or extract its embedded payload, and uncover the flag.
+
+## Challenge Files
+- `challenge/photo.jpg` — The masqueraded evidence file
+
+## Execution Reference
+```bash
+# Inspect file format:
+file challenge/photo.jpg
+```
+
+## Submission Format
+Submit the recovered plaintext string directly (e.g. `secret_text_here`).

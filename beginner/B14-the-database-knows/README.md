@@ -1,14 +1,27 @@
-B14 - THE DATABASE KNOWS
+# B14 - THE DATABASE KNOWS
 
-Points: 5
-Category: Beginner / SQL Databases
+| Attribute | Details |
+| :--- | :--- |
+| **Points** | 5 |
+| **Category** | Beginner / Databases |
+| **Difficulty** | Intermediate Beginner |
 
-Scenario
-Frontend application exports have sanitized sensitive entries, but the underlying relational database dump retains all raw records.
+---
 
-Objective
-Query the SQL database dump to extract the hidden administrator credentials and flag.
+## Scenario
+A backend system export was acquired from an operational database. The application team maintains user account role definitions alongside a classified vault table where administrators store sensitive operational secrets. Frontend reports redact sensitive records, but the raw SQL dump preserves the relational tables and keys.
 
-Execution Reference
-To run Python files: python filename.py
-To compile and run C files: gcc filename.c -o output && ./output
+## Objective
+Inspect `challenge/database.sql` or run the database querying script in `challenge/query_db.py` to isolate the record linked to the administrative account and recover the flag.
+
+## Challenge Files
+- `challenge/database.sql` — Schema and seed data dump
+- `challenge/query_db.py` — Database execution and testing helper
+
+## Execution Reference
+```bash
+python3 challenge/query_db.py
+```
+
+## Submission Format
+Submit the recovered plaintext string directly (e.g. `secret_text_here`).

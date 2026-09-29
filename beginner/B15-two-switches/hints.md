@@ -1,5 +1,10 @@
-Hints: B15 - TWO SWITCHES
+# Hints: B15 - TWO SWITCHES
 
-1. Inspect the switch logic table and ciphertext values in the challenge file.
-2. The truth table represents an exclusive-OR (XOR) operation, which is symmetric and self-inverting when applied with the same key.
-3. Apply the XOR operation between each ciphertext value and the cipher key indicated in the challenge, then translate the results to ASCII.
+### Hint 1
+Study the logic state table at the top of the switch card. The output evaluates to true (1) only when the two inputs hold differing binary values.
+
+### Hint 2
+Exclusive-OR (XOR) logic is symmetric and self-inverting: applying the exact same key to the ciphertext reverses the transformation without requiring a different decryption algorithm.
+
+### Hint 3
+Perform a bitwise XOR operation between each decimal integer value and the provided key (66), then map the resulting numeric values to ASCII characters.
