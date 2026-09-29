@@ -3,24 +3,30 @@
 | Attribute | Details |
 | :--- | :--- |
 | **Points** | 5 |
-| **Category** | Beginner / Databases |
+| **Category** | Beginner / Relational Databases |
 | **Difficulty** | Intermediate Beginner |
 
 ---
 
 ## Scenario
-A backend system export was acquired from an operational database. The application team maintains user account role definitions alongside a classified vault table where administrators store sensitive operational secrets. Frontend reports redact sensitive records, but the raw SQL dump preserves the relational tables and keys.
+An incident response unit isolated a forensic database snapshot (`company_vault.db`) from a compromised corporate infrastructure server. Multiple decoy entries and routine logs populate the database. Triage notes from the Security Operations Center (SOC) indicate the following forensic parameters:
+- The target authorization event executed the action: `OVERRIDE_AUTH`.
+- The user account was assigned to the `Cyber Defense` department.
+- The user held a security clearance of `Level-5`.
+- The corresponding audit token for this event was archived in the `classified_vault` table.
 
 ## Objective
-Inspect `challenge/database.sql` or run the database querying script in `challenge/query_db.py` to isolate the record linked to the administrative account and recover the flag.
+Query the relational SQLite database `challenge/company_vault.db` using SQL joins and filtering conditions to identify the privileged access event and retrieve the secret token.
 
 ## Challenge Files
-- `challenge/database.sql` — Schema and seed data dump
-- `challenge/query_db.py` — Database execution and testing helper
+- `challenge/company_vault.db` — SQLite 3 relational database containing multiple interconnected tables
 
 ## Execution Reference
 ```bash
-python3 challenge/query_db.py
+# Query using sqlite3 CLI:
+sqlite3 challenge/company_vault.db
+# or via Python:
+python3 -c "import sqlite3; conn=sqlite3.connect('challenge/company_vault.db'); ..."
 ```
 
 ## Submission Format

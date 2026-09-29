@@ -1,10 +1,10 @@
 # Hints: B13 - CAESAR'S SECRET
 
 ### Hint 1
-Notice that underscores and numerical suffixes are retained in position, indicating that the transformation operates by substituting alphabetic characters.
+In natural English text, letters do not appear at random; they adhere to well-documented statistical frequency distributions across sentences.
 
 ### Hint 2
-In classical rotational cryptography, each letter in the alphabet is displaced by a uniform integer offset $k$ modulo 26.
+In English, the vowel 'E' is statistically the most common single letter (~12.7%), and the trigram "THE" is the most frequent three-letter word.
 
 ### Hint 3
-Because there are only 25 non-trivial rotations, testing shifting offsets or using frequency patterns will quickly reveal the original readable phrasing.
+Perform a frequency count of the characters in the intercepted message. Observe which ciphertext letter appears with the highest frequency and notice repetitive three-letter words like `AOL` to determine the rotational key offset.

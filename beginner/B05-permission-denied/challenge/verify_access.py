@@ -19,7 +19,6 @@ def check_and_unlock():
     print(f"[*] Checking file: {os.path.basename(TOKEN_FILE)}")
     print(f"[*] Detected permissions: mode {octal_mode} ({stat.filemode(file_stat.st_mode)})")
     
-    # Required mode: 0600 (owner read and write only)
     if mode != 0o600:
         print("\n[-] PERMISSION DENIED: Security audit failure!")
         print("[-] The credential file has unsafe or non-compliant permissions.")

@@ -14,7 +14,7 @@
 | Beginner | B10 | THE SOURCE KNOWS | HTML Source Inspection | 5 | `source_whisper_found_83` |
 | Beginner | B11 | THE WRONG FILE | Linux / File Identification / Archives | 5 | `magic_header_unmasked_55` |
 | Beginner | B12 | THE INBOX TRAP | Phishing / Email Forensics | 5 | `phish_beacon_tracked_77` |
-| Beginner | B13 | CAESAR'S SECRET | Caesar Cipher | 5 | `centurion_shield_42` |
+| Beginner | B13 | CAESAR'S SECRET | Caesar Cipher | 5 | `CENTURION_SHIELD_42` |
 | Beginner | B14 | THE DATABASE KNOWS | SQL Query | 5 | `vault_record_extracted_90` |
 | Beginner | B15 | TWO SWITCHES | Bitwise XOR | 5 | `parity_gate_inverted_63` |
 | Intermediate | I01 | THE FILE THAT PRETENDS | Magic Bytes | 10 | `dont trust extensions` |
