@@ -46,44 +46,73 @@ def fetch_all_challenges(session, base_url):
         print(f"[-] Error parsing JSON from {url}: {e}")
         return []
 
-def parse_hints_file(hints_path):
-    """Extract individual hints from hints.md."""
-    if not os.path.exists(hints_path):
-        return []
-    
-    with open(hints_path, "r", encoding="utf-8") as f:
-        text = f.read()
-    
-    # Split by ### Hint X or Hint X
-    sections = re.split(r"(?m)^###?\s*Hint\s*\d+", text)
-    hints = []
-    for sec in sections[1:]:
-        clean = sec.strip()
-        if clean:
-            hints.append(clean)
-    
-    # Fallback to numbered list if not using ### Hint headers
-    if not hints:
-        lines = text.strip().splitlines()
-        current = []
-        for line in lines:
-            if re.match(r"^\d+\.\s+", line):
-                if current:
-                    hints.append("\n".join(current).strip())
-                current = [re.sub(r"^\d+\.\s+", "", line)]
-            elif current:
-                current.append(line)
-        if current:
-            hints.append("\n".join(current).strip())
-            
-    return hints
+DEFAULT_TIER_HINT_CONFIG = {
+    "B": {"count": 1, "cost": 2},  # Beginner: 1 hint, 2 pts deduction (5 -> 3 net)
+    "I": {"count": 2, "cost": 2},  # Intermediate: 2 hints, 2 pts each (10 -> 8 or 6 net)
+    "A": {"count": 3, "cost": 2},  # Advanced: 3 hints, 2 pts each (20 -> 18, 16, or 14 net)
+}
 
-def sync_hints(session, base_url, challenge_id, challenge_code, hints_path, cost_per_hint=1, replace_existing=True):
-    """Sync hints for a challenge and assign point deduction costs."""
-    hints = parse_hints_file(hints_path)
-    if not hints:
-        print(f"[*] No hints found in {hints_path}")
+def parse_tier_hints(text, challenge_code):
+    """
+    Parse hints from markdown based on tier specification:
+    - Beginner ('B'): 1 consolidated hint
+    - Intermediate ('I'): 2 hints
+    - Advanced ('A'): 3 hints
+    """
+    tier = challenge_code[0].upper() if challenge_code else "B"
+    body = re.sub(r"^(#|Hints:)[^\n]*\n+", "", text).strip()
+    
+    # Check if headers like ### Hint X exist
+    header_parts = re.split(r"(?m)^###?\s*Hint\s*\d+[:\.]?\s*", text)
+    header_parts = [p.strip() for p in header_parts[1:] if p.strip()]
+    
+    # Check numbered items like 1. ... 2. ...
+    num_parts = []
+    current = []
+    for line in text.splitlines():
+        m = re.match(r"^\d+\.\s*(.*)", line)
+        if m:
+            if current:
+                num_parts.append("\n".join(current).strip())
+            current = [m.group(1)]
+        elif current:
+            current.append(line)
+    if current:
+        num_parts.append("\n".join(current).strip())
+        
+    parts = header_parts if header_parts else num_parts
+    if not parts:
+        parts = [body]
+        
+    if tier == "B":
+        return [body]
+    elif tier == "I":
+        if len(parts) >= 3:
+            return [parts[0], parts[1] + "\n\n" + parts[2]]
+        elif len(parts) == 2:
+            return parts
+        else:
+            return [parts[0]]
+    else:  # 'A'
+        return parts[:3]
+
+def sync_hints(session, base_url, challenge_id, challenge_code, hints_path, cost_override=None, replace_existing=True):
+    """Sync hints for a challenge and assign tier-specific point deduction costs."""
+    if not os.path.exists(hints_path):
+        print(f"[*] No hints file found at {hints_path}")
         return
+        
+    with open(hints_path, "r", encoding="utf-8", errors="ignore") as f:
+        text = f.read().strip()
+    if not text:
+        print(f"[*] Hints file {hints_path} is empty")
+        return
+        
+    prefix = challenge_code[0].upper() if challenge_code else "B"
+    config = DEFAULT_TIER_HINT_CONFIG.get(prefix, {"count": 1, "cost": 2})
+    hint_cost = cost_override if cost_override is not None else config["cost"]
+    
+    hints_to_post = parse_tier_hints(text, challenge_code)
     
     # Check existing hints on CTFd
     hints_list_url = f"{base_url.rstrip('/')}/api/v1/hints"
@@ -98,17 +127,17 @@ def sync_hints(session, base_url, challenge_id, challenge_code, hints_path, cost
         print(f"[*] Cleared {len(existing_hints)} existing hint(s) for {challenge_code}")
     
     post_url = f"{base_url.rstrip('/')}/api/v1/hints"
-    for idx, hint_content in enumerate(hints, 1):
+    for idx, hint_content in enumerate(hints_to_post, 1):
         payload = {
             "challenge_id": challenge_id,
             "challenge": challenge_id,
             "content": hint_content,
-            "cost": cost_per_hint,
+            "cost": hint_cost,
             "type": "standard"
         }
         res = session.post(post_url, json=payload)
         if res.status_code in [200, 201]:
-            print(f"[+] Added Hint {idx} for {challenge_code} (Deduction Cost: {cost_per_hint} pts)")
+            print(f"[+] Added Hint {idx}/{len(hints_to_post)} for {challenge_code} (Cost: {hint_cost} pts deduction)")
         else:
             print(f"[-] Failed to add Hint {idx} for {challenge_code}: {res.text}")
 
@@ -185,7 +214,7 @@ def main():
     parser.add_argument("--token", default=DEFAULT_API_TOKEN, help="CTFd Admin API Token (or set CTFD_TOKEN env var)")
     parser.add_argument("--track", choices=["beginner", "intermediate", "advanced", "all"], default="all", help="Track to sync")
     parser.add_argument("--challenge", help="Specific challenge code to sync (e.g. B08, B09)")
-    parser.add_argument("--hint-cost", type=int, default=1, help="Point deduction cost per hint (default: 1)")
+    parser.add_argument("--hint-cost", type=int, default=None, help="Point deduction cost override (default: B=2, I=4, A=8)")
     parser.add_argument("--action", choices=["all", "hints", "files"], default="all", help="Action to execute")
     
     args = parser.parse_args()
@@ -240,7 +269,7 @@ def main():
         # 2. Setup hints with point deduction cost
         if args.action in ["all", "hints"]:
             hints_file = os.path.join(local_path, "hints.md")
-            sync_hints(session, args.url, c_id, code, hints_file, cost_per_hint=args.hint_cost)
+            sync_hints(session, args.url, c_id, code, hints_file, cost_override=args.hint_cost)
             
     print("\n[+] Synchronization routine complete!")
 

@@ -33,3 +33,14 @@
 | Advanced | A06 | DNS EXFILTRATION | DNS Tunneling | 20 | `dns exfil chunk reassembled` |
 | Advanced | A07 | SQL INJECTION | SQL Injection | 20 | `sql injection master` |
 | Advanced | A08 | COMMAND INJECTION | Command Injection | 20 | `command injection rce` |
+
+## Hint Deduction Policy
+
+Every hint unlocked incurs a **2-point deduction**:
+
+| Tier | Base Score | Max Hints Available | Cost per Hint | Net Score (with all hints) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Beginner** | 5 pts | 1 hint | 2 pts | **3 pts** |
+| **Intermediate** | 10 pts | 2 hints | 2 pts each | **6 pts** (8 pts with 1 hint) |
+| **Advanced** | 20 pts | 3 hints | 2 pts each | **14 pts** (18 pts with 1 hint, 16 pts with 2 hints) |
+

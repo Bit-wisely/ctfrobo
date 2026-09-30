@@ -32,10 +32,46 @@ if os.path.exists(os.path.join(BASE_REPO, "ctfrobo")):
     BASE_REPO = os.path.join(BASE_REPO, "ctfrobo")
 
 TIERS = [
-    ("beginner", "Beginner", 5, 1),
+    ("beginner", "Beginner", 5, 2),
     ("intermediate", "Intermediate", 10, 2),
-    ("advanced", "Advanced", 20, 4),
+    ("advanced", "Advanced", 20, 2),
 ]
+
+def parse_tier_hints(text, challenge_code):
+    tier = challenge_code[0].upper() if challenge_code else "B"
+    body = re.sub(r"^(#|Hints:)[^\n]*\n+", "", text).strip()
+    
+    header_parts = re.split(r"(?m)^###?\s*Hint\s*\d+[:\.]?\s*", text)
+    header_parts = [p.strip() for p in header_parts[1:] if p.strip()]
+    
+    num_parts = []
+    current = []
+    for line in text.splitlines():
+        m = re.match(r"^\d+\.\s*(.*)", line)
+        if m:
+            if current:
+                num_parts.append("\n".join(current).strip())
+            current = [m.group(1)]
+        elif current:
+            current.append(line)
+    if current:
+        num_parts.append("\n".join(current).strip())
+        
+    parts = header_parts if header_parts else num_parts
+    if not parts:
+        parts = [body]
+        
+    if tier == "B":
+        return [body]
+    elif tier == "I":
+        if len(parts) >= 3:
+            return [parts[0], parts[1] + "\n\n" + parts[2]]
+        elif len(parts) == 2:
+            return parts
+        else:
+            return [parts[0]]
+    else:  # 'A'
+        return parts[:3]
 
 with app.app_context():
     print("\n[1/3] Flushing old challenge data and resetting test submissions...")
@@ -75,6 +111,7 @@ with app.app_context():
                 display_name = f"{code.upper()}: {rest.replace('-', ' ').title()}"
             else:
                 display_name = chal_dir_name
+                code = chal_dir_name[:3]
 
             readme_file = os.path.join(chal_dir, "README.md")
             flag_file = os.path.join(chal_dir, "answer.txt")
@@ -113,15 +150,9 @@ with app.app_context():
                 with open(hints_file, "r", encoding="utf-8", errors="ignore") as f:
                     hints_content = f.read().strip()
                 if hints_content:
-                    # Parse separate hints and apply deduction cost
-                    sections = re.split(r"(?m)^###?\s*Hint\s*\d+", hints_content)
-                    parsed_hints = [s.strip() for s in sections[1:] if s.strip()]
-                    if not parsed_hints:
-                        # Fallback for bullet list or raw text
-                        parsed_hints = [hints_content]
-                    
-                    for h_text in parsed_hints:
-                        hint = Hints(challenge_id=chal.id, content=h_text, cost=hint_cost)
+                    hints_to_add = parse_tier_hints(hints_content, code)
+                    for h_text in hints_to_add:
+                        hint = Hints(challenge_id=chal.id, content=h_text, cost=2)
                         db.session.add(hint)
                     db.session.commit()
 
