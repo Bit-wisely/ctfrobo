@@ -4,4 +4,4 @@ INVESTIGATION CLUES:
 3. It operates on the segmented `192.168.10.0/24` subnet.
 
 Correlate the hostname and subnet from network.txt to discover the host's IP address.
-Format your answer as: host_<name>_<ip_with_underscores> (e.g., host_vault_192_168_10_45)
+Format your answer as: host_<name>_<ip_with_underscores> (e.g., host_alpha_192_168_1_15)

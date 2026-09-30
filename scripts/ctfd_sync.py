@@ -25,19 +25,26 @@ def get_headers(token):
 
 def get_session(url, token):
     s = requests.Session()
-    s.headers.update({"Authorization": f"Token {token}"})
+    s.headers.update({
+        "Authorization": f"Token {token}",
+        "Accept": "application/json"
+    })
     return s
 
 def fetch_all_challenges(session, base_url):
-    """Fetch all challenges from CTFd admin API."""
-    url = f"{base_url.rstrip('/')}/api/v1/challenges?view=admin"
-    r = session.get(url)
+    """Fetch all challenges from CTFd API."""
+    url = f"{base_url.rstrip('/')}/api/v1/challenges"
+    r = session.get(url, headers={"Content-Type": "application/json", "Accept": "application/json"})
     if r.status_code != 200:
         print(f"[-] Failed to fetch challenges from {url}: HTTP {r.status_code}")
         print(f"[-] Response: {r.text}")
         return []
-    data = r.json()
-    return data.get("data", [])
+    try:
+        data = r.json()
+        return data.get("data", [])
+    except Exception as e:
+        print(f"[-] Error parsing JSON from {url}: {e}")
+        return []
 
 def parse_hints_file(hints_path):
     """Extract individual hints from hints.md."""
@@ -79,9 +86,10 @@ def sync_hints(session, base_url, challenge_id, challenge_code, hints_path, cost
         return
     
     # Check existing hints on CTFd
-    get_url = f"{base_url.rstrip('/')}/api/v1/challenges/{challenge_id}/hints"
-    r = session.get(get_url)
-    existing_hints = r.json().get("data", []) if r.status_code == 200 else []
+    hints_list_url = f"{base_url.rstrip('/')}/api/v1/hints"
+    r = session.get(hints_list_url)
+    all_hints = r.json().get("data", []) if r.status_code == 200 else []
+    existing_hints = [h for h in all_hints if h.get("challenge_id") == challenge_id or h.get("challenge") == challenge_id]
     
     if replace_existing and existing_hints:
         for eh in existing_hints:
@@ -93,6 +101,7 @@ def sync_hints(session, base_url, challenge_id, challenge_code, hints_path, cost
     for idx, hint_content in enumerate(hints, 1):
         payload = {
             "challenge_id": challenge_id,
+            "challenge": challenge_id,
             "content": hint_content,
             "cost": cost_per_hint,
             "type": "standard"
@@ -110,16 +119,22 @@ def upload_files(session, base_url, challenge_id, challenge_code, challenge_dir)
         print(f"[*] No challenge/ folder found for {challenge_code}")
         return
     
-    # Get list of files already attached
-    get_files_url = f"{base_url.rstrip('/')}/api/v1/challenges/{challenge_id}/files"
-    r = session.get(get_files_url)
-    existing_files = [f.get("location", "").split("/")[-1] for f in r.json().get("data", [])] if r.status_code == 200 else []
+    # Get list of files already attached from challenge details
+    chal_info_url = f"{base_url.rstrip('/')}/api/v1/challenges/{challenge_id}"
+    r = session.get(chal_info_url)
+    existing_files = []
+    if r.status_code == 200:
+        for f_path in r.json().get("data", {}).get("files", []):
+            clean_name = f_path.split("?")[0].split("/")[-1]
+            existing_files.append(clean_name)
     
     post_url = f"{base_url.rstrip('/')}/api/v1/files"
     
     files_to_upload = []
     for root, _, filenames in os.walk(folder):
         for fname in filenames:
+            if fname.startswith(".") or fname == "README.md":
+                continue
             full_path = os.path.join(root, fname)
             files_to_upload.append(full_path)
             
@@ -135,12 +150,9 @@ def upload_files(session, base_url, challenge_id, challenge_code, challenge_dir)
             continue
             
         with open(fpath, "rb") as fh:
-            multipart = {
-                "file": (fname, fh.read()),
-                "challenge_id": (None, str(challenge_id)),
-                "type": (None, "challenge")
-            }
-            res = session.post(post_url, files=multipart)
+            files = {"file": (fname, fh.read())}
+            data = {"challenge": challenge_id, "type": "challenge"}
+            res = session.post(post_url, files=files, data=data)
             if res.status_code in [200, 201]:
                 print(f"[+] Successfully attached '{fname}' to {challenge_code}")
             else:
